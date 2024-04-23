@@ -1,9 +1,11 @@
 <br><br> Vibing to : 🎧  </strong></p>
 
+<br>
 
 
 
-![Spotify]<img src="https://novatorem-rho-swart.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />(https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va)
+[![Spotify](https:///novatorem-rho-swart.vercel.app/api/spotify)](https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va)
+
 
 <br>
 
