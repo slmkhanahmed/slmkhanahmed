@@ -1,26 +1,13 @@
-<div align="center">
-	<img src="welcome-header.gif" alt="welcome to my github profile">
-	<br>
-	<br>
-</div>
+<br><br> Vibing to : 🎧  </strong></p>
 
-**i love code**&nbsp;&nbsp;![](cat-typing.gif)&nbsp;&nbsp;**and unicorns**&nbsp;&nbsp;![](unicorn.gif)
+[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul) <br>
+
+
 
 <img src="party-furby.gif" align="right" width="60">
 
 <br>
 
-![](under-construction.gif)
+![Stats](https://github-readme-stats.vercel.app/api?username=slmkhanahmed&theme=dark&show_icons=true&bg_color=1a1a1a&icon_color=a0ffff)
 
 <br>
-
-check out my latest app: [Icon Preview](https://sindresorhus.com/icon-preview) ![](hot.gif)
-
-and my [latest blog post](https://sindresorhus.com/blog) ![](hot.gif)
-
-<br>
-<br>
-
-![](counter.gif) ![](badge1.gif) ![](badge2.gif) ![](badge3.png) ![](badge4.gif) ![](badge5.gif) ![](badge6.gif)
-
-![](flames.gif)
