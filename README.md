@@ -1,6 +1,6 @@
 <br><br> Vibing to : 🎧  </strong></p>
 
-[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/Slmkhanahmed) <br>
+[![Spotify](https://spotify-readme.Slmkhanahmed.vercel.app/api/spotify)](https://open.spotify.com/user/Slmkhanahmed) <br>
 
 
 
