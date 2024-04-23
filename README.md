@@ -1,6 +1,6 @@
 <br><br> Vibing to : 🎧  </strong></p>
 
-![Spotify](https://novatorem-rho-swart.vercel.app)](https://open.spotify.com/user/slmkhanahmed)
+![Spotify](https://novatorem-rho-swart.vercel.app)](https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va)
 
 <br>
 
