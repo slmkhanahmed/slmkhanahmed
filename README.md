@@ -2,12 +2,9 @@
 
 <br>
 
-<br><br> Vibing to : 🎧  </strong></p>
+[![Spotify](https://novatorem-rho-swart.vercel.app/api/spotify)](https://open.spotify.com/user/slmkhanahmed) 
 
-[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul) <br>
-
-
-[![Spotify](https://novatorem-rho-swart.vercel.app/api/spotify)](https://open.spotify.com/user/slmkhanahmed) <br>
+<br>
 
 
 <img src="party-furby.gif" align="right" width="60">
