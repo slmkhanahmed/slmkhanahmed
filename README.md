@@ -2,14 +2,13 @@
 
 <br>
 
+[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul) <br>
 
 
-[![Spotify](https:///novatorem-rho-swart.vercel.app/api/spotify)](https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va)
+[![Spotify](https:///novatorem-rho-swart.vercel.app/api/spotify)](https://open.spotify.com/user/slmkhanahmed)
 
 
 <br>
-
-![Stats](https://github-readme-stats.vercel.app/api?username=kelvinosse&theme=dark&show_icons=true&bg_color=1a1a1a&icon_color=a0ffff)
 
 
 <img src="party-furby.gif" align="right" width="60">
