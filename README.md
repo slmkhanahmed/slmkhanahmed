@@ -7,7 +7,7 @@
 
 <img src="party-furby.gif" align="right" width="60">
 
-<img src="s.gif">
+<img src="s.gif" align="right" width="full">
 
 <br>
 
