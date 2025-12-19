@@ -1,85 +1,104 @@
 <div align="center">
-<img src="party-furby.gif" width="60" />
-<h1>Hi there, I'm Salman Ahmed Khan! <img src="https://www.google.com/search?q=https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"></h1>
-<h3>Front End Developer | Open Source Enthusiast</h3>
+  <img src="party-furby.gif" width="60" />
 
-<p>
-<a href="https://www.google.com/search?q=https://linkedin.com/in/INSERT_YOUR_LINKEDIN_USERNAME">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/-LinkedIn-0077B5%3Fstyle%3Dflat%26logo%3DLinkedin%26logoColor%3Dwhite"/>
-</a>
-<a href="mailto:slmkhanahmed@gmail.com">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/-Email-c14438%3Fstyle%3Dflat%26logo%3DGmail%26logoColor%3Dwhite"/>
-</a>
-</p>
+  <h1>
+    Hi there, I'm Salman Ahmed Khan 
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
+  </h1>
+
+  <h3>Front End Developer | Open Source Enthusiast</h3>
+
+  <p>
+    <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="mailto:slmkhanahmed@gmail.com">
+      <img src="https://img.shields.io/badge/Email-c14438?style=flat&logo=gmail&logoColor=white"/>
+    </a>
+  </p>
 </div>
 
-👨‍💻 About Me
+---
 
-I am a Front-End Developer passionate about creating clean, functional, and user-focused web experiences. I love building responsive websites and solving practical challenges—like that time I built a browser extension just because a feature was missing!
+## 👨‍💻 About Me
 
-🔭 I’m currently working on React.js & Node.js projects
+I’m a **Front-End Developer** passionate about creating clean, functional, and user-focused web experiences.  
+I enjoy building responsive websites and solving real problems—like the time I built a **browser extension** just because a feature was missing.
 
-🌱 I’m currently learning Advanced System Design
+- 🔭 Working on **React.js & Node.js**
+- 🌱 Learning **Advanced System Design**
+- ⚡ Soft Skills: Team Collaboration, Task Prioritization, High-Pressure Delivery
+- 💬 Ask me about **React, Redux, Tailwind CSS**
+- 📫 Reach me at **slmkhanahmed@gmail.com**
 
-💬 Ask me about React, Redux, and Tailwind CSS
+---
 
-📫 Reach me at slmkhanahmed@gmail.com
-
-🛠️ Tech Stack & Tools
-
-<p align="left">
-<!-- Frontend -->
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/react-%252320232a.svg%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D%252361DAFB" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/redux-%2523593d88.svg%3Fstyle%3Dfor-the-badge%26logo%3Dredux%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/tailwindcss-%252338B2AC.svg%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/javascript-%2523323330.svg%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3D%2523F7DF1E" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/html5-%2523E34F26.svg%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/css3-%25231572B6.svg%3Fstyle%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dwhite" />
-
-<!-- Backend & DB -->
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/node.js-6DA55F%3Fstyle%3Dfor-the-badge%26logo%3Dnode.js%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/mysql-%252300f.svg%3Fstyle%3Dfor-the-badge%26logo%3Dmysql%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/MongoDB-%25234ea94b.svg%3Fstyle%3Dfor-the-badge%26logo%3Dmongodb%26logoColor%3Dwhite" />
-
-<!-- Tools -->
-
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/figma-%2523F24E1E.svg%3Fstyle%3Dfor-the-badge%26logo%3Dfigma%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/git-%2523F05033.svg%3Fstyle%3Dfor-the-badge%26logo%3Dgit%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Bash_Scripting-%2523121011.svg%3Fstyle%3Dfor-the-badge%26logo%3Dgnu-bash%26logoColor%3Dwhite" />
-</p>
-
-🚀 Featured Projects
-
-Project
-
-Description
-
-Tech Stack
-
-GitHub Starred Search
-
-A browser extension that adds advanced search features to your GitHub Starred Repositories list. Created to solve a personal pain point and shared as OSS.
-
-JavaScript Web Extension
-
-Product Feedback App
-
-An advanced feedback platform with roadmap planning features to help products grow based on user needs.
-
-React Redux Tailwind
-
-📊 GitHub Stats
+## 🛠️ Tech Stack & Tools
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DINSERT_YOUR_GITHUB_USERNAME%26show_icons%3Dtrue%26theme%3Dradical" height="180" alt="stats graph" />
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DINSERT_YOUR_GITHUB_USERNAME%26layout%3Dcompact%26theme%3Dradical" height="180" alt="languages graph" />
+
+### Frontend
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
+### Backend & Database
+<img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+
+### Tools
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+
 </div>
 
-🎧 Vibing to
+---
+
+## 🚀 Featured Projects
+
+### ⭐ GitHub Starred Search
+A browser extension that adds advanced search features to your **GitHub Starred Repositories** list.  
+Built to solve a personal pain point and shared as open source.
+
+**Tech:** JavaScript · Web Extensions
+
+---
+
+### 💡 Product Feedback App
+An advanced feedback platform with roadmap planning to help teams build better products based on user needs.
+
+**Tech:** React · Redux · Tailwind CSS
+
+---
+
+## 🎓 Education
+
+- **Intermediate in Computer Science (ICS)**  
+  Civil College, Rawalpindi *(2024 – Present)*
+
+- **Matric (Computer Science)**  
+  Ideal Cambridge School, Rawalpindi *(2018 – 2020)*
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
-<a href="https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va">
-<img src="https://novatorem-rho-swart.vercel.app/api/spotify" alt="Spotify Now Playing" width="350" />
-</a>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" height="180"/>
+</div>
+
+---
+
+## 🎧 Vibing To
+
+<div align="center">
+  <a href="https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va">
+    <img src="https://novatorem-rho-swart.vercel.app/api/spotify" width="350" />
+  </a>
 </div>
