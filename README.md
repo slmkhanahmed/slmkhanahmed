@@ -74,17 +74,6 @@ An advanced feedback platform with roadmap planning to help teams build better p
 
 **Tech:** React · Redux · Tailwind CSS
 
----
-
-## 🎓 Education
-
-- **Intermediate in Computer Science (ICS)**  
-  Civil College, Rawalpindi *(2024 – Present)*
-
-- **Matric (Computer Science)**  
-  Ideal Cambridge School, Rawalpindi *(2018 – 2020)*
-
----
 
 ## 📊 GitHub Stats
 
