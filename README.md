@@ -87,7 +87,7 @@ An advanced feedback platform with roadmap planning to help teams build better p
 ## 🎧 Vibing To
 
 <div align="center">
- <a href="https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va">
+<a href="https://open.spotify.com/user/31rgtpnylldb6a77kkzaddlcz4va">
 <img src="https://novatorem-rho-swart.vercel.app/api/spotify" alt="Spotify Now Playing" width="350" />
 </a>
 </div>
