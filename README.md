@@ -1,104 +1,70 @@
 <div align="center">
-  <img src="party-furby.gif" width="60" />
-
-  <h1>
-    Hi there, I'm Salman Ahmed Khan 
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
-  </h1>
-
-  <h3>Front End Developer | Open Source Enthusiast</h3>
-
-  <p>
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
-    </a>
-    <a href="mailto:slmkhanahmed@gmail.com">
-      <img src="https://img.shields.io/badge/Email-c14438?style=flat&logo=gmail&logoColor=white"/>
-    </a>
-  </p>
+  <a href="https://slmkhanahmed.github.io/">
+    <img
+      src="./assets/profile-banner.png"
+      alt="Salman Ahmed Khan, front-end developer — useful software, shaped down to the last pixel."
+      width="100%"
+    />
+  </a>
 </div>
 
----
+# Salman Ahmed Khan
 
-## 👨‍💻 About Me
+**Front-end developer building browser tools and responsive product interfaces.**
 
-I’m a **Front-End Developer** passionate about creating clean, functional, and user-focused web experiences.  
-I enjoy building responsive websites and solving real problems—like the time I built a **browser extension** just because a feature was missing.
+I notice the missing feature, the awkward state, and the layout that stops making sense on a small screen—then build the clearer path. My work sits between visual clarity and dependable engineering.
 
-- 🔭 Working on **React.js & Node.js**
-- 🌱 Learning **Advanced System Design**
-- ⚡ Soft Skills: Team Collaboration, Task Prioritization, High-Pressure Delivery
-- 💬 Ask me about **React, Redux, Tailwind CSS**
-- 📫 Reach me at **slmkhanahmed@gmail.com**
+[**Explore my portfolio →**](https://slmkhanahmed.github.io/) · [Email me](mailto:slmkhanahmed@gmail.com) · [Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)
 
----
+## Selected field notes
 
-## 🛠️ Tech Stack & Tools
+### `01 / BROWSER TOOL` — [Git Galaxy Finder](https://github.com/slmkhanahmed/Git-Galaxy-Finder)
 
-<div align="center">
+**Problem** — GitHub Stars are useful until a long saved list becomes difficult to search.
 
-### Frontend
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" />
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+**Decision** — Add a focused, theme-aware search experience directly to GitHub while respecting client-side navigation and the host interface.
 
-### Backend & Database
-<img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+**Shipped** — A TypeScript and React browser extension published for Firefox and refined through multiple public releases.
 
-### Tools
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+[Install on Firefox](https://addons.mozilla.org/en-US/firefox/addon/git-star/) · [Inspect the source](https://github.com/slmkhanahmed/Git-Galaxy-Finder) · [Read the case study](https://slmkhanahmed.github.io/#galaxy)
 
-</div>
+### `02 / PRODUCT INTERFACE` — [Product Feedback](https://github.com/slmkhanahmed/responsive)
 
----
+**Problem** — Dense product-feedback data needs to stay easy to scan, filter, and sort on every screen.
 
-## 🚀 Featured Projects
+**Decision** — Use reusable feedback cards plus consistent category and sorting controls across responsive layout modes.
 
-### ⭐ GitHub Starred Search
-A browser extension that adds advanced search features to your **GitHub Starred Repositories** list.  
-Built to solve a personal pain point and shared as open source.
+**Shipped** — A responsive React, TypeScript, and Tailwind CSS dashboard with category filters and four sorting modes.
 
-**Tech:** JavaScript · Web Extensions
+[Open the application](https://product-feedback-app-lovat.vercel.app/) · [Inspect the source](https://github.com/slmkhanahmed/responsive) · [Read the case study](https://slmkhanahmed.github.io/#feedback)
 
----
+### `03 / THIS PORTFOLIO` — [Interface Field Notes](https://slmkhanahmed.github.io/)
 
-### 💡 Product Feedback App
-An advanced feedback platform with roadmap planning to help teams build better products based on user needs.
+A deliberately editorial React portfolio with working interaction demos, keyboard navigation, detailed case files, and responsive behavior tested down to 320px.
 
-**Tech:** React · Redux · Tailwind CSS
+[Visit the site](https://slmkhanahmed.github.io/) · [Inspect the source](https://github.com/slmkhanahmed/slmkhanahmed.github.io)
 
----
+## How I build
 
-<div align = "center">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30"/>   
-</div>
+- **Start with the friction.** Name the confusing moment before choosing a component.
+- **Design every state.** Loading, empty, error, focus, and success are product work.
+- **Pressure-test the interface.** Keyboard use and narrow screens are part of the design, not a final check.
+
+**Core toolkit:** `TypeScript` · `React` · `JavaScript` · `CSS` · `Tailwind CSS` · `WebExtensions` · `DOM APIs` · `Git`
+
+<details>
+<summary><strong>Engineering side quest — Pekka Kana 2: Greta</strong></summary>
+
+I also contributed focused C++ and SDL2 work to an existing platformer fork, including quick-save and load controls, rendering improvements, and Windows release packaging. This is a credited upstream fork—not a from-scratch project.
+
+[Inspect the contribution](https://github.com/slmkhanahmed/pk2_greta)
+
+</details>
+
+## Current focus — July 2026
+
+Building and documenting interfaces where the design decisions, working code, and public proof all tell the same story.
+
+If you have a useful product idea, a front end that needs more clarity, or a browser workflow worth improving, [send me a note](mailto:slmkhanahmed@gmail.com).
+
+<sub>Built like the interfaces I value: useful, clear, and tested.</sub>
