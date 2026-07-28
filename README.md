@@ -156,37 +156,93 @@ Have a useful product idea, a front end that needs more clarity, or a browser wo
 
 **[Explore my portfolio](https://slmkhanahmed.github.io/)** · **[Email me](mailto:slmkhanahmed@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**
 
-<details>
-  <summary><strong>🎉 Open party mode</strong></summary>
-  <br />
-  <div align="center">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
-    <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30" alt="India party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30" alt="Async party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30" alt="60 FPS party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30" alt="Jumping party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30" alt="Open source party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30" alt="Deal with it party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30" alt="Hypno party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30" alt="Database party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30" alt="Fixing party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30" alt="Spinning party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30" alt="Levitating party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30" alt="Meld party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30" alt="Slow motion party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30" alt="Moonwalking party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30" alt="Stable party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30" alt="Science party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30" alt="Pirate party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30" alt="Football party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30" alt="Illuminati party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30" alt="Dark hypno party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30" alt="Mustache party parrot" />
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
-  </div>
-</details>
+---
 
 <p align="center">
-  <sub>Built with useful code, bright pixels, and a little chaos.</sub>
+  <img src="./assets/chaos-zone.svg" width="100%" alt="Chaos Zone — no minimalism beyond this point" />
+</p>
+
+## 🎉 Chaos Zone
+
+<div align="center">
+  <img src="./party-furby.gif" width="72" alt="Party Furby dancing" />
+  <img src="./party-furby.gif" width="88" alt="Party Furby dancing harder" />
+  <img src="./party-furby.gif" width="104" alt="Party Furby at maximum power" />
+  <img src="./party-furby.gif" width="88" alt="Party Furby dancing harder" />
+  <img src="./party-furby.gif" width="72" alt="Party Furby dancing" />
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CHAOTIC_GOOD-100%25-FF1493?style=for-the-badge" alt="Chaotic good: 100 percent" />
+  <img src="https://img.shields.io/badge/WORKS_ON_MY_MACHINE-probably-00E5FF?style=for-the-badge" alt="Works on my machine: probably" />
+  <img src="https://img.shields.io/badge/BUGS-FEATURES_IN_DISGUISE-FFD700?style=for-the-badge" alt="Bugs: features in disguise" />
+  <img src="https://img.shields.io/badge/PIXELS-PUSHED_WITH_CARE-7C3AED?style=for-the-badge" alt="Pixels pushed with care" />
+</p>
+
+```js
+const energy = ["furby", "parrots", "neon", "shipping"];
+
+while (awake) {
+  build();
+  breakSomething();
+  learn();
+  ship();
+}
+```
+
+### 🦜 The parrot wall
+
+<div align="center">
+  <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
+  <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30" alt="India party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30" alt="Async party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30" alt="60 FPS party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30" alt="Jumping party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30" alt="Open source party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30" alt="Deal with it party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30" alt="Hypno party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30" alt="Database party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30" alt="Fixing party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30" alt="Spinning party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30" alt="Levitating party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30" alt="Meld party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30" alt="Slow motion party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30" alt="Moonwalking party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30" alt="Stable party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30" alt="Science party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30" alt="Pirate party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30" alt="Football party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30" alt="Illuminati party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30" alt="Dark hypno party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30" alt="Mustache party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/partyparrot.gif" width="30" height="30" alt="Classic party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/congaparrot.gif" width="30" height="30" alt="Conga party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/reversecongaparrot.gif" width="30" height="30" alt="Reverse conga party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/shuffleparrot.gif" width="30" height="30" alt="Shuffle party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/fastparrot.gif" width="30" height="30" alt="Fast party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/jediparrot.gif" width="30" height="30" alt="Jedi party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/sithparrot.gif" width="30" height="30" alt="Sith party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/unicornparrot.gif" width="30" height="30" alt="Unicorn party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/daftpunkparrot.gif" width="30" height="30" alt="Daft Punk party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/donutparrot.gif" width="30" height="30" alt="Donut party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/popcornparrot.gif" width="30" height="30" alt="Popcorn party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/coffeeparrot.gif" width="30" height="30" alt="Coffee party parrot" />
+</div>
+
+### 🔐 The forbidden artifact
+
+<p align="center">
+  <a href="./s.gif">
+    <img src="https://img.shields.io/badge/UNLOCK_THE_41_MB_SECRET_GIF-FF1493?style=for-the-badge&logo=ghost&logoColor=white" alt="Unlock the secret 41 megabyte GIF" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Linked, not embedded — chaotic, but not cruel to everyone's bandwidth.</sub>
+</p>
+
+<p align="center">
+  <sub>Built with useful code, bright pixels, and zero fear of visual noise.</sub>
 </p>
