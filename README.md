@@ -1,12 +1,164 @@
 <p align="center">
   <a href="https://slmkhanahmed.github.io/">
     <img
-      src="./assets/profile-banner.webp"
+      src="./assets/profile-header.svg"
+      alt="Salman Ahmed Khan — front-end developer and browser-tool builder"
       width="100%"
-      alt="Useful software, shaped down to the last pixel — Salman Ahmed Khan, front-end developer and browser-tool builder"
     />
   </a>
 </p>
+
+<div align="center">
+  <h1>
+    Hey, I'm Salman Ahmed Khan
+    <img
+      src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+      alt="Waving hand"
+      width="30"
+    />
+  </h1>
+
+  <p><strong>Front-end developer · Browser-tool builder · Detail enthusiast</strong></p>
+  <p>I build focused interfaces for real problems—then keep refining them until they feel obvious to use.</p>
+
+  <p>
+    <a href="https://slmkhanahmed.github.io/">
+      <img src="https://img.shields.io/badge/Portfolio-Explore_my_work-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore Salman's portfolio" />
+    </a>
+    <a href="https://www.linkedin.com/in/slmkhanahmed/">
+      <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Salman on LinkedIn" />
+    </a>
+    <a href="mailto:slmkhanahmed@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Salman" />
+    </a>
+  </p>
+</div>
+
+---
+
+## ✦ What I build
+
+I like software with a clear reason to exist: a missing search feature, an interface that breaks on small screens, or a workflow that needs less friction. My strongest public work combines **React**, **TypeScript**, responsive design, and browser-native APIs.
+
+### ⭐ Git Galaxy Finder
+
+> A Firefox add-on that makes long GitHub Stars lists searchable by repository name and description.
+
+- **Why:** GitHub Stars become difficult to use once the saved list grows.
+- **Built with:** React · TypeScript · Primer React · Parcel · WebExtensions Manifest V3
+- **Shipped as:** A published Firefox add-on with public source and multiple releases
+
+<p>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
+    <img src="https://img.shields.io/badge/Install_on_Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Install Git Galaxy Finder on Firefox" />
+  </a>
+  <a href="https://github.com/slmkhanahmed/Git-Galaxy-Finder">
+    <img src="https://img.shields.io/badge/Inspect_the_source-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect the Git Galaxy Finder source" />
+  </a>
+  <a href="https://slmkhanahmed.github.io/#galaxy">
+    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square" alt="Read the Git Galaxy Finder case study" />
+  </a>
+</p>
+
+### 💡 Product Feedback
+
+> A responsive product-feedback dashboard for scanning, filtering, and sorting requests across screen sizes.
+
+- **Why:** Dense feedback data should stay understandable on desktop, tablet, and mobile.
+- **Built with:** React · TypeScript · Tailwind CSS · Context · Vite
+- **Includes:** Category filters · Four sorting modes · Responsive feedback cards
+
+<p>
+  <a href="https://product-feedback-app-lovat.vercel.app/">
+    <img src="https://img.shields.io/badge/Open_live_app-000000?style=flat-square&logo=vercel&logoColor=white" alt="Open the Product Feedback application" />
+  </a>
+  <a href="https://github.com/slmkhanahmed/responsive">
+    <img src="https://img.shields.io/badge/Inspect_the_source-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect the Product Feedback source" />
+  </a>
+  <a href="https://slmkhanahmed.github.io/#feedback">
+    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square" alt="Read the Product Feedback case study" />
+  </a>
+</p>
+
+### 🎛 Interface Field Notes
+
+> My portfolio is also a working interface project: detailed case files, responsive layouts, keyboard navigation, and small interactive labs.
+
+<p>
+  <a href="https://slmkhanahmed.github.io/">
+    <img src="https://img.shields.io/badge/Visit_the_portfolio-3154FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Visit Salman's portfolio" />
+  </a>
+  <a href="https://github.com/slmkhanahmed/slmkhanahmed.github.io">
+    <img src="https://img.shields.io/badge/View_the_repository-181717?style=flat-square&logo=github&logoColor=white" alt="View the portfolio repository" />
+  </a>
+</p>
+
+---
+
+## 🛠️ Toolbox
+
+### Core front-end stack
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Firefox_Extensions-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox Extensions" />
+</p>
+
+### Exploring and familiar tools
+
+<p>
+  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+</p>
+
+---
+
+## ⚙️ How I work
+
+- **Start with the friction.** I define the confusing moment before choosing the component.
+- **Design the states.** Focus, loading, empty, error, success, and small-screen behavior are part of the feature.
+- **Ship, test, refine.** A polished interface is built through iteration, not decoration added at the end.
+
+## 🌱 Current focus
+
+- Making browser extensions feel native to the sites they improve
+- Building accessible React interfaces that remain clear under responsive pressure
+- Improving project documentation so the decisions are as inspectable as the code
+
+<details>
+  <summary><strong>🎮 Engineering side quest — Pekka Kana 2: Greta</strong></summary>
+  <br />
+  I also contributed focused C++ and SDL2 work to an existing platformer fork, including quick-save/load controls, rendering improvements, and Windows release packaging. The original project and upstream work are fully credited.
+  <br /><br />
+  <a href="https://github.com/slmkhanahmed/pk2_greta">
+    <img src="https://img.shields.io/badge/Inspect_the_contribution-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect Salman's Pekka Kana 2 contribution" />
+  </a>
+</details>
+
+---
+
+## 📡 Let's connect
+
+Have a useful product idea, a front end that needs more clarity, or a browser workflow worth improving?
+
+**[Explore my portfolio](https://slmkhanahmed.github.io/)** · **[Email me](mailto:slmkhanahmed@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**
+
+---
+
+## `// after hours`
+
+A visual scratchpad for experiments, motion, and the ideas that refuse to stay tidy.
 
 <p align="center">
   <img
@@ -16,31 +168,7 @@
   />
 </p>
 
-<h1 align="center">Salman Ahmed Khan</h1>
-
-<p align="center">
-  <strong>Front-end developer · Browser-tool builder</strong>
-</p>
-
-<p align="center">
-  I turn practical problems into focused React interfaces—responsive, keyboard-minded, and refined down to the interaction states.
-</p>
-
-<p align="center">
-  <a href="https://slmkhanahmed.github.io/"><strong>Portfolio</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:slmkhanahmed@gmail.com"><strong>Email</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/slmkhanahmed/"><strong>LinkedIn</strong></a>
-</p>
-
----
-
-## Selected work
-
-The clearest picture of how I work is in the interfaces themselves.
-
-### 01 / Git Galaxy Finder
+### Interface in motion
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
   <picture>
@@ -48,85 +176,30 @@ The clearest picture of how I work is in the interfaces themselves.
     <img
       src="./assets/git-galaxy-demo.webp"
       width="100%"
-      alt="Git Galaxy Finder demonstration showing a GitHub Stars list before and after searching, followed by the same results in dark mode"
+      alt="Git Galaxy Finder moving from an unfiltered Stars list to search results in light and dark themes"
     />
   </picture>
 </a>
 
-A Firefox add-on that adds search directly to GitHub Stars, making saved repositories discoverable by name and description.
+<p align="center">
+  <sub>A real Git Galaxy Finder capture. Motion stays useful; reduced-motion visitors get a static frame.</sub>
+</p>
 
-- **Problem:** Long Stars lists are useful to collect and frustrating to retrieve from.
-- **Interaction:** The search UI follows GitHub's light and dark themes and survives its single-page navigation.
-- **Built with:** React · TypeScript · Primer React · Parcel · WebExtensions Manifest V3
-- **Shipped as:** A published Firefox add-on with public source and multiple releases.
-
-**[Install on Firefox](https://addons.mozilla.org/en-US/firefox/addon/git-star/)** · **[View public source](https://github.com/slmkhanahmed/Git-Galaxy-Finder)** · **[Read the case study](https://slmkhanahmed.github.io/#galaxy)**
-
-### 02 / Product Feedback
+### A frame from the lab
 
 <a href="https://product-feedback-app-lovat.vercel.app/roadmap">
   <img
     src="./assets/product-feedback-roadmap.webp"
     width="100%"
-    alt="Product Feedback roadmap at desktop width with Planned, In-Progress, and Live columns of feedback cards"
+    alt="Product Feedback roadmap with Planned, In-Progress, and Live columns"
   />
 </a>
 
-A responsive implementation of Frontend Mentor's Product Feedback App challenge, built to keep a dense workflow clear from desktop to phone width.
-
-- **Implementation:** Category filtering · Four sorting modes · Responsive feedback cards · Roadmap states
-- **Built with:** React · TypeScript · Tailwind CSS · Context
-- **Credit:** Interface brief and supplied design assets by Frontend Mentor; responsive implementation and interaction code by me.
-
-**[Open the live implementation](https://product-feedback-app-lovat.vercel.app/)** · **[View the repository](https://github.com/slmkhanahmed/responsive)** · **[See the original challenge](https://www.frontendmentor.io/challenges/product-feedback-app-wbvUYqjR6)** · **[Read the case study](https://slmkhanahmed.github.io/#feedback)**
-
-### 03 / Interface Field Notes
-
-My portfolio is also an interface project: an editorial case-file system with responsive navigation, keyboard shortcuts, project evidence, and small interactive labs.
-
-**[Explore the portfolio](https://slmkhanahmed.github.io/)** · **[Inspect the source](https://github.com/slmkhanahmed/slmkhanahmed.github.io)**
-
----
-
-## How I build
-
-- **Start with the friction.** Define the confusing moment before choosing a component.
-- **Design the states.** Focus, loading, empty, error, success, and small-screen behavior belong to the feature.
-- **Ship and inspect.** Test the real interface, document the decision, and refine what still feels unclear.
-
-## Tools I reach for
-
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/WebExtensions-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="WebExtensions" />
-  <img src="https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<p align="center">
+  <sub>Frontend Mentor challenge implementation — responsive interaction work by Salman.</sub>
 </p>
 
-## Engineering side quest
-
-I also contributed focused C++ and SDL2 work to a fork of **Pekka Kana 2: Greta**—including quick-save/load controls, rendering improvements, and a verified Windows x64 release package. The original game and upstream project remain fully credited.
-
-**[Inspect my fork](https://github.com/slmkhanahmed/pk2_greta)** · **[View the v0.341 Windows release](https://github.com/slmkhanahmed/pk2_greta/releases/tag/v0.341)** · **[Visit the upstream project](https://github.com/SaturninTheAlien/pk2_greta)**
-
----
-
-## Let's make something useful
-
-Have a browser workflow worth improving or a front end that needs more clarity?
-
-**[Explore my portfolio](https://slmkhanahmed.github.io/)** · **[Email me about a project](mailto:slmkhanahmed@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**
-
----
-
-## `// after hours`
-
-The polished part ends here. The curiosity doesn't.
+### Parrot protocol
 
 <div align="center">
   <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
