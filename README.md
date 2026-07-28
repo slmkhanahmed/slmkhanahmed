@@ -9,8 +9,6 @@
 </p>
 
 <div align="center">
-  <img src="./party-furby.gif" alt="Rainbow Furby dancing" width="72" />
-
   <h1>
     Hey, I'm Salman Ahmed Khan
     <img
@@ -158,39 +156,9 @@ Have a useful product idea, a front end that needs more clarity, or a browser wo
 
 ---
 
-<p align="center">
-  <img src="./assets/chaos-zone.svg" width="100%" alt="Chaos Zone — no minimalism beyond this point" />
-</p>
+## `// after hours`
 
-## 🎉 Chaos Zone
-
-<div align="center">
-  <img src="./party-furby.gif" width="72" alt="Party Furby dancing" />
-  <img src="./party-furby.gif" width="88" alt="Party Furby dancing harder" />
-  <img src="./party-furby.gif" width="104" alt="Party Furby at maximum power" />
-  <img src="./party-furby.gif" width="88" alt="Party Furby dancing harder" />
-  <img src="./party-furby.gif" width="72" alt="Party Furby dancing" />
-</div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/CHAOTIC_GOOD-100%25-FF1493?style=for-the-badge" alt="Chaotic good: 100 percent" />
-  <img src="https://img.shields.io/badge/WORKS_ON_MY_MACHINE-probably-00E5FF?style=for-the-badge" alt="Works on my machine: probably" />
-  <img src="https://img.shields.io/badge/BUGS-FEATURES_IN_DISGUISE-FFD700?style=for-the-badge" alt="Bugs: features in disguise" />
-  <img src="https://img.shields.io/badge/PIXELS-PUSHED_WITH_CARE-7C3AED?style=for-the-badge" alt="Pixels pushed with care" />
-</p>
-
-```js
-const energy = ["furby", "parrots", "neon", "shipping"];
-
-while (awake) {
-  build();
-  breakSomething();
-  learn();
-  ship();
-}
-```
-
-### 🦜 The parrot wall
+The polished part ends here. The curiosity doesn't.
 
 <div align="center">
   <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
@@ -217,32 +185,7 @@ while (awake) {
   <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30" alt="Dark hypno party parrot" />
   <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30" alt="Mustache party parrot" />
   <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/partyparrot.gif" width="30" height="30" alt="Classic party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/congaparrot.gif" width="30" height="30" alt="Conga party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/reversecongaparrot.gif" width="30" height="30" alt="Reverse conga party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/shuffleparrot.gif" width="30" height="30" alt="Shuffle party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/fastparrot.gif" width="30" height="30" alt="Fast party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/jediparrot.gif" width="30" height="30" alt="Jedi party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/sithparrot.gif" width="30" height="30" alt="Sith party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/unicornparrot.gif" width="30" height="30" alt="Unicorn party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/daftpunkparrot.gif" width="30" height="30" alt="Daft Punk party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/donutparrot.gif" width="30" height="30" alt="Donut party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/popcornparrot.gif" width="30" height="30" alt="Popcorn party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/coffeeparrot.gif" width="30" height="30" alt="Coffee party parrot" />
+
+  <br />
+  <sub>Small experiments, strange ideas, and useful things built because they should exist.</sub>
 </div>
-
-### 🔐 The forbidden artifact
-
-<p align="center">
-  <a href="./s.gif">
-    <img src="https://img.shields.io/badge/UNLOCK_THE_41_MB_SECRET_GIF-FF1493?style=for-the-badge&logo=ghost&logoColor=white" alt="Unlock the secret 41 megabyte GIF" />
-  </a>
-</p>
-
-<p align="center">
-  <sub>Linked, not embedded — chaotic, but not cruel to everyone's bandwidth.</sub>
-</p>
-
-<p align="center">
-  <sub>Built with useful code, bright pixels, and zero fear of visual noise.</sub>
-</p>
