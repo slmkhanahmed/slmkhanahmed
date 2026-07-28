@@ -58,7 +58,7 @@ I like software with a clear reason to exist: a missing search feature, an inter
     <img src="https://img.shields.io/badge/Inspect_the_source-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect the Git Galaxy Finder source" />
   </a>
   <a href="https://slmkhanahmed.github.io/#galaxy">
-    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square&logo=readme&logoColor=white" alt="Read the Git Galaxy Finder case study" />
+    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square" alt="Read the Git Galaxy Finder case study" />
   </a>
 </p>
 
@@ -78,7 +78,7 @@ I like software with a clear reason to exist: a missing search feature, an inter
     <img src="https://img.shields.io/badge/Inspect_the_source-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect the Product Feedback source" />
   </a>
   <a href="https://slmkhanahmed.github.io/#feedback">
-    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square&logo=readme&logoColor=white" alt="Read the Product Feedback case study" />
+    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square" alt="Read the Product Feedback case study" />
   </a>
 </p>
 
