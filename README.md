@@ -74,14 +74,6 @@ An advanced feedback platform with roadmap planning to help teams build better p
 
 **Tech:** React · Redux · Tailwind CSS
 
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=slmkhanahmed&show_icons=true&theme=radical" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=slmkhanahmed&layout=compact&theme=radical" height="180"/>
-</div>
-
 ---
 
 <div align = "center">
