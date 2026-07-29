@@ -1,0 +1,16 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="firefox-title firefox-desc" shape-rendering="crispEdges">
+  <title id="firefox-title">Get the Firefox add-on</title>
+  <desc id="firefox-desc">An orange old-web button linking to the Firefox add-on.</desc>
+  <rect width="88" height="31" rx="2" fill="#05060A"/>
+  <rect x="1" y="1" width="86" height="29" rx="1" fill="#0D0A12" stroke="#FF6B35" stroke-width="2"/>
+  <path d="M3 3H85M3 3V28" stroke="#FFE0D4" stroke-opacity=".6"/>
+  <path d="M3 28H85V3" stroke="#5C2617" stroke-width="2"/>
+  <rect x="5" y="6" width="18" height="19" fill="#1A0D13" stroke="#FF6B35"/>
+  <path d="M9 18C7 13 11 9 16 9C13 11 17 12 18 15C20 19 17 22 13 22C16 20 14 18 12 17C12 19 11 20 9 21C10 20 10 19 9 18Z" fill="#FF6B35"/>
+  <rect x="16" y="7" width="5" height="5" fill="#A855F7"/>
+  <path d="M18.5 8V11M17 9.5H20" stroke="#F8EEFF"/>
+  <path d="M27 5V26" stroke="#FF6B35" stroke-opacity=".42"/>
+  <text x="57" y="13" fill="#FFF8F5" font-family="ui-monospace, monospace" font-size="7.2" font-weight="700" text-anchor="middle" letter-spacing=".7">FIREFOX</text>
+  <text x="57" y="22" fill="#FF9B76" font-family="ui-monospace, monospace" font-size="6.2" font-weight="700" text-anchor="middle" letter-spacing=".9">ADD-ON +</text>
+  <rect x="82" y="24" width="3" height="3" fill="#A855F7"/>
+</svg>

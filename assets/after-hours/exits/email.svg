@@ -1,0 +1,16 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="email-title email-desc" shape-rendering="crispEdges">
+  <title id="email-title">Send an email</title>
+  <desc id="email-desc">A pink old-web button opening an email message.</desc>
+  <rect width="88" height="31" rx="2" fill="#05060A"/>
+  <rect x="1" y="1" width="86" height="29" rx="1" fill="#100911" stroke="#FF5CA8" stroke-width="2"/>
+  <path d="M3 3H85M3 3V28" stroke="#FFE1EF" stroke-opacity=".62"/>
+  <path d="M3 28H85V3" stroke="#5B1F3B" stroke-width="2"/>
+  <rect x="5" y="6" width="18" height="19" fill="#190C15" stroke="#FF5CA8"/>
+  <rect x="8" y="10" width="12" height="10" fill="#FF5CA8" fill-opacity=".12" stroke="#FF8FC3"/>
+  <path d="M8 11L14 16L20 11M8 20L12 16.5M20 20L16 16.5" fill="none" stroke="#FDE7F1"/>
+  <rect x="17" y="7" width="4" height="4" fill="#61DAFB"/>
+  <path d="M27 5V26" stroke="#FF5CA8" stroke-opacity=".42"/>
+  <text x="57" y="13" fill="#FFF5FA" font-family="ui-monospace, monospace" font-size="7.2" font-weight="700" text-anchor="middle" letter-spacing="1">EMAIL</text>
+  <text x="57" y="22" fill="#FF8FC3" font-family="ui-monospace, monospace" font-size="6.2" font-weight="700" text-anchor="middle" letter-spacing=".9">SEND MSG</text>
+  <rect x="82" y="24" width="3" height="3" fill="#61DAFB"/>
+</svg>

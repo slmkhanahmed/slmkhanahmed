@@ -1,0 +1,15 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="guestbook-title guestbook-desc" shape-rendering="crispEdges">
+  <title id="guestbook-title">Sign the guestbook</title>
+  <desc id="guestbook-desc">A yellow old-web button linking to the guestbook.</desc>
+  <rect width="88" height="31" rx="2" fill="#05060A"/>
+  <rect x="1" y="1" width="86" height="29" rx="1" fill="#100E08" stroke="#F8D866" stroke-width="2"/>
+  <path d="M3 3H85M3 3V28" stroke="#FFF5C6" stroke-opacity=".65"/>
+  <path d="M3 28H85V3" stroke="#594A16" stroke-width="2"/>
+  <rect x="5" y="6" width="18" height="19" fill="#191408" stroke="#F8D866"/>
+  <path d="M8 10C10 9 12 10 14 11V21C12 20 10 19 8 20V10ZM20 10C18 9 16 10 14 11V21C16 20 18 19 20 20V10Z" fill="#F8D866" fill-opacity=".16" stroke="#FFE889"/>
+  <path d="M17 8L20 11L15 16L13 17L14 14L17 11" fill="#A855F7" stroke="#E9CFFF"/>
+  <path d="M27 5V26" stroke="#F8D866" stroke-opacity=".42"/>
+  <text x="57" y="13" fill="#FFFBE8" font-family="ui-monospace, monospace" font-size="6.9" font-weight="700" text-anchor="middle" letter-spacing=".35">GUESTBOOK</text>
+  <text x="57" y="22" fill="#F8D866" font-family="ui-monospace, monospace" font-size="6.2" font-weight="700" text-anchor="middle" letter-spacing="1">SIGN IT</text>
+  <rect x="82" y="24" width="3" height="3" fill="#A855F7"/>
+</svg>

@@ -1,22 +1,19 @@
 <p align="center">
   <a href="https://slmkhanahmed.github.io/">
-    <img
-      src="./assets/profile-header.svg"
-      alt="Salman Ahmed Khan — front-end developer and browser-tool builder"
-      width="100%"
-    />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
+      <img
+        src="./assets/profile-header.svg"
+        alt="Salman Ahmed Khan — front-end developer and browser-tool builder"
+        width="100%"
+      />
+    </picture>
   </a>
 </p>
 
 <div align="center">
-  <h1>
-    Hey, I'm Salman Ahmed Khan
-    <img
-      src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-      alt="Waving hand"
-      width="30"
-    />
-  </h1>
+  <h1>Hey, I'm Salman Ahmed Khan.</h1>
 
   <p><strong>Front-end developer · Browser-tool builder · Detail enthusiast</strong></p>
   <p>I build focused interfaces for real problems—then keep refining them until they feel obvious to use.</p>
@@ -35,6 +32,8 @@
 </div>
 
 ---
+
+<a id="featured-projects"></a>
 
 ## ✦ What I build
 
@@ -95,32 +94,25 @@ I like software with a clear reason to exist: a missing search feature, an inter
 
 ---
 
+## 📻 Recent transmissions
+
+<sub>Automation-ready examples · replace these with verified updates.</sub>
+
+<!-- TRANSMISSIONS:START -->
+- **EXAMPLE · Project release** — Replace with a verified release title, one concrete outcome, and its link.
+- **EXAMPLE · Portfolio update** — Replace with a substantial case-study or interface update and its link.
+- **EXAMPLE · Merged work** — Replace with a meaningful merged pull request or repository milestone and its link.
+<!-- TRANSMISSIONS:END -->
+
+---
+
 ## 🛠️ Toolbox
 
-### Core front-end stack
+**Core:** `React` · `TypeScript` · `JavaScript` · `HTML` · `CSS` · `Tailwind CSS`
 
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Firefox_Extensions-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Firefox Extensions" />
-</p>
+**Browser and build work:** `Firefox WebExtensions` · `Vite` · `Parcel` · `Primer React`
 
-### Exploring and familiar tools
-
-<p>
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
-  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-</p>
+**Also use:** `Redux` · `Node.js` · `MySQL` · `MongoDB` · `Figma` · `Git` · `Bash`
 
 ---
 
@@ -154,6 +146,11 @@ Have a useful product idea, a front end that needs more clarity, or a browser wo
 
 **[Explore my portfolio](https://slmkhanahmed.github.io/)** · **[Email me](mailto:slmkhanahmed@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**
 
+### Signal guestbook
+
+**[SIGN THE SIGNAL LOG](GUESTBOOK_DISCUSSION_URL)**<br />
+<sub>Guestbook URL placeholder · replace it after creating the GitHub Discussion.</sub>
+
 ---
 
 ## `// after hours`
@@ -174,26 +171,29 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <img
     src="./assets/after-hours/signal-board.svg?v=2"
     width="92%"
-    alt="Animated retro neon after-hours status board with a scanning beam and pulsing indicators"
+    alt="Animated retro status board marking the after-hours signal as active"
   />
   <br />
   <sub>frequency locked · curiosity online</sub>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/midnight-console-mobile.svg?v=2" />
-    <img
-      src="./assets/after-hours/midnight-console.svg?v=2"
-      width="100%"
-      alt="Animated neon midnight console with a scanning beam, blinking cursor, live indicator, and moving equalizer"
-    />
-  </picture>
-  <br />
-  <sub>clean build on one screen · questionable idea on the other</sub>
-</p>
+<details>
+  <summary><strong><code>OPEN SIGNAL ARCHIVE</code></strong> · console and signal spill</summary>
 
----
+  <br />
+
+  <p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/after-hours/midnight-console-mobile.svg?v=2" />
+      <img
+        src="./assets/after-hours/midnight-console.svg?v=2"
+        width="100%"
+        alt="Animated midnight console showing a live after-hours development session"
+      />
+    </picture>
+    <br />
+    <sub>clean build on one screen · questionable idea on the other</sub>
+  </p>
 
 <p align="center"><code>signal spill:</code></p>
 
@@ -227,8 +227,32 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>connection kept alive by curiosity</sub>
 </div>
 
+</details>
+
 ---
 
+<p align="center">
+  <strong><code>ANOMALY 04</code></strong>
+  <br />
+  <sub>
+    TAB GEOMETRY EXCEEDS DISPLAY CAPABILITIES
+    <br />
+    ATTEMPTING FOUR-DIMENSIONAL RECOVERY…
+  </sub>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/after-hours/tesseract-static.png" />
+    <img
+      src="./assets/after-hours/channels/tesseract.gif"
+      width="180"
+      alt="A rotating tesseract marks an unstable browser-tab anomaly"
+    />
+  </picture>
+  <br />
+  <sub>one unstable tab · zero user action required</sub>
+</p>
 
 <p align="center">
   <strong><code>ONE IMPOSSIBLE TAB REMAINS</code></strong>
@@ -240,7 +264,7 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
     <img
       src="./assets/after-hours/last-tab.svg?v=2"
       width="100%"
-      alt="Animated nonlinear old-web map where one late-night idea loops through source code, distraction, dead links, selective memory, and shipping anyway"
+      alt="Animated nonlinear map tracing one late-night idea through source code, dead links, distraction, and shipping anyway"
     />
   </picture>
   <br />
@@ -248,7 +272,77 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 </p>
 
 <p align="center">
-  <code>END OF LINE // SIGNAL LOST // CURIOSITY REMAINS</code>
+  <code>CARRIER LOST · CURIOSITY REMAINS</code>
   <br />
-  <sub>carrier lost at 03:31 PKT ░▒▓</sub>
+  <sub>03:31 PKT ░▒▓</sub>
 </p>
+
+<!--
+YOU FOUND THE MAINTENANCE CHANNEL.
+
+The visible interface is stable.
+One additional tab remains open.
+-->
+
+<p align="center">
+  <strong><code>AUTHORIZED EXITS</code></strong>
+</p>
+
+<p align="center">
+  <a href="https://slmkhanahmed.github.io/">
+    <img src="./assets/after-hours/exits/portfolio.svg" width="88" height="31" alt="Open Salman's portfolio" />
+  </a>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
+    <img src="./assets/after-hours/exits/firefox-addon.svg" width="88" height="31" alt="Install Git Galaxy Finder for Firefox" />
+  </a>
+  <a href="https://github.com/slmkhanahmed/slmkhanahmed">
+    <img src="./assets/after-hours/exits/github-source.svg" width="88" height="31" alt="View the source for Salman's GitHub profile" />
+  </a>
+  <a href="https://www.linkedin.com/in/slmkhanahmed/">
+    <img src="./assets/after-hours/exits/linkedin.svg" width="88" height="31" alt="Connect with Salman on LinkedIn" />
+  </a>
+  <a href="mailto:slmkhanahmed@gmail.com">
+    <img src="./assets/after-hours/exits/email.svg" width="88" height="31" alt="Email Salman" />
+  </a>
+  <a href="GUESTBOOK_DISCUSSION_URL">
+    <img src="./assets/after-hours/exits/guestbook.svg" width="88" height="31" alt="Sign Salman's signal guestbook" />
+  </a>
+  <br />
+  <sub>guestbook exit activates after its Discussion URL is installed</sub>
+</p>
+
+<details>
+  <summary><strong><code>SOURCE OF SIGNALS // ASSET CREDITS</code></strong></summary>
+
+#### Original artwork
+
+- The profile headers, signal board, midnight console, fifty-signal wall, impossible-tab map, and authorized-exit buttons are custom artwork created for this profile.
+- The desktop and mobile compositions use only repository-local SVG assets.
+
+#### Third-party artwork
+
+- [“Neon streets” by JINDONG H](https://commons.wikimedia.org/wiki/File:Neon_streets_(Unsplash).jpg) — CC0 1.0.
+- [“Tesseract.gif” by Jason Hise](https://commons.wikimedia.org/wiki/File:Tesseract.gif) — public domain.
+
+#### Project-derived game assets
+
+- [“fish” by kotnaszynce](https://opengameart.org/content/fish-0) — CC0; stored as `spectral-fish.gif`.
+- [“potion” by kotnaszynce](https://opengameart.org/content/potion-1) — CC0; stored as `moon-potion.gif`.
+- [“Fire Slime” by Spring Spring](https://opengameart.org/content/fire-slime) — CC0; stored as `fire-slime.gif`.
+- [“Little Servant Devil Animation” by ArtsyAngelee](https://opengameart.org/content/little-servant-devil-animation) — the source page offers CC0 among several licenses; stored as `little-devil.gif`.
+- Remaining legacy sprites and effects in `assets/after-hours/channels/`: **Source or license requires verification.**
+
+#### Modified assets
+
+- `tesseract-static.png` is a still-frame reduced-motion fallback derived from the public-domain tesseract animation.
+- The `*-mobile.svg` files are narrow-layout adaptations of their matching custom desktop artwork.
+
+#### External animation collections
+
+- The collapsed signal spill uses animations from [Cult of the Party Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com). See the project's [license and provenance notes](https://github.com/jmhobbs/cultofthepartyparrot.com/blob/main/LICENSE).
+
+</details>
+
+### RETURN TO DAYLIGHT
+
+**[Portfolio](https://slmkhanahmed.github.io/)** · **[Featured projects](#featured-projects)** · **[Email](mailto:slmkhanahmed@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**

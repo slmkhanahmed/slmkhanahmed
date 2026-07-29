@@ -1,0 +1,103 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Salman Ahmed Khan &#8212; front-end developer and browser-tool builder</title>
+  <desc id="description">A midnight terminal interface showing Salman's name beside an active repository search window.</desc>
+  <defs>
+    <linearGradient id="background" x1="20" y1="12" x2="1178" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.58" stop-color="#07101F"/>
+      <stop offset="1" stop-color="#11102A"/>
+    </linearGradient>
+    <radialGradient id="signalGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1012 219) rotate(-148.2) scale(338 214)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="82" y1="50" x2="770" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="800" y1="52" x2="1120" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1628"/>
+      <stop offset="1" stop-color="#080C18"/>
+    </linearGradient>
+    <linearGradient id="panelEdge" x1="790" y1="104" x2="1136" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#67E8F9" stroke-opacity="0.045"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H1200" stroke="#FFFFFF" stroke-opacity="0.018"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-30%" width="150%" height="165%">
+      <feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#000000" flood-opacity="0.62"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22D3EE" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="330" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#signalGlow)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#scanlines)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="23" stroke="#22D3EE" stroke-opacity="0.3" stroke-width="2"/>
+  <rect x="24" y="24" width="1152" height="282" rx="18" stroke="#94A3B8" stroke-opacity="0.2"/>
+  <path d="M24 86H1176" stroke="#22D3EE" stroke-opacity="0.18"/>
+
+  <circle cx="52" cy="55" r="6" fill="#FB7185"/>
+  <circle cx="72" cy="55" r="6" fill="#FBBF24"/>
+  <circle cx="92" cy="55" r="6" fill="#34D399"/>
+  <text x="120" y="61" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">PROFILE / INTERFACE BUILDER</text>
+  <rect x="1052" y="41" width="94" height="28" rx="14" fill="#082F49" stroke="#22D3EE" stroke-opacity="0.55"/>
+  <circle cx="1068" cy="55" r="4" fill="#34D399"/>
+  <text x="1134" y="60" fill="#A5F3FC" font-family="Consolas, monospace" font-size="12" font-weight="700" text-anchor="end">SAK.DEV</text>
+
+  <rect x="52" y="116" width="11" height="128" rx="5.5" fill="url(#accent)"/>
+  <text x="88" y="158" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-2">SALMAN AHMED KHAN</text>
+  <text x="91" y="195" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="1.2">FRONT-END DEVELOPER  &#8226;  BROWSER-TOOL BUILDER</text>
+  <text x="91" y="230" fill="#A8B3C7" font-family="Segoe UI, Arial, sans-serif" font-size="16">I turn missing features and awkward interfaces into focused, usable software.</text>
+
+  <g font-family="Consolas, monospace" font-size="12" font-weight="700">
+    <rect x="91" y="254" width="76" height="28" rx="14" fill="#082F49" stroke="#22D3EE" stroke-opacity="0.7"/>
+    <text x="129" y="273" fill="#67E8F9" text-anchor="middle">REACT</text>
+    <rect x="177" y="254" width="112" height="28" rx="14" fill="#17173A" stroke="#818CF8" stroke-opacity="0.7"/>
+    <text x="233" y="273" fill="#A5B4FC" text-anchor="middle">TYPESCRIPT</text>
+    <rect x="299" y="254" width="140" height="28" rx="14" fill="#29153E" stroke="#C084FC" stroke-opacity="0.7"/>
+    <text x="369" y="273" fill="#E9D5FF" text-anchor="middle">WEBEXTENSIONS</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="789" y="103" width="348" height="180" rx="16" fill="url(#panelEdge)" opacity="0.7"/>
+    <rect x="790" y="104" width="346" height="178" rx="15" fill="url(#panel)"/>
+    <path d="M790 140H1136" stroke="#22D3EE" stroke-opacity="0.24"/>
+    <circle cx="812" cy="122" r="4" fill="#FB7185"/>
+    <circle cx="828" cy="122" r="4" fill="#FBBF24"/>
+    <circle cx="844" cy="122" r="4" fill="#34D399"/>
+    <rect x="1022" y="113" width="92" height="18" rx="9" fill="#052E2B" stroke="#34D399" stroke-opacity="0.3"/>
+    <circle cx="1034" cy="122" r="3" fill="#34D399"/>
+    <text x="1105" y="126" fill="#6EE7B7" font-family="Consolas, monospace" font-size="9" font-weight="700" text-anchor="end">STARS / SEARCH</text>
+
+    <rect x="812" y="155" width="302" height="34" rx="8" fill="#030712" stroke="#475569"/>
+    <circle cx="830" cy="172" r="6" stroke="#94A3B8" stroke-width="1.6"/>
+    <path d="M835 177L840 182" stroke="#94A3B8" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="850" y="177" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12">Search saved repositories...</text>
+
+    <rect x="812" y="202" width="302" height="27" rx="6" fill="#0D192A" stroke="#1E293B"/>
+    <rect x="812" y="202" width="3" height="27" rx="1.5" fill="#22D3EE"/>
+    <circle cx="827" cy="215.5" r="4" fill="#22D3EE"/>
+    <text x="840" y="220" fill="#E2E8F0" font-family="Consolas, monospace" font-size="11">interface-systems</text>
+    <text x="1098" y="220" fill="#FDE68A" font-family="Consolas, monospace" font-size="11" text-anchor="end">&#9733;</text>
+
+    <rect x="812" y="237" width="302" height="27" rx="6" fill="#0D192A" stroke="#1E293B"/>
+    <rect x="812" y="237" width="3" height="27" rx="1.5" fill="#8B5CF6"/>
+    <circle cx="827" cy="250.5" r="4" fill="#A78BFA"/>
+    <text x="840" y="255" fill="#E2E8F0" font-family="Consolas, monospace" font-size="11">browser-tools</text>
+    <text x="1098" y="255" fill="#FDE68A" font-family="Consolas, monospace" font-size="11" text-anchor="end">&#9733;</text>
+  </g>
+
+  <path d="M736 104V282" stroke="url(#accent)" stroke-width="2" stroke-dasharray="5 7"/>
+  <circle cx="736" cy="104" r="5" fill="#22D3EE"/>
+  <circle cx="736" cy="193" r="5" fill="#8B5CF6"/>
+  <circle cx="736" cy="282" r="5" fill="#F472B6"/>
+</svg>
