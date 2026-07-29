@@ -242,6 +242,31 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>the badge drawer would not close</sub>
 </p>
 
+<p align="center"><code>incoming transmission from the last tab:</code></p>
+
+<div align="center">
+  <img
+    src="./assets/after-hours/3d-tv-static.gif"
+    width="240"
+    alt="Animated old television floating in a dark room while static flickers across its screen"
+  />
+  <br />
+  <sub>channel 47 is showing the inside of the internet again</sub>
+</div>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg" />
+    <img
+      src="./assets/after-hours/last-tab.svg"
+      width="100%"
+      alt="The Last Tab, a nonlinear old-web hypermap where one late-night idea loops through source code, distraction, dead links, selective memory, and shipping anyway"
+    />
+  </picture>
+  <br />
+  <sub>you are not lost. the map is just honest.</sub>
+</p>
+
 <p align="center"><code>signal spill:</code></p>
 
 <div align="center">

@@ -1,0 +1,129 @@
+<svg width="720" height="1460" viewBox="0 0 720 1460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">The last tab mobile route</title>
+  <desc id="description">A vertical neon browser maze that wanders from enter through distraction, discovery, forgetting, keeping, and shipping before exit loops back to start.</desc>
+
+  <defs>
+    <linearGradient id="edge" x1="24" y1="20" x2="696" y2="1440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/>
+      <stop offset="0.34" stop-color="#A855F7"/>
+      <stop offset="0.69" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#CAFF4A"/>
+    </linearGradient>
+    <linearGradient id="portal" x1="100" y1="585" x2="620" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/>
+      <stop offset="0.48" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#FF6B35"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="720" height="1460" rx="20" fill="#07080D"/>
+  <rect width="720" height="1460" rx="20" fill="url(#grid)"/>
+  <rect x="8" y="8" width="704" height="1444" rx="14" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M31 183V57H689V304H652V225H612V286H572V208H531V270H490V226H449"
+        stroke="#61DAFB" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M31 1287V1403H689V1137H656V1208H620V1147H584V1242H548V1174H510"
+        stroke="#CAFF4A" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M47 320H82V287H119V319H154" stroke="#A855F7" stroke-opacity="0.45" stroke-width="3"/>
+  <path d="M562 1012H602V968H641V1008H674" stroke="#FF6B35" stroke-opacity="0.45" stroke-width="3"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
+    <circle cx="70" cy="61" r="8" fill="#FF6B35"/>
+    <circle cx="96" cy="61" r="8" fill="#F8D866"/>
+    <circle cx="122" cy="61" r="8" fill="#61DAFB"/>
+    <text x="151" y="71" fill="#A1A1AA" font-size="28">LAST_TAB.HTML</text>
+    <text x="672" y="71" fill="#CAFF4A" font-size="28" text-anchor="end">LIVE</text>
+    <path d="M48 100H672" stroke="#FFFFFF" stroke-opacity="0.16" stroke-dasharray="7 10"/>
+
+    <text x="48" y="151" fill="#E4E4E7" font-size="42" letter-spacing="2">THE LAST TAB</text>
+    <text x="48" y="198" fill="#D8B4FE" font-size="36">DOES NOT CLOSE.</text>
+
+    <path d="M120 236V1268" stroke="url(#edge)" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M120 236V1268" stroke="#07080D" stroke-width="2" stroke-dasharray="3 18"/>
+
+    <g>
+      <circle cx="120" cy="255" r="20" fill="#07080D" stroke="#61DAFB" stroke-width="6"/>
+      <path d="M113 246L130 255L113 264Z" fill="#61DAFB"/>
+      <rect x="164" y="225" width="280" height="60" rx="5" fill="#10151A" stroke="#61DAFB" stroke-width="3"/>
+      <text x="185" y="265" fill="#61DAFB" font-size="30">ENTER</text>
+    </g>
+
+    <g>
+      <circle cx="120" cy="365" r="16" fill="#A855F7"/>
+      <path d="M151 365H182" stroke="#A855F7" stroke-width="5"/>
+      <rect x="182" y="326" width="470" height="78" rx="5" fill="#110D19" stroke="#A855F7" stroke-width="3"/>
+      <text x="203" y="376" fill="#D8B4FE" font-size="30">GET DISTRACTED</text>
+    </g>
+
+    <g>
+      <circle cx="120" cy="477" r="16" fill="#FF6B35"/>
+      <path d="M151 477H182" stroke="#FF6B35" stroke-width="5"/>
+      <rect x="182" y="438" width="416" height="78" rx="5" fill="#19100D" stroke="#FF6B35" stroke-width="3"/>
+      <text x="203" y="488" fill="#FF9A72" font-size="30">FIND SOMETHING</text>
+    </g>
+
+    <rect x="48" y="548" width="624" height="284" rx="8" fill="#0B0C13" stroke="url(#portal)" stroke-width="5"/>
+    <rect x="62" y="562" width="596" height="256" rx="4" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3"/>
+    <rect x="62" y="562" width="596" height="54" fill="#111722"/>
+    <circle cx="88" cy="589" r="7" fill="#FF6B35"/>
+    <circle cx="112" cy="589" r="7" fill="#F8D866"/>
+    <circle cx="136" cy="589" r="7" fill="#61DAFB"/>
+    <text x="164" y="599" fill="#A1A1AA" font-size="28">VIEW-SOURCE://SELF</text>
+    <path d="M62 616H658" stroke="#61DAFB" stroke-opacity="0.45" stroke-width="3"/>
+
+    <path d="M94 660H626V782H94Z" stroke="#A855F7" stroke-width="3" stroke-dasharray="10 8"/>
+    <path d="M120 684H600V758H120Z" stroke="#61DAFB" stroke-opacity="0.5" stroke-width="3"/>
+    <path d="M146 708H574V734H146Z" stroke="#FF6B35" stroke-opacity="0.55" stroke-width="3"/>
+    <text x="360" y="716" fill="#E4E4E7" font-size="46" text-anchor="middle" letter-spacing="2" filter="url(#glow)">YOU ARE HERE</text>
+    <text x="360" y="766" fill="#CAFF4A" font-size="28" text-anchor="middle">CACHE: 99% / MEMORY: SELECTIVE</text>
+
+    <g transform="rotate(-2 360 872)">
+      <rect x="172" y="842" width="456" height="76" rx="5" fill="#171221" stroke="#A855F7" stroke-width="3"/>
+      <rect x="172" y="842" width="456" height="34" fill="#A855F7"/>
+      <text x="190" y="869" fill="#07080D" font-size="28">ALERT!</text>
+      <text x="190" y="906" fill="#E4E4E7" font-size="28">FORGET WHY</text>
+    </g>
+    <circle cx="120" cy="880" r="16" fill="#A855F7"/>
+    <path d="M136 880H171" stroke="#A855F7" stroke-width="5"/>
+
+    <g>
+      <circle cx="120" cy="991" r="16" fill="#F8D866"/>
+      <path d="M151 991H182" stroke="#F8D866" stroke-width="5"/>
+      <rect x="182" y="952" width="326" height="78" rx="5" fill="#17150C" stroke="#F8D866" stroke-width="3"/>
+      <text x="203" y="1002" fill="#F8D866" font-size="30">KEEP IT</text>
+    </g>
+
+    <g>
+      <circle cx="120" cy="1102" r="16" fill="#CAFF4A"/>
+      <path d="M151 1102H182" stroke="#CAFF4A" stroke-width="5"/>
+      <rect x="182" y="1063" width="438" height="78" rx="5" fill="#11170D" stroke="#CAFF4A" stroke-width="3"/>
+      <text x="203" y="1113" fill="#CAFF4A" font-size="30">SHIP ANYWAY</text>
+    </g>
+
+    <g>
+      <circle cx="120" cy="1213" r="20" fill="#07080D" stroke="#FF6B35" stroke-width="6"/>
+      <path d="M111 1203L128 1213L111 1223Z" fill="#FF6B35"/>
+      <rect x="164" y="1183" width="250" height="60" rx="5" fill="#19100D" stroke="#FF6B35" stroke-width="3"/>
+      <text x="185" y="1223" fill="#FF9A72" font-size="30">EXIT</text>
+    </g>
+
+    <path d="M120 1268V1322H654V255H462" stroke="#A855F7" stroke-width="4" stroke-dasharray="11 10"/>
+    <path d="M468 244L446 255L468 266" stroke="#A855F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="306" y="1274" width="306" height="70" rx="5" fill="#0E1018" stroke="#61DAFB" stroke-width="3"/>
+    <text x="459" y="1319" fill="#61DAFB" font-size="30" text-anchor="middle">LOOP TO START ↗</text>
+
+    <rect x="48" y="1367" width="624" height="50" rx="4" fill="#101018" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+    <text x="70" y="1402" fill="#D8B4FE" font-size="28">GUESTBOOK:</text>
+    <text x="287" y="1402" fill="#E4E4E7" font-size="28">YOU WERE HERE.</text>
+    <rect x="620" y="1381" width="18" height="26" fill="#CAFF4A" filter="url(#glow)"/>
+  </g>
+</svg>
