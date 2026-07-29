@@ -158,48 +158,52 @@ Have a useful product idea, a front end that needs more clarity, or a browser wo
 
 ## `// after hours`
 
-A visual scratchpad for experiments, motion, and the ideas that refuse to stay tidy.
+The tidy part ends above. Down here: **neon streets, old-web relics, too many tabs, and ideas that have not learned to behave.**
 
 <p align="center">
   <img
-    src="./assets/salman-portrait.webp"
-    width="112"
-    alt="Salman Ahmed Khan wearing glasses and a white shirt against a pale blue background"
-  />
-</p>
-
-### Interface in motion
-
-<a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/git-galaxy-static.webp" />
-    <img
-      src="./assets/git-galaxy-demo.webp"
-      width="100%"
-      alt="Git Galaxy Finder moving from an unfiltered Stars list to search results in light and dark themes"
-    />
-  </picture>
-</a>
-
-<p align="center">
-  <sub>A real Git Galaxy Finder capture. Motion stays useful; reduced-motion visitors get a static frame.</sub>
-</p>
-
-### A frame from the lab
-
-<a href="https://product-feedback-app-lovat.vercel.app/roadmap">
-  <img
-    src="./assets/product-feedback-roadmap.webp"
+    src="./assets/after-hours/signal-board.svg"
     width="100%"
-    alt="Product Feedback roadmap with Planned, In-Progress, and Live columns"
+    alt="Retro neon after-hours status board: CTRL+S, stay curious, ship weird, best viewed after midnight, human made, and still building"
   />
-</a>
-
-<p align="center">
-  <sub>Frontend Mentor challenge implementation — responsive interaction work by Salman.</sub>
 </p>
 
-### Parrot protocol
+<p align="center">
+  <img
+    src="./assets/after-hours/neon-streets.jpg"
+    width="100%"
+    alt="Aerial night photograph of neon-lit streets and intersecting roads"
+  />
+  <br />
+  <sub>The web is still awake somewhere.</sub>
+</p>
+
+```text
++-- SYSTEM LOG / 03:17 PKT
+| tabs       too many
+| battery    critical
+| signal     strange
+| idea       unstable
+`-- ship anyway? y
+```
+
+<div align="center">
+  <img src="./assets/after-hours/fire.gif" width="32" height="32" alt="" />
+  &nbsp;
+  <img src="./assets/after-hours/select-hand.gif" width="32" height="32" alt="" />
+  &nbsp;
+  <img src="./assets/after-hours/neon-city.gif" width="150" height="150" alt="Animated pixel-art neon city at night" />
+  &nbsp;
+  <img src="./assets/after-hours/thunder.gif" width="32" height="64" alt="" />
+  &nbsp;
+  <img src="./assets/after-hours/pixel-cat.gif" width="66" height="66" alt="Animated orange pixel cat running" />
+  &nbsp;
+  <img src="./assets/after-hours/life.gif" width="64" height="32" alt="" />
+  <br />
+  <sub>permanently unfinished</sub>
+</div>
+
+<p align="center"><code>signal spill:</code></p>
 
 <div align="center">
   <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
@@ -228,5 +232,17 @@ A visual scratchpad for experiments, motion, and the ideas that refuse to stay t
   <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
 
   <br />
-  <sub>Small experiments, strange ideas, and useful things built because they should exist.</sub>
+  <sub>connection kept alive by curiosity</sub>
 </div>
+
+<details>
+  <summary><sub>visual sources and licenses</sub></summary>
+  <br />
+  <sub>
+    Night photograph: <a href="https://commons.wikimedia.org/wiki/File:Neon_streets_(Unsplash).jpg">JINDONG H, “Neon streets”</a> — CC0 1.0.<br />
+    Neon city: <a href="https://opengameart.org/content/neon-city-0">cottonball</a> — CC0.<br />
+    Pixel effects: <a href="https://opengameart.org/content/animations-random-1">thekingphoenix</a> — CC0.<br />
+    Running cat: <a href="https://opengameart.org/content/pixel-cat-0">alizard</a> — CC0.<br />
+    Parrots: <a href="https://github.com/jmhobbs/cultofthepartyparrot.com">Cult of the Party Parrot</a>.
+  </sub>
+</details>

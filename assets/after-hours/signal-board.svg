@@ -1,0 +1,80 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">After-hours signal board</title>
+  <desc id="description">A retro neon status panel reading CTRL+S, stay curious, ship weird, best viewed after midnight, human made, and still building.</desc>
+
+  <defs>
+    <linearGradient id="edge" x1="24" y1="20" x2="1176" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/>
+      <stop offset="0.42" stop-color="#A855F7"/>
+      <stop offset="0.72" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#CAFF4A"/>
+    </linearGradient>
+    <linearGradient id="headline" x1="94" y1="81" x2="1097" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/>
+      <stop offset="0.48" stop-color="#E4E4E7"/>
+      <stop offset="1" stop-color="#FF8A5B"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H1200" stroke="#000000" stroke-opacity="0.22"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" rx="18" fill="#08080D"/>
+  <rect width="1200" height="220" rx="18" fill="url(#grid)"/>
+  <rect x="8" y="8" width="1184" height="204" rx="13" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="180" rx="9" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
+    <circle cx="45" cy="43" r="5" fill="#FF6B35"/>
+    <circle cx="63" cy="43" r="5" fill="#F8D866"/>
+    <circle cx="81" cy="43" r="5" fill="#61DAFB"/>
+    <text x="101" y="49" fill="#A1A1AA" font-size="15" letter-spacing="2">AFTER HOURS / SIGNAL 06</text>
+    <text x="600" y="49" fill="#CAFF4A" font-size="15" text-anchor="middle" letter-spacing="2" filter="url(#glow)">03:17 PKT</text>
+    <text x="1154" y="49" fill="#61DAFB" font-size="15" text-anchor="end" letter-spacing="2">STATUS: ONLINE</text>
+
+    <path d="M35 65H1165" stroke="#FFFFFF" stroke-opacity="0.16" stroke-dasharray="4 7"/>
+
+    <text x="600" y="118" fill="url(#headline)" font-size="40" text-anchor="middle" letter-spacing="3" filter="url(#glow)">CTRL+S  //  STAY CURIOUS  //  SHIP WEIRD</text>
+
+    <g font-size="12" letter-spacing="1.2">
+      <rect x="43" y="151" width="228" height="35" rx="3" fill="#10151A" stroke="#61DAFB"/>
+      <text x="157" y="173" fill="#61DAFB" text-anchor="middle">BEST VIEWED AFTER MIDNIGHT</text>
+
+      <rect x="284" y="151" width="153" height="35" rx="3" fill="#171221" stroke="#A855F7"/>
+      <text x="360.5" y="173" fill="#D8B4FE" text-anchor="middle">NO SLEEP MODE</text>
+
+      <rect x="450" y="151" width="133" height="35" rx="3" fill="#21140F" stroke="#FF6B35"/>
+      <text x="516.5" y="173" fill="#FF9A72" text-anchor="middle">HUMAN MADE</text>
+
+      <rect x="596" y="151" width="153" height="35" rx="3" fill="#171A0F" stroke="#CAFF4A"/>
+      <text x="672.5" y="173" fill="#CAFF4A" text-anchor="middle">VIEW SOURCE</text>
+
+      <rect x="762" y="151" width="188" height="35" rx="3" fill="#10151A" stroke="#61DAFB"/>
+      <text x="856" y="173" fill="#61DAFB" text-anchor="middle">STILL BUILDING</text>
+
+      <rect x="963" y="151" width="194" height="35" rx="3" fill="#211A0E" stroke="#F8D866"/>
+      <text x="1060" y="173" fill="#F8D866" text-anchor="middle">IDEAS: UNSTABLE</text>
+    </g>
+  </g>
+
+  <g fill="#FFFFFF">
+    <rect x="31" y="93" width="3" height="3"/>
+    <rect x="50" y="112" width="2" height="2"/>
+    <rect x="1152" y="88" width="3" height="3"/>
+    <rect x="1134" y="121" width="2" height="2"/>
+    <rect x="1075" y="78" width="2" height="2"/>
+    <rect x="126" y="82" width="2" height="2"/>
+  </g>
+
+  <rect width="1200" height="220" rx="18" fill="url(#scanlines)"/>
+</svg>
