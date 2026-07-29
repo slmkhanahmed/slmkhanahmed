@@ -314,17 +314,17 @@ One additional tab remains open.
 <details>
   <summary><strong><code>SOURCE OF SIGNALS // ASSET CREDITS</code></strong></summary>
 
-#### Original artwork
+### Original artwork
 
 - The profile headers, signal board, midnight console, fifty-signal wall, impossible-tab map, and authorized-exit buttons are custom artwork created for this profile.
 - The desktop and mobile compositions use only repository-local SVG assets.
 
-#### Third-party artwork
+### Third-party artwork
 
 - [“Neon streets” by JINDONG H](https://commons.wikimedia.org/wiki/File:Neon_streets_(Unsplash).jpg) — CC0 1.0.
 - [“Tesseract.gif” by Jason Hise](https://commons.wikimedia.org/wiki/File:Tesseract.gif) — public domain.
 
-#### Project-derived game assets
+### Project-derived game assets
 
 - [“fish” by kotnaszynce](https://opengameart.org/content/fish-0) — CC0; stored as `spectral-fish.gif`.
 - [“potion” by kotnaszynce](https://opengameart.org/content/potion-1) — CC0; stored as `moon-potion.gif`.
@@ -332,12 +332,12 @@ One additional tab remains open.
 - [“Little Servant Devil Animation” by ArtsyAngelee](https://opengameart.org/content/little-servant-devil-animation) — the source page offers CC0 among several licenses; stored as `little-devil.gif`.
 - Remaining legacy sprites and effects in `assets/after-hours/channels/`: **Source or license requires verification.**
 
-#### Modified assets
+### Modified assets
 
 - `tesseract-static.png` is a still-frame reduced-motion fallback derived from the public-domain tesseract animation.
 - The `*-mobile.svg` files are narrow-layout adaptations of their matching custom desktop artwork.
 
-#### External animation collections
+### External animation collections
 
 - The collapsed signal spill uses animations from [Cult of the Party Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com). See the project's [license and provenance notes](https://github.com/jmhobbs/cultofthepartyparrot.com/blob/main/LICENSE).
 
