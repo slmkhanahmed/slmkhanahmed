@@ -227,6 +227,21 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>certified by nobody · displayed proudly anyway</sub>
 </p>
 
+<p align="center"><code>50 more signals detected:</code></p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/fifty-signals-mobile.svg" />
+    <img
+      src="./assets/after-hours/fifty-signals.svg"
+      width="100%"
+      alt="A dense wall of fifty handmade old-web badges about midnight browsing, personal websites, open tabs, terminal sessions, and useful weirdness"
+    />
+  </picture>
+  <br />
+  <sub>the badge drawer would not close</sub>
+</p>
+
 <p align="center"><code>signal spill:</code></p>
 
 <div align="center">

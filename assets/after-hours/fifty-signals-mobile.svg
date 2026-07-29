@@ -1,0 +1,119 @@
+<svg width="600" height="910" viewBox="0 0 600 910" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Fifty more after-hours signals</title>
+  <desc id="description">A mobile wall of fifty handmade old-web badges about midnight browsing, personal websites, open tabs, terminal sessions, and useful weirdness.</desc>
+
+  <defs>
+    <linearGradient id="frame" x1="10" y1="8" x2="590" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/>
+      <stop offset="0.28" stop-color="#A855F7"/>
+      <stop offset="0.55" stop-color="#FF6B35"/>
+      <stop offset="0.78" stop-color="#CAFF4A"/>
+      <stop offset="1" stop-color="#F8D866"/>
+    </linearGradient>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <pattern id="scanlines" width="3" height="3" patternUnits="userSpaceOnUse">
+      <path d="M0 2.5H600" stroke="#000000" stroke-opacity="0.2"/>
+    </pattern>
+
+    <g id="cyan">
+      <rect width="170" height="46" rx="2" fill="#081318" stroke="#61DAFB" stroke-width="1.5"/>
+      <rect x="4" y="4" width="162" height="38" fill="none" stroke="#61DAFB" stroke-opacity="0.35"/>
+      <path d="M9 37H161" stroke="#61DAFB" stroke-dasharray="3 4"/>
+    </g>
+    <g id="violet">
+      <rect width="170" height="46" rx="2" fill="#120C1A" stroke="#A855F7" stroke-width="1.5"/>
+      <path d="M7 7H163M7 39H163" stroke="#D8B4FE" stroke-opacity="0.45"/>
+      <path d="M11 12L18 19L11 26L18 33" stroke="#A855F7"/>
+      <path d="M159 12L152 19L159 26L152 33" stroke="#A855F7"/>
+    </g>
+    <g id="orange">
+      <rect width="170" height="46" rx="2" fill="#160C08" stroke="#FF6B35" stroke-width="1.5"/>
+      <rect x="5" y="5" width="160" height="36" fill="none" stroke="#FF9A72" stroke-opacity="0.5"/>
+      <rect x="9" y="9" width="7" height="7" fill="#FF6B35"/>
+      <rect x="154" y="30" width="7" height="7" fill="#FF6B35"/>
+    </g>
+    <g id="lime">
+      <rect width="170" height="46" rx="2" fill="#0D1207" stroke="#CAFF4A" stroke-width="1.5"/>
+      <path d="M5 5H20V9H35V5H50V9H65V5H80V9H95V5H110V9H125V5H140V9H165" stroke="#CAFF4A" stroke-opacity="0.65"/>
+      <path d="M5 41H20V37H35V41H50V37H65V41H80V37H95V41H110V37H125V41H140V37H165" stroke="#CAFF4A" stroke-opacity="0.65"/>
+    </g>
+    <g id="gold">
+      <rect width="170" height="46" rx="2" fill="#151007" stroke="#F8D866" stroke-width="1.5"/>
+      <path d="M8 23H22M148 23H162" stroke="#FF6B35" stroke-width="2"/>
+      <path d="M15 16V30M155 16V30" stroke="#A855F7" stroke-width="1.5"/>
+      <rect x="4" y="4" width="162" height="38" fill="none" stroke="#F8D866" stroke-opacity="0.3"/>
+    </g>
+  </defs>
+
+  <rect width="600" height="910" rx="14" fill="#07080D"/>
+  <rect width="600" height="910" rx="14" fill="url(#grid)"/>
+  <rect x="7" y="7" width="586" height="896" rx="10" stroke="url(#frame)" stroke-width="2"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
+    <circle cx="25" cy="29" r="4" fill="#FF6B35"/>
+    <circle cx="40" cy="29" r="4" fill="#F8D866"/>
+    <circle cx="55" cy="29" r="4" fill="#61DAFB"/>
+    <text x="74" y="34" fill="#E4E4E7" font-size="14" letter-spacing="1.5">50 MORE SIGNALS</text>
+    <text x="574" y="34" fill="#71717A" font-size="11" text-anchor="end">01—50 / UNVERIFIED</text>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0.15">
+  <g transform="translate(23 58)"><use href="#cyan"/><text data-badge="1" x="85" y="29" fill="#61DAFB">MIDNIGHT ONLINE</text></g>
+  <g transform="translate(215 58)"><use href="#cyan"/><text data-badge="2" x="85" y="29" fill="#61DAFB">NIGHT MODE ON</text></g>
+  <g transform="translate(407 58)"><use href="#cyan"/><text data-badge="3" x="85" y="29" fill="#61DAFB">01:47 LOCAL</text></g>
+  <g transform="translate(23 107)"><use href="#cyan"/><text data-badge="4" x="85" y="29" fill="#61DAFB">SIGNAL IN DARK</text></g>
+  <g transform="translate(215 107)"><use href="#cyan"/><text data-badge="5" x="85" y="29" fill="#61DAFB">BLUE SCREEN GLOW</text></g>
+  <g transform="translate(407 107)"><use href="#cyan"/><text data-badge="6" x="85" y="29" fill="#61DAFB">SLEEP QUEUED</text></g>
+  <g transform="translate(23 156)"><use href="#cyan"/><text data-badge="7" x="85" y="29" fill="#61DAFB">LATE SHIFT CLUB</text></g>
+  <g transform="translate(215 156)"><use href="#cyan"/><text data-badge="8" x="85" y="29" fill="#61DAFB">MOONLIT SOURCE</text></g>
+  <g transform="translate(407 156)"><use href="#cyan"/><text data-badge="9" x="85" y="29" fill="#61DAFB">STILL AWAKE</text></g>
+  <g transform="translate(23 205)"><use href="#cyan"/><text data-badge="10" x="85" y="29" fill="#61DAFB">DAWN PENDING</text></g>
+
+  <g transform="translate(215 205)"><use href="#violet"/><text data-badge="11" x="85" y="29" fill="#D8B4FE">HANDMADE HTML</text></g>
+  <g transform="translate(407 205)"><use href="#violet"/><text data-badge="12" x="85" y="29" fill="#D8B4FE">SOURCE INSIDE</text></g>
+  <g transform="translate(23 254)"><use href="#violet"/><text data-badge="13" x="85" y="29" fill="#D8B4FE">SMALL WEB ENERGY</text></g>
+  <g transform="translate(215 254)"><use href="#violet"/><text data-badge="14" x="85" y="29" fill="#D8B4FE">BUILT BY HAND</text></g>
+  <g transform="translate(407 254)"><use href="#violet"/><text data-badge="15" x="85" y="29" fill="#D8B4FE">NO SITE BUILDER</text></g>
+  <g transform="translate(23 303)"><use href="#violet"/><text data-badge="16" x="85" y="29" fill="#D8B4FE">PERSONAL WEB</text></g>
+  <g transform="translate(215 303)"><use href="#violet"/><text data-badge="17" x="85" y="29" fill="#D8B4FE">PAGE UNDER CARE</text></g>
+  <g transform="translate(407 303)"><use href="#violet"/><text data-badge="18" x="85" y="29" fill="#D8B4FE">PIXEL INTENT</text></g>
+  <g transform="translate(23 352)"><use href="#violet"/><text data-badge="19" x="85" y="29" fill="#D8B4FE">OWN YOUR URL</text></g>
+  <g transform="translate(215 352)"><use href="#violet"/><text data-badge="20" x="85" y="29" fill="#D8B4FE">MADE FOR HUMANS</text></g>
+
+  <g transform="translate(407 352)"><use href="#orange"/><text data-badge="21" x="85" y="29" fill="#FF9A72">37 TABS OPEN</text></g>
+  <g transform="translate(23 401)"><use href="#orange"/><text data-badge="22" x="85" y="29" fill="#FF9A72">CACHE THE VIBE</text></g>
+  <g transform="translate(215 401)"><use href="#orange"/><text data-badge="23" x="85" y="29" fill="#FF9A72">CTRL S FOREVER</text></g>
+  <g transform="translate(407 401)"><use href="#orange"/><text data-badge="24" x="85" y="29" fill="#FF9A72">REFRESH AGAIN</text></g>
+  <g transform="translate(23 450)"><use href="#orange"/><text data-badge="25" x="85" y="29" fill="#FF9A72">PAKISTAN ONLINE</text></g>
+  <g transform="translate(215 450)"><use href="#orange"/><text data-badge="26" x="85" y="29" fill="#FF9A72">POPUP SURVIVOR</text></g>
+  <g transform="translate(407 450)"><use href="#orange"/><text data-badge="27" x="85" y="29" fill="#FF9A72">LINK ROT READY</text></g>
+  <g transform="translate(23 499)"><use href="#orange"/><text data-badge="28" x="85" y="29" fill="#FF9A72">404 BY DESIGN</text></g>
+  <g transform="translate(215 499)"><use href="#orange"/><text data-badge="29" x="85" y="29" fill="#FF9A72">TAB HOARDER</text></g>
+  <g transform="translate(407 499)"><use href="#orange"/><text data-badge="30" x="85" y="29" fill="#FF9A72">BROWSER GOBLIN</text></g>
+
+  <g transform="translate(23 548)"><use href="#lime"/><text data-badge="31" x="85" y="29" fill="#CAFF4A">SHIP AT 2AM</text></g>
+  <g transform="translate(215 548)"><use href="#lime"/><text data-badge="32" x="85" y="29" fill="#CAFF4A">COMMIT THE WEIRD</text></g>
+  <g transform="translate(407 548)"><use href="#lime"/><text data-badge="33" x="85" y="29" fill="#CAFF4A">BUGS AFTER DARK</text></g>
+  <g transform="translate(23 597)"><use href="#lime"/><text data-badge="34" x="85" y="29" fill="#CAFF4A">LOCALHOST LIVES</text></g>
+  <g transform="translate(215 597)"><use href="#lime"/><text data-badge="35" x="85" y="29" fill="#CAFF4A">SOURCE IS OPEN</text></g>
+  <g transform="translate(407 597)"><use href="#lime"/><text data-badge="36" x="85" y="29" fill="#CAFF4A">SEMICOLON CLUB</text></g>
+  <g transform="translate(23 646)"><use href="#lime"/><text data-badge="37" x="85" y="29" fill="#CAFF4A">NIGHTLY BUILD</text></g>
+  <g transform="translate(215 646)"><use href="#lime"/><text data-badge="38" x="85" y="29" fill="#CAFF4A">DEPLOY MAYBE</text></g>
+  <g transform="translate(407 646)"><use href="#lime"/><text data-badge="39" x="85" y="29" fill="#CAFF4A">STACK TRACE FAN</text></g>
+  <g transform="translate(23 695)"><use href="#lime"/><text data-badge="40" x="85" y="29" fill="#CAFF4A">SAVE BEFORE EXIT</text></g>
+
+  <g transform="translate(215 695)"><use href="#gold"/><text data-badge="41" x="85" y="29" fill="#F8D866">CHAOS CAREFULLY</text></g>
+  <g transform="translate(407 695)"><use href="#gold"/><text data-badge="42" x="85" y="29" fill="#F8D866">KEEP WEB STRANGE</text></g>
+  <g transform="translate(23 744)"><use href="#gold"/><text data-badge="43" x="85" y="29" fill="#F8D866">NO ALGORITHM</text></g>
+  <g transform="translate(215 744)"><use href="#gold"/><text data-badge="44" x="85" y="29" fill="#F8D866">HUMAN CURATED</text></g>
+  <g transform="translate(407 744)"><use href="#gold"/><text data-badge="45" x="85" y="29" fill="#F8D866">MADE TO WANDER</text></g>
+  <g transform="translate(23 793)"><use href="#gold"/><text data-badge="46" x="85" y="29" fill="#F8D866">WEIRD BUT USEFUL</text></g>
+  <g transform="translate(215 793)"><use href="#gold"/><text data-badge="47" x="85" y="29" fill="#F8D866">SIGNAL FOUND</text></g>
+  <g transform="translate(407 793)"><use href="#gold"/><text data-badge="48" x="85" y="29" fill="#F8D866">INTERNET PERSON</text></g>
+  <g transform="translate(119 842)"><use href="#gold"/><text data-badge="49" x="85" y="29" fill="#F8D866">CURIOSITY WINS</text></g>
+  <g transform="translate(311 842)"><use href="#gold"/><text data-badge="50" x="85" y="29" fill="#F8D866">PACKET COMPLETE</text></g>
+  </g>
+  <rect width="600" height="910" rx="14" fill="url(#scanlines)"/>
+</svg>
