@@ -209,22 +209,22 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <img
-    src="./assets/after-hours/channels/04-blue-loader.gif"
-    width="240"
-    alt="A cyan loading ring continuously assembling and rotating"
+    src="./assets/after-hours/channels/tesseract.gif"
+    width="224"
+    alt="A blue wireframe tesseract continuously rotating through four dimensions"
   />
   <br />
-  <sub>loading a version that behaves</sub>
+  <sub>booting dimensions one through four</sub>
 </p>
 
 <p align="center">
   <img
-    src="./assets/after-hours/channels/under-construction.gif"
-    width="200"
-    alt="Rainbow under-construction text flashing beside a road-worker sign"
+    src="./assets/after-hours/channels/moon-potion.gif"
+    width="132"
+    alt="A moon-shaped pixel potion bubbling and shifting in its glass bottle"
   />
   <br />
-  <sub>permanent beta</sub>
+  <sub>the build is still brewing</sub>
 </p>
 
 <p align="center">
@@ -363,22 +363,22 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <img
-    src="./assets/after-hours/channels/star-enemy.gif"
-    width="200"
-    alt="A purple star-shaped pixel creature shifting and blinking"
+    src="./assets/after-hours/channels/little-devil.gif"
+    width="150"
+    alt="A small red pixel devil rapidly stomping and waving its arms"
   />
   <br />
-  <sub>harmless, according to the star</sub>
+  <sub>dependency requested admin access</sub>
 </p>
 
 <p align="center">
   <img
-    src="./assets/after-hours/channels/tomato-enemy.gif"
-    width="184"
-    alt="A round red pixel creature marching in place"
+    src="./assets/after-hours/channels/spectral-fish.gif"
+    width="144"
+    alt="A pale spectral fish wriggling while bubbles rise above it"
   />
   <br />
-  <sub>local produce became hostile</sub>
+  <sub>the signal learned to swim</sub>
 </p>
 
 <p align="center">
@@ -459,12 +459,12 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <img
-    src="./assets/after-hours/channels/star-detonation.gif"
-    width="200"
-    alt="A purple star creature flashing through a detonation sequence"
+    src="./assets/after-hours/channels/fire-slime.gif"
+    width="128"
+    alt="A blue pixel slime with a bright orange flame flickering above it"
   />
   <br />
-  <sub>last process exited dramatically</sub>
+  <sub>incident response caught fire</sub>
 </p>
 
 <p align="center">
