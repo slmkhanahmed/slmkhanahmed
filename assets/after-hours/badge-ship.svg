@@ -1,0 +1,9 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ship it, then sleep">
+  <rect width="88" height="31" fill="#071014"/>
+  <rect x="1.5" y="1.5" width="85" height="28" fill="none" stroke="#61DAFB"/>
+  <path d="M7 22H30L35 16H11L7 22Z" fill="#61DAFB"/>
+  <path d="M15 16V9H25V16M18 9V6H22V9" stroke="#FF6B35" stroke-width="1.5"/>
+  <path d="M8 25C13 22 18 28 23 25C28 22 33 28 38 25" stroke="#A855F7"/>
+  <text x="62" y="12" fill="#61DAFB" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">SHIP IT</text>
+  <text x="62" y="22" fill="#E4E4E7" font-family="monospace" font-size="7" font-weight="700" text-anchor="middle">THEN SLEEP</text>
+</svg>

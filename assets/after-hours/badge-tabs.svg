@@ -1,0 +1,10 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Forty-seven tabs still open">
+  <rect width="88" height="31" fill="#0F0A17"/>
+  <rect x="1.5" y="1.5" width="85" height="28" fill="none" stroke="#A855F7"/>
+  <rect x="5" y="5" width="78" height="7" fill="#1A1027" stroke="#A855F7" stroke-width=".7"/>
+  <rect x="8" y="7" width="18" height="3" fill="#61DAFB"/>
+  <rect x="29" y="7" width="18" height="3" fill="#FF6B35"/>
+  <rect x="50" y="7" width="29" height="3" fill="#CAFF4A"/>
+  <text x="44" y="21" fill="#D8B4FE" font-family="monospace" font-size="8" font-weight="700" text-anchor="middle">47 TABS OPEN</text>
+  <text x="44" y="28" fill="#71717A" font-family="monospace" font-size="5" text-anchor="middle">this is fine</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Battery low, ideas high">
+  <rect width="88" height="31" fill="#130807"/>
+  <rect x="1.5" y="1.5" width="85" height="28" fill="none" stroke="#FF6B35"/>
+  <rect x="6" y="8" width="25" height="14" rx="1" fill="none" stroke="#E4E4E7"/>
+  <rect x="31" y="12" width="3" height="6" fill="#E4E4E7"/>
+  <rect x="9" y="11" width="4" height="8" fill="#FF6B35"/>
+  <text x="61" y="12" fill="#FF9A72" font-family="monospace" font-size="7" font-weight="700" text-anchor="middle">BATTERY LOW</text>
+  <text x="61" y="22" fill="#CAFF4A" font-family="monospace" font-size="7" font-weight="700" text-anchor="middle">IDEAS HIGH</text>
+</svg>

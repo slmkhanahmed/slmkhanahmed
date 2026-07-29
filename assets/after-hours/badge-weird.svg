@@ -1,0 +1,7 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Keep the web weird">
+  <rect width="88" height="31" fill="#0C1007"/>
+  <rect x="1.5" y="1.5" width="85" height="28" fill="none" stroke="#CAFF4A"/>
+  <path d="M7 7L12 3L17 7L22 3L27 7L32 3L37 7L42 3L47 7L52 3L57 7L62 3L67 7L72 3L77 7L82 3" stroke="#61DAFB" stroke-width="1"/>
+  <text x="44" y="18" fill="#CAFF4A" font-family="monospace" font-size="8" font-weight="700" text-anchor="middle">KEEP THE WEB</text>
+  <text x="44" y="27" fill="#E4E4E7" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">WEIRD</text>
+</svg>

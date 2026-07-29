@@ -187,6 +187,19 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 `-- ship anyway? y
 ```
 
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/midnight-console-mobile.svg" />
+    <img
+      src="./assets/after-hours/midnight-console.svg"
+      width="100%"
+      alt="Neon midnight desktop showing a four-line creative manifesto, Midnight FM, and a graveyard of 47 open tabs"
+    />
+  </picture>
+  <br />
+  <sub>somewhere between a clean build and a questionable idea</sub>
+</p>
+
 <div align="center">
   <img src="./assets/after-hours/fire.gif" width="32" height="32" alt="" />
   &nbsp;
@@ -202,6 +215,17 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <br />
   <sub>permanently unfinished</sub>
 </div>
+
+<p align="center">
+  <img src="./assets/after-hours/badge-midnight.svg" width="88" height="31" alt="Best viewed after midnight" />
+  <img src="./assets/after-hours/badge-human.svg" width="88" height="31" alt="One hundred percent human made" />
+  <img src="./assets/after-hours/badge-tabs.svg" width="88" height="31" alt="Forty-seven tabs still open" />
+  <img src="./assets/after-hours/badge-weird.svg" width="88" height="31" alt="Keep the web weird" />
+  <img src="./assets/after-hours/badge-battery.svg" width="88" height="31" alt="Battery low, ideas high" />
+  <img src="./assets/after-hours/badge-ship.svg" width="88" height="31" alt="Ship it, then sleep" />
+  <br />
+  <sub>certified by nobody · displayed proudly anyway</sub>
+</p>
 
 <p align="center"><code>signal spill:</code></p>
 
@@ -235,14 +259,8 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>connection kept alive by curiosity</sub>
 </div>
 
-<details>
-  <summary><sub>visual sources and licenses</sub></summary>
+<p align="center">
+  <code>END OF LINE // KEEP THE WEB WEIRD // SEE YOU AFTER MIDNIGHT</code>
   <br />
-  <sub>
-    Night photograph: <a href="https://commons.wikimedia.org/wiki/File:Neon_streets_(Unsplash).jpg">JINDONG H, “Neon streets”</a> — CC0 1.0.<br />
-    Neon city: <a href="https://opengameart.org/content/neon-city-0">cottonball</a> — CC0.<br />
-    Pixel effects: <a href="https://opengameart.org/content/animations-random-1">thekingphoenix</a> — CC0.<br />
-    Running cat: <a href="https://opengameart.org/content/pixel-cat-0">alizard</a> — CC0.<br />
-    Parrots: <a href="https://github.com/jmhobbs/cultofthepartyparrot.com">Cult of the Party Parrot</a>.
-  </sub>
-</details>
+  <sub>carrier lost at 03:31 PKT ░▒▓</sub>
+</p>

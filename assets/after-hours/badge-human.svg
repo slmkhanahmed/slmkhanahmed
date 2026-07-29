@@ -1,0 +1,8 @@
+<svg width="88" height="31" viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One hundred percent human made">
+  <rect width="88" height="31" fill="#120B08"/>
+  <rect x="1.5" y="1.5" width="85" height="28" fill="none" stroke="#FF6B35"/>
+  <rect x="5" y="5" width="19" height="20" fill="#FF6B35"/>
+  <text x="14.5" y="18" fill="#07080D" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle">♥</text>
+  <text x="55" y="12" fill="#FF9A72" font-family="monospace" font-size="7" font-weight="700" text-anchor="middle">100% HUMAN</text>
+  <text x="55" y="22" fill="#E4E4E7" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">MADE</text>
+</svg>
