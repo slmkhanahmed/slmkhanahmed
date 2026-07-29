@@ -229,22 +229,6 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 ---
 
-<p align="center">
-  <strong><code>ARCHIVE UNLOCKED // 50 SIGNALS</code></strong>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/fifty-signals-mobile.svg?v=2" />
-    <img
-      src="./assets/after-hours/fifty-signals.svg?v=2"
-      width="100%"
-      alt="Animated wall of fifty handmade old-web badges about midnight browsing, open tabs, terminal sessions, and useful weirdness"
-    />
-  </picture>
-  <br />
-  <sub>the badge drawer would not close</sub>
-</p>
 
 <p align="center">
   <strong><code>ONE IMPOSSIBLE TAB REMAINS</code></strong>
