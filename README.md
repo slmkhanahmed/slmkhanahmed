@@ -195,297 +195,37 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 ---
 
-<p align="center">
-  <strong><code>24 MOTION CHANNELS // SIX ACTS</code></strong>
+<p align="center"><code>signal spill:</code></p>
+
+<div align="center">
+  <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
+  <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30" alt="India party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30" alt="Async party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30" alt="60 FPS party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30" alt="Jumping party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30" alt="Open source party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30" alt="Deal with it party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30" alt="Hypno party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30" alt="Database party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30" alt="Fixing party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30" alt="Spinning party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30" alt="Levitating party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30" alt="Meld party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30" alt="Slow motion party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30" alt="Moonwalking party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30" alt="Stable party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30" alt="Science party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30" alt="Pirate party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30" alt="Football party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30" alt="Illuminati party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30" alt="Dark hypno party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30" alt="Mustache party parrot" />
+  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
+
   <br />
-  <sub>one signal at a time · no grid · no quiet frames</sub>
-</p>
-
-<p align="center">
-  <strong><code>01 / BOOT</code></strong>
-  <br />
-  <sub>the sequence refuses to finish</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/tesseract.gif"
-    width="224"
-    alt="A blue wireframe tesseract continuously rotating through four dimensions"
-  />
-  <br />
-  <sub>booting dimensions one through four</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/moon-potion.gif"
-    width="132"
-    alt="A moon-shaped pixel potion bubbling and shifting in its glass bottle"
-  />
-  <br />
-  <sub>the build is still brewing</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/gears.gif"
-    width="172"
-    alt="Three interlocking metal gears rotating together"
-  />
-  <br />
-  <sub>thinking, audibly</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/work-in-progress.gif"
-    width="680"
-    alt="Work in progress lettering flashing across a wide pixel display"
-  />
-  <br />
-  <sub>progress exceeded available width</sub>
-</p>
-
----
-
-<p align="center">
-  <strong><code>02 / ESCAPE</code></strong>
-  <br />
-  <sub>the processes leave without signing out</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/pixel-robot.gif"
-    width="225"
-    alt="A tiny pixel character in a large hat bobbing in place"
-  />
-  <br />
-  <sub>process 404 found a hat</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/11-goblin-run.gif"
-    width="160"
-    alt="A green pixel goblin running with a raised sword"
-  />
-  <br />
-  <sub>the cache left on foot</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/pink-monster.gif"
-    width="171"
-    alt="A bright pink pixel monster marching through a ten-frame walk cycle"
-  />
-  <br />
-  <sub>friendly malware entered</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/flying-bat.gif"
-    width="192"
-    alt="A yellow pixel bat repeatedly flapping its wings"
-  />
-  <br />
-  <sub>background service grew wings</sub>
-</p>
-
----
-
-<p align="center">
-  <strong><code>03 / INPUT</code></strong>
-  <br />
-  <sub>every click has consequences</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/05-coin-spin.gif"
-    width="160"
-    alt="A gold pixel coin rapidly spinning"
-  />
-  <br />
-  <sub>one more refresh</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/06-level-up.gif"
-    width="256"
-    alt="A pixel arrow and level-up message flashing upward"
-  />
-  <br />
-  <sub>made it stranger</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/07-spike.gif"
-    width="160"
-    alt="A floor spike repeatedly rising from darkness and retracting"
-  />
-  <br />
-  <sub>markup from below</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/pirate-bomb.gif"
-    width="192"
-    alt="A pixel bomb burning through its fuse and detonating"
-  />
-  <br />
-  <sub>production-safe, briefly</sub>
-</p>
-
----
-
-<p align="center">
-  <strong><code>04 / OBSERVERS</code></strong>
-  <br />
-  <sub>the signal starts looking back</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/eye-monster.gif"
-    width="192"
-    alt="A floating one-eyed pixel creature pulsing above its shadow"
-  />
-  <br />
-  <sub>the page is looking back</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/little-devil.gif"
-    width="150"
-    alt="A small red pixel devil rapidly stomping and waving its arms"
-  />
-  <br />
-  <sub>dependency requested admin access</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/spectral-fish.gif"
-    width="144"
-    alt="A pale spectral fish wriggling while bubbles rise above it"
-  />
-  <br />
-  <sub>the signal learned to swim</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/n64-eyes-strip.gif"
-    width="320"
-    alt="Five pairs of low-resolution eyes looking around and blinking"
-  />
-  <br />
-  <sub>it noticed you noticing it</sub>
-</p>
-
----
-
-<p align="center">
-  <strong><code>05 / GRAVITY</code></strong>
-  <br />
-  <sub>orientation is now a suggestion</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/bouncing-character-a.gif"
-    width="200"
-    alt="A pixel character repeatedly bouncing upward and down"
-  />
-  <br />
-  <sub>top is temporarily down</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/bouncing-character-b.gif"
-    width="200"
-    alt="A second pixel character rising and falling through a loop"
-  />
-  <br />
-  <sub>down filed an appeal</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/blue-fire.gif"
-    width="120"
-    alt="An electric-blue pixel flame rapidly flickering"
-  />
-  <br />
-  <sub>browser temperature: blue</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/09-small-explosion.gif"
-    width="160"
-    alt="A concealed pixel device repeatedly opening into an explosion"
-  />
-  <br />
-  <sub>a small, controlled exception</sub>
-</p>
-
----
-
-<p align="center">
-  <strong><code>06 / FAILURE</code></strong>
-  <br />
-  <sub>the clean exit has been cancelled</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/circular-explosion.gif"
-    width="200"
-    alt="A circular pixel blast expanding outward and collapsing"
-  />
-  <br />
-  <sub>loading state lost patience</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/fire-slime.gif"
-    width="128"
-    alt="A blue pixel slime with a bright orange flame flickering above it"
-  />
-  <br />
-  <sub>incident response caught fire</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/10-big-explosion.gif"
-    width="192"
-    alt="A large pixel explosion rapidly filling its entire frame"
-  />
-  <br />
-  <sub>the exception filled the viewport</sub>
-</p>
-
-<p align="center">
-  <img
-    src="./assets/after-hours/channels/01-chaotic-reactor.gif"
-    width="420"
-    alt="A pale cyan abstract reactor field continuously churning and reshaping"
-  />
-  <br />
-  <sub>NO CARRIER // still moving</sub>
-</p>
+  <sub>connection kept alive by curiosity</sub>
+</div>
 
 ---
 
