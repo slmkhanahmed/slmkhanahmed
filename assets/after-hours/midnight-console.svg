@@ -3,6 +3,51 @@
   <desc id="description">A neon desktop with a manifesto, midnight radio, and forty-seven open browser tabs.</desc>
 
   <defs>
+    <style>
+      .screen-sweep {
+        animation: screen-sweep 7s linear infinite;
+      }
+      .cursor {
+        animation: cursor-blink 1.05s steps(1, end) infinite;
+      }
+      .live {
+        animation: live-pulse 1.65s ease-in-out infinite;
+      }
+      .eq {
+        animation: equalize 1.25s ease-in-out infinite alternate;
+        transform-box: fill-box;
+        transform-origin: center bottom;
+      }
+      .eq-2 { animation-duration: 0.82s; animation-delay: -0.34s; }
+      .eq-3 { animation-duration: 1.06s; animation-delay: -0.71s; }
+      .eq-4 { animation-duration: 0.94s; animation-delay: -0.18s; }
+      @keyframes screen-sweep {
+        0% { opacity: 0; transform: translateY(-30px); }
+        10% { opacity: 0.2; }
+        88% { opacity: 0.1; }
+        100% { opacity: 0; transform: translateY(450px); }
+      }
+      @keyframes cursor-blink {
+        0%, 48% { opacity: 1; }
+        49%, 100% { opacity: 0.12; }
+      }
+      @keyframes live-pulse {
+        0%, 100% { fill: #71717A; opacity: 0.55; }
+        50% { fill: #CAFF4A; opacity: 1; }
+      }
+      @keyframes equalize {
+        from { transform: scaleY(0.42); opacity: 0.58; }
+        to { transform: scaleY(1); opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .screen-sweep,
+        .cursor,
+        .live,
+        .eq {
+          animation: none;
+        }
+      }
+    </style>
     <linearGradient id="edge" x1="22" y1="18" x2="1177" y2="492" gradientUnits="userSpaceOnUse">
       <stop stop-color="#61DAFB"/>
       <stop offset="0.37" stop-color="#A855F7"/>
@@ -35,6 +80,7 @@
   <rect width="1200" height="510" rx="18" fill="#07080D"/>
   <rect width="1200" height="510" rx="18" fill="url(#grid)"/>
   <rect x="8" y="8" width="1184" height="494" rx="13" stroke="url(#edge)" stroke-width="2"/>
+  <rect class="screen-sweep" x="10" y="24" width="1180" height="2" rx="1" fill="#61DAFB" opacity="0"/>
 
   <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
     <circle cx="42" cy="39" r="5" fill="#FF6B35"/>
@@ -66,7 +112,7 @@
       <text x="104" y="319" fill="#FF9A72" font-size="28" font-weight="700">ship before the spell breaks.</text>
       <text x="62" y="376" fill="#71717A" font-size="15">:wq</text>
       <text x="104" y="376" fill="#CAFF4A" font-size="15">unsaved wonder: 0</text>
-      <rect x="301" y="359" width="10" height="21" fill="#CAFF4A" filter="url(#glow)"/>
+      <rect class="cursor" x="301" y="359" width="10" height="21" fill="#CAFF4A" filter="url(#glow)"/>
       <text x="62" y="415" fill="#52525B" font-size="13">UTF-8</text>
       <text x="615" y="415" fill="#52525B" font-size="13" text-anchor="end">4L, 101C</text>
     </g>
@@ -80,27 +126,27 @@
     <circle cx="677" cy="117" r="4" fill="#F8D866"/>
     <circle cx="693" cy="117" r="4" fill="#A855F7"/>
     <text x="715" y="122" fill="#D8B4FE" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="1.5">MIDNIGHT FM</text>
-    <text x="1138" y="122" fill="#71717A" font-family="Consolas, 'Courier New', monospace" font-size="12" text-anchor="end">LIVE</text>
+    <text class="live" x="1138" y="122" fill="#71717A" font-family="Consolas, 'Courier New', monospace" font-size="12" text-anchor="end">LIVE</text>
 
     <text x="670" y="167" fill="#E4E4E7" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700">RAIN ON GLASS</text>
     <text x="1138" y="167" fill="#71717A" font-family="Consolas, 'Courier New', monospace" font-size="12" text-anchor="end">city hum / keyboard clicks</text>
     <g fill="#61DAFB">
-      <rect x="671" y="203" width="7" height="16" rx="2"/>
-      <rect x="686" y="194" width="7" height="34" rx="2"/>
-      <rect x="701" y="184" width="7" height="54" rx="2"/>
-      <rect x="716" y="198" width="7" height="26" rx="2"/>
-      <rect x="731" y="178" width="7" height="66" rx="2"/>
-      <rect x="746" y="190" width="7" height="42" rx="2"/>
-      <rect x="761" y="201" width="7" height="20" rx="2"/>
-      <rect x="776" y="187" width="7" height="48" rx="2"/>
-      <rect x="791" y="174" width="7" height="74" rx="2" filter="url(#glow)"/>
-      <rect x="806" y="194" width="7" height="34" rx="2"/>
-      <rect x="821" y="182" width="7" height="58" rx="2"/>
-      <rect x="836" y="199" width="7" height="24" rx="2"/>
-      <rect x="851" y="189" width="7" height="44" rx="2"/>
-      <rect x="866" y="176" width="7" height="70" rx="2"/>
-      <rect x="881" y="193" width="7" height="36" rx="2"/>
-      <rect x="896" y="203" width="7" height="16" rx="2"/>
+      <rect class="eq eq-2" x="671" y="203" width="7" height="16" rx="2"/>
+      <rect class="eq eq-3" x="686" y="194" width="7" height="34" rx="2"/>
+      <rect class="eq eq-4" x="701" y="184" width="7" height="54" rx="2"/>
+      <rect class="eq" x="716" y="198" width="7" height="26" rx="2"/>
+      <rect class="eq eq-2" x="731" y="178" width="7" height="66" rx="2"/>
+      <rect class="eq eq-3" x="746" y="190" width="7" height="42" rx="2"/>
+      <rect class="eq eq-4" x="761" y="201" width="7" height="20" rx="2"/>
+      <rect class="eq" x="776" y="187" width="7" height="48" rx="2"/>
+      <rect class="eq eq-2" x="791" y="174" width="7" height="74" rx="2" filter="url(#glow)"/>
+      <rect class="eq eq-3" x="806" y="194" width="7" height="34" rx="2"/>
+      <rect class="eq eq-4" x="821" y="182" width="7" height="58" rx="2"/>
+      <rect class="eq" x="836" y="199" width="7" height="24" rx="2"/>
+      <rect class="eq eq-2" x="851" y="189" width="7" height="44" rx="2"/>
+      <rect class="eq eq-3" x="866" y="176" width="7" height="70" rx="2"/>
+      <rect class="eq eq-4" x="881" y="193" width="7" height="36" rx="2"/>
+      <rect class="eq" x="896" y="203" width="7" height="16" rx="2"/>
     </g>
     <path d="M926 212H1124" stroke="#27272A" stroke-width="5" stroke-linecap="round"/>
     <path d="M926 212H1032" stroke="#FF6B35" stroke-width="5" stroke-linecap="round"/>

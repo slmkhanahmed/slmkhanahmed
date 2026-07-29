@@ -24,6 +24,43 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <style>
+      .route-flow {
+        animation: route-travel 2.6s linear infinite;
+      }
+      .route-reverse {
+        animation-direction: reverse;
+        animation-duration: 3.4s;
+      }
+      .portal-ring {
+        animation: route-travel 2.2s linear infinite reverse;
+      }
+      .portal-pulse {
+        animation: portal-breathe 2.8s ease-in-out infinite;
+      }
+      .status-live {
+        animation: status-blink 1.8s steps(2, end) infinite;
+      }
+      @keyframes route-travel {
+        to { stroke-dashoffset: -42; }
+      }
+      @keyframes portal-breathe {
+        0%, 100% { stroke-opacity: .68; }
+        50% { stroke-opacity: 1; }
+      }
+      @keyframes status-blink {
+        0%, 72% { opacity: 1; }
+        73%, 100% { opacity: .38; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .route-flow,
+        .portal-ring,
+        .portal-pulse,
+        .status-live {
+          animation: none !important;
+        }
+      }
+    </style>
   </defs>
 
   <rect width="720" height="1460" rx="20" fill="#07080D"/>
@@ -41,14 +78,14 @@
     <circle cx="96" cy="61" r="8" fill="#F8D866"/>
     <circle cx="122" cy="61" r="8" fill="#61DAFB"/>
     <text x="151" y="71" fill="#A1A1AA" font-size="28">LAST_TAB.HTML</text>
-    <text x="672" y="71" fill="#CAFF4A" font-size="28" text-anchor="end">LIVE</text>
+    <text class="status-live" x="672" y="71" fill="#CAFF4A" font-size="28" text-anchor="end">LIVE</text>
     <path d="M48 100H672" stroke="#FFFFFF" stroke-opacity="0.16" stroke-dasharray="7 10"/>
 
     <text x="48" y="151" fill="#E4E4E7" font-size="42" letter-spacing="2">THE LAST TAB</text>
     <text x="48" y="198" fill="#D8B4FE" font-size="36">DOES NOT CLOSE.</text>
 
     <path d="M120 236V1268" stroke="url(#edge)" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
-    <path d="M120 236V1268" stroke="#07080D" stroke-width="2" stroke-dasharray="3 18"/>
+    <path class="route-flow" d="M120 236V1268" stroke="#07080D" stroke-width="2" stroke-dasharray="3 18"/>
 
     <g>
       <circle cx="120" cy="255" r="20" fill="#07080D" stroke="#61DAFB" stroke-width="6"/>
@@ -71,7 +108,7 @@
       <text x="203" y="488" fill="#FF9A72" font-size="30">FIND SOMETHING</text>
     </g>
 
-    <rect x="48" y="548" width="624" height="284" rx="8" fill="#0B0C13" stroke="url(#portal)" stroke-width="5"/>
+    <rect class="portal-pulse" x="48" y="548" width="624" height="284" rx="8" fill="#0B0C13" stroke="url(#portal)" stroke-width="5"/>
     <rect x="62" y="562" width="596" height="256" rx="4" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3"/>
     <rect x="62" y="562" width="596" height="54" fill="#111722"/>
     <circle cx="88" cy="589" r="7" fill="#FF6B35"/>
@@ -80,7 +117,7 @@
     <text x="164" y="599" fill="#A1A1AA" font-size="28">VIEW-SOURCE://SELF</text>
     <path d="M62 616H658" stroke="#61DAFB" stroke-opacity="0.45" stroke-width="3"/>
 
-    <path d="M94 660H626V782H94Z" stroke="#A855F7" stroke-width="3" stroke-dasharray="10 8"/>
+    <path class="portal-ring" d="M94 660H626V782H94Z" stroke="#A855F7" stroke-width="3" stroke-dasharray="10 8"/>
     <path d="M120 684H600V758H120Z" stroke="#61DAFB" stroke-opacity="0.5" stroke-width="3"/>
     <path d="M146 708H574V734H146Z" stroke="#FF6B35" stroke-opacity="0.55" stroke-width="3"/>
     <text x="360" y="716" fill="#E4E4E7" font-size="46" text-anchor="middle" letter-spacing="2" filter="url(#glow)">YOU ARE HERE</text>
@@ -116,7 +153,7 @@
       <text x="185" y="1223" fill="#FF9A72" font-size="30">EXIT</text>
     </g>
 
-    <path d="M120 1268V1322H654V255H462" stroke="#A855F7" stroke-width="4" stroke-dasharray="11 10"/>
+    <path class="route-flow route-reverse" d="M120 1268V1322H654V255H462" stroke="#A855F7" stroke-width="4" stroke-dasharray="11 10"/>
     <path d="M468 244L446 255L468 266" stroke="#A855F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     <rect x="306" y="1274" width="306" height="70" rx="5" fill="#0E1018" stroke="#61DAFB" stroke-width="3"/>
     <text x="459" y="1319" fill="#61DAFB" font-size="30" text-anchor="middle">LOOP TO START ↗</text>

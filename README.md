@@ -162,14 +162,6 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <img
-    src="./assets/after-hours/signal-board.svg"
-    width="100%"
-    alt="Retro neon after-hours status board: CTRL+S, stay curious, ship weird, best viewed after midnight, human made, and still building"
-  />
-</p>
-
-<p align="center">
-  <img
     src="./assets/after-hours/neon-streets.jpg"
     width="100%"
     alt="Aerial night photograph of neon-lit streets and intersecting roads"
@@ -178,359 +170,361 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>The web is still awake somewhere.</sub>
 </p>
 
-```text
-+-- SYSTEM LOG / 03:17 PKT
-| tabs       too many
-| battery    critical
-| signal     strange
-| idea       unstable
-`-- ship anyway? y
-```
+<p align="center">
+  <img
+    src="./assets/after-hours/signal-board.svg?v=2"
+    width="92%"
+    alt="Animated retro neon after-hours status board with a scanning beam and pulsing indicators"
+  />
+  <br />
+  <sub>frequency locked · curiosity online</sub>
+</p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/midnight-console-mobile.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/midnight-console-mobile.svg?v=2" />
     <img
-      src="./assets/after-hours/midnight-console.svg"
+      src="./assets/after-hours/midnight-console.svg?v=2"
       width="100%"
-      alt="Neon midnight desktop showing a four-line creative manifesto, Midnight FM, and a graveyard of 47 open tabs"
+      alt="Animated neon midnight console with a scanning beam, blinking cursor, live indicator, and moving equalizer"
     />
   </picture>
   <br />
-  <sub>somewhere between a clean build and a questionable idea</sub>
+  <sub>clean build on one screen · questionable idea on the other</sub>
+</p>
+
+---
+
+<p align="center">
+  <strong><code>24 MOTION CHANNELS // SIX ACTS</code></strong>
+  <br />
+  <sub>one signal at a time · no grid · no quiet frames</sub>
 </p>
 
 <p align="center">
-  <img src="./assets/after-hours/badge-midnight.svg" width="88" height="31" alt="Best viewed after midnight" />
-  <img src="./assets/after-hours/badge-human.svg" width="88" height="31" alt="One hundred percent human made" />
-  <img src="./assets/after-hours/badge-tabs.svg" width="88" height="31" alt="Forty-seven tabs still open" />
-  <img src="./assets/after-hours/badge-weird.svg" width="88" height="31" alt="Keep the web weird" />
-  <img src="./assets/after-hours/badge-battery.svg" width="88" height="31" alt="Battery low, ideas high" />
-  <img src="./assets/after-hours/badge-ship.svg" width="88" height="31" alt="Ship it, then sleep" />
+  <strong><code>01 / BOOT</code></strong>
   <br />
-  <sub>certified by nobody · displayed proudly anyway</sub>
+  <sub>the sequence refuses to finish</sub>
 </p>
-
-<p align="center"><code>50 more signals detected:</code></p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/fifty-signals-mobile.svg" />
-    <img
-      src="./assets/after-hours/fifty-signals.svg"
-      width="100%"
-      alt="A dense wall of fifty handmade old-web badges about midnight browsing, personal websites, open tabs, terminal sessions, and useful weirdness"
-    />
-  </picture>
-  <br />
-  <sub>the badge drawer would not close</sub>
-</p>
-
-<p align="center"><code>one impossible tab remains:</code></p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg" />
-    <img
-      src="./assets/after-hours/last-tab.svg"
-      width="100%"
-      alt="The Last Tab, a nonlinear old-web hypermap where one late-night idea loops through source code, distraction, dead links, selective memory, and shipping anyway"
-    />
-  </picture>
-  <br />
-  <sub>you are not lost. the map is just honest.</sub>
-</p>
-
-<p align="center"><code>24 CHANNELS FOUND // ALL OF THEM MOVING</code></p>
-
-A 24-step transmission moves from boot errors through escaped pixel processes and finally into full-frame signal failure.
-
-<p align="center"><code>ACT I // BOOT SEQUENCE REFUSES TO FINISH</code></p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/04-blue-loader.gif"
-    width="280"
+    width="240"
     alt="A cyan loading ring continuously assembling and rotating"
   />
   <br />
-  <sub>01 // still loading the part that was supposed to be finished</sub>
+  <sub>loading a version that behaves</sub>
 </p>
 
-<p align="left">
+<p align="center">
   <img
     src="./assets/after-hours/channels/under-construction.gif"
     width="200"
     alt="Rainbow under-construction text flashing beside a road-worker sign"
   />
   <br />
-  <sub>02 // permanent construction is a feature</sub>
+  <sub>permanent beta</sub>
 </p>
 
-<p align="right">
+<p align="center">
   <img
     src="./assets/after-hours/channels/gears.gif"
-    width="220"
+    width="172"
     alt="Three interlocking metal gears rotating together"
   />
   <br />
-  <sub>03 // backend thinking loudly</sub>
+  <sub>thinking, audibly</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/work-in-progress.gif"
-    width="100%"
+    width="680"
     alt="Work in progress lettering flashing across a wide pixel display"
   />
   <br />
-  <sub>04 // progress reached 100% and kept going</sub>
+  <sub>progress exceeded available width</sub>
 </p>
 
-<p align="center"><code>ACT II // PROCESSES ESCAPE</code></p>
+---
 
-<p align="left">
+<p align="center">
+  <strong><code>02 / ESCAPE</code></strong>
+  <br />
+  <sub>the processes leave without signing out</sub>
+</p>
+
+<p align="center">
   <img
     src="./assets/after-hours/channels/pixel-robot.gif"
-    width="160"
+    width="225"
     alt="A tiny pixel character in a large hat bobbing in place"
   />
   <br />
-  <sub>05 // process 404 found a hat and left</sub>
-</p>
-
-<p align="right">
-  <img
-    src="./assets/after-hours/channels/pink-monster.gif"
-    width="170"
-    alt="A bright pink pixel monster marching through a ten-frame walk cycle"
-  />
-  <br />
-  <sub>06 // friendly malware entered the tab</sub>
+  <sub>process 404 found a hat</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/11-goblin-run.gif"
-    width="170"
+    width="160"
     alt="A green pixel goblin running with a raised sword"
   />
   <br />
-  <sub>07 // the cache escaped on foot</sub>
+  <sub>the cache left on foot</sub>
 </p>
 
-<p align="left">
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/pink-monster.gif"
+    width="171"
+    alt="A bright pink pixel monster marching through a ten-frame walk cycle"
+  />
+  <br />
+  <sub>friendly malware entered</sub>
+</p>
+
+<p align="center">
   <img
     src="./assets/after-hours/channels/flying-bat.gif"
-    width="170"
+    width="192"
     alt="A yellow pixel bat repeatedly flapping its wings"
   />
   <br />
-  <sub>08 // background service learned to fly</sub>
+  <sub>background service grew wings</sub>
 </p>
 
-<p align="center"><code>ACT III // INPUT HAZARDS</code></p>
+---
 
-<p align="right">
+<p align="center">
+  <strong><code>03 / INPUT</code></strong>
+  <br />
+  <sub>every click has consequences</sub>
+</p>
+
+<p align="center">
   <img
     src="./assets/after-hours/channels/05-coin-spin.gif"
-    width="140"
+    width="160"
     alt="A gold pixel coin rapidly spinning"
   />
   <br />
-  <sub>09 // one more refresh. heads wins either way.</sub>
+  <sub>one more refresh</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/06-level-up.gif"
-    width="240"
+    width="256"
     alt="A pixel arrow and level-up message flashing upward"
   />
   <br />
-  <sub>10 // achievement unlocked: made it stranger</sub>
+  <sub>made it stranger</sub>
 </p>
 
-<p align="left">
+<p align="center">
   <img
     src="./assets/after-hours/channels/07-spike.gif"
     width="160"
     alt="A floor spike repeatedly rising from darkness and retracting"
   />
   <br />
-  <sub>11 // unexpected markup from below</sub>
+  <sub>markup from below</sub>
 </p>
 
-<p align="right">
+<p align="center">
   <img
     src="./assets/after-hours/channels/pirate-bomb.gif"
-    width="180"
+    width="192"
     alt="A pixel bomb burning through its fuse and detonating"
   />
   <br />
-  <sub>12 // this button was absolutely production-safe</sub>
+  <sub>production-safe, briefly</sub>
 </p>
 
-<p align="center"><code>ACT IV // SIGNAL GAINS TEETH</code></p>
+---
+
+<p align="center">
+  <strong><code>04 / OBSERVERS</code></strong>
+  <br />
+  <sub>the signal starts looking back</sub>
+</p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/eye-monster.gif"
-    width="170"
+    width="192"
     alt="A floating one-eyed pixel creature pulsing above its shadow"
   />
   <br />
-  <sub>13 // the page is looking back</sub>
+  <sub>the page is looking back</sub>
 </p>
 
-<p align="left">
+<p align="center">
   <img
     src="./assets/after-hours/channels/star-enemy.gif"
-    width="170"
+    width="200"
     alt="A purple star-shaped pixel creature shifting and blinking"
   />
   <br />
-  <sub>14 // a harmless star, according to the star</sub>
+  <sub>harmless, according to the star</sub>
 </p>
 
-<p align="right">
+<p align="center">
   <img
     src="./assets/after-hours/channels/tomato-enemy.gif"
-    width="170"
+    width="184"
     alt="A round red pixel creature marching in place"
   />
   <br />
-  <sub>15 // local produce became hostile</sub>
+  <sub>local produce became hostile</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/n64-eyes-strip.gif"
-    width="420"
+    width="320"
     alt="Five pairs of low-resolution eyes looking around and blinking"
   />
   <br />
-  <sub>16 // the browser noticed you noticing it</sub>
+  <sub>it noticed you noticing it</sub>
 </p>
 
-<p align="center"><code>ACT V // GRAVITY UNINSTALLED</code></p>
+---
 
-<p align="left">
+<p align="center">
+  <strong><code>05 / GRAVITY</code></strong>
+  <br />
+  <sub>orientation is now a suggestion</sub>
+</p>
+
+<p align="center">
   <img
     src="./assets/after-hours/channels/bouncing-character-a.gif"
-    width="230"
+    width="200"
     alt="A pixel character repeatedly bouncing upward and down"
   />
   <br />
-  <sub>17 // top is temporarily down</sub>
+  <sub>top is temporarily down</sub>
 </p>
 
-<p align="right">
+<p align="center">
   <img
     src="./assets/after-hours/channels/bouncing-character-b.gif"
-    width="230"
+    width="200"
     alt="A second pixel character rising and falling through a loop"
   />
   <br />
-  <sub>18 // down filed an appeal</sub>
+  <sub>down filed an appeal</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/blue-fire.gif"
-    width="160"
+    width="120"
     alt="An electric-blue pixel flame rapidly flickering"
   />
   <br />
-  <sub>19 // browser temperature: electric blue</sub>
+  <sub>browser temperature: blue</sub>
 </p>
 
-<p align="left">
+<p align="center">
   <img
     src="./assets/after-hours/channels/09-small-explosion.gif"
-    width="180"
+    width="160"
     alt="A concealed pixel device repeatedly opening into an explosion"
   />
   <br />
-  <sub>20 // production-safe for almost a second</sub>
+  <sub>a small, controlled exception</sub>
 </p>
 
-<p align="center"><code>ACT VI // NO CARRIER</code></p>
+---
 
-<p align="right">
+<p align="center">
+  <strong><code>06 / FAILURE</code></strong>
+  <br />
+  <sub>the clean exit has been cancelled</sub>
+</p>
+
+<p align="center">
   <img
     src="./assets/after-hours/channels/circular-explosion.gif"
-    width="220"
+    width="200"
     alt="A circular pixel blast expanding outward and collapsing"
   />
   <br />
-  <sub>21 // the loading state discovered violence</sub>
+  <sub>loading state lost patience</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/star-detonation.gif"
-    width="190"
+    width="200"
     alt="A purple star creature flashing through a detonation sequence"
   />
   <br />
-  <sub>22 // one final process ended itself</sub>
+  <sub>last process exited dramatically</sub>
 </p>
 
-<p align="right">
+<p align="center">
   <img
     src="./assets/after-hours/channels/10-big-explosion.gif"
-    width="280"
+    width="192"
     alt="A large pixel explosion rapidly filling its entire frame"
   />
   <br />
-  <sub>23 // the exception became the whole screen</sub>
+  <sub>the exception filled the viewport</sub>
 </p>
 
 <p align="center">
   <img
     src="./assets/after-hours/channels/01-chaotic-reactor.gif"
-    width="520"
+    width="420"
     alt="A pale cyan abstract reactor field continuously churning and reshaping"
   />
   <br />
-  <sub>24 // NO CARRIER // the signal refused to die</sub>
+  <sub>NO CARRIER // still moving</sub>
 </p>
 
-<p align="center"><code>signal spill:</code></p>
-
-<div align="center">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="30" height="30" alt="GitHub party parrot" />
-  <img src="https://cultofthepartyparrot.com/flags/hd/indiaparrot.gif" width="30" height="30" alt="India party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="30" alt="Async party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="30" height="30" alt="60 FPS party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="30" height="30" alt="Jumping party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="30" height="30" alt="Open source party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="30" height="30" alt="Deal with it party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="30" height="30" alt="Hypno party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="30" height="30" alt="Database party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="30" alt="Fixing party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="30" height="30" alt="Spinning party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="30" height="30" alt="Levitating party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="30" height="30" alt="Meld party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="30" height="30" alt="Slow motion party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="30" height="30" alt="Moonwalking party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="30" height="30" alt="Stable party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="30" height="30" alt="Science party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="30" height="30" alt="Pirate party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="30" height="30" alt="Football party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="30" height="30" alt="Illuminati party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="30" height="30" alt="Dark hypno party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="30" height="30" alt="Mustache party parrot" />
-  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="30" height="30" alt="Laptop party parrot" />
-
-  <br />
-  <sub>connection kept alive by curiosity</sub>
-</div>
+---
 
 <p align="center">
-  <code>END OF LINE // KEEP THE WEB WEIRD // SEE YOU AFTER MIDNIGHT</code>
+  <strong><code>ARCHIVE UNLOCKED // 50 SIGNALS</code></strong>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/fifty-signals-mobile.svg?v=2" />
+    <img
+      src="./assets/after-hours/fifty-signals.svg?v=2"
+      width="100%"
+      alt="Animated wall of fifty handmade old-web badges about midnight browsing, open tabs, terminal sessions, and useful weirdness"
+    />
+  </picture>
+  <br />
+  <sub>the badge drawer would not close</sub>
+</p>
+
+<p align="center">
+  <strong><code>ONE IMPOSSIBLE TAB REMAINS</code></strong>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg?v=2" />
+    <img
+      src="./assets/after-hours/last-tab.svg?v=2"
+      width="100%"
+      alt="Animated nonlinear old-web map where one late-night idea loops through source code, distraction, dead links, selective memory, and shipping anyway"
+    />
+  </picture>
+  <br />
+  <sub>you are not lost · the map is just honest</sub>
+</p>
+
+<p align="center">
+  <code>END OF LINE // SIGNAL LOST // CURIOSITY REMAINS</code>
   <br />
   <sub>carrier lost at 03:31 PKT ░▒▓</sub>
 </p>

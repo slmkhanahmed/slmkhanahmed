@@ -3,6 +3,40 @@
   <desc id="description">A retro neon status panel reading CTRL+S, stay curious, ship weird, best viewed after midnight, human made, and still building.</desc>
 
   <defs>
+    <style>
+      .signal-sweep {
+        animation: signal-sweep 5.8s linear infinite;
+      }
+      .status-light {
+        animation: status-pulse 1.8s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .clock-pulse {
+        animation: clock-pulse 2.6s ease-in-out infinite;
+      }
+      @keyframes signal-sweep {
+        0% { opacity: 0; transform: translateY(-18px); }
+        12% { opacity: 0.28; }
+        82% { opacity: 0.14; }
+        100% { opacity: 0; transform: translateY(164px); }
+      }
+      @keyframes status-pulse {
+        0%, 100% { opacity: 0.45; transform: scale(0.82); }
+        50% { opacity: 1; transform: scale(1); }
+      }
+      @keyframes clock-pulse {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .signal-sweep,
+        .status-light,
+        .clock-pulse {
+          animation: none;
+        }
+      }
+    </style>
     <linearGradient id="edge" x1="24" y1="20" x2="1176" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#61DAFB"/>
       <stop offset="0.42" stop-color="#A855F7"/>
@@ -33,13 +67,15 @@
   <rect width="1200" height="220" rx="18" fill="url(#grid)"/>
   <rect x="8" y="8" width="1184" height="204" rx="13" stroke="url(#edge)" stroke-width="2"/>
   <rect x="20" y="20" width="1160" height="180" rx="9" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect class="signal-sweep" x="21" y="28" width="1158" height="2" rx="1" fill="#61DAFB" opacity="0"/>
 
   <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
     <circle cx="45" cy="43" r="5" fill="#FF6B35"/>
     <circle cx="63" cy="43" r="5" fill="#F8D866"/>
     <circle cx="81" cy="43" r="5" fill="#61DAFB"/>
     <text x="101" y="49" fill="#A1A1AA" font-size="15" letter-spacing="2">AFTER HOURS / SIGNAL 06</text>
-    <text x="600" y="49" fill="#CAFF4A" font-size="15" text-anchor="middle" letter-spacing="2" filter="url(#glow)">03:17 PKT</text>
+    <text class="clock-pulse" x="600" y="49" fill="#CAFF4A" font-size="15" text-anchor="middle" letter-spacing="2" filter="url(#glow)">03:17 PKT</text>
+    <circle class="status-light" cx="1004" cy="43" r="4" fill="#CAFF4A" filter="url(#glow)"/>
     <text x="1154" y="49" fill="#61DAFB" font-size="15" text-anchor="end" letter-spacing="2">STATUS: ONLINE</text>
 
     <path d="M35 65H1165" stroke="#FFFFFF" stroke-opacity="0.16" stroke-dasharray="4 7"/>

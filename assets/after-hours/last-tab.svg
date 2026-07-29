@@ -43,6 +43,50 @@
     <marker id="arrow-lime" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="strokeWidth">
       <path d="M1 1L9 5.5L1 10Z" fill="#CAFF4A"/>
     </marker>
+    <style>
+      .route-flow path {
+        animation: route-travel 2.4s linear infinite;
+      }
+      .detour-flow path {
+        animation: route-travel 3.2s linear infinite reverse;
+      }
+      .portal-orbit {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: portal-turn 18s linear infinite;
+      }
+      .portal-core {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: portal-breathe 2.8s ease-in-out infinite;
+      }
+      .status-live {
+        animation: status-blink 1.8s steps(2, end) infinite;
+      }
+      @keyframes route-travel {
+        to { stroke-dashoffset: -28; }
+      }
+      @keyframes portal-turn {
+        to { transform: rotate(360deg); }
+      }
+      @keyframes portal-breathe {
+        0%, 100% { opacity: .58; transform: scale(.97); }
+        50% { opacity: 1; transform: scale(1.03); }
+      }
+      @keyframes status-blink {
+        0%, 72% { opacity: 1; }
+        73%, 100% { opacity: .42; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .route-flow path,
+        .detour-flow path,
+        .portal-orbit,
+        .portal-core,
+        .status-live {
+          animation: none !important;
+        }
+      }
+    </style>
   </defs>
 
   <rect width="1200" height="840" rx="20" fill="url(#space)"/>
@@ -71,12 +115,12 @@
     <circle cx="56" cy="37" r="5" fill="#F8D866"/>
     <circle cx="74" cy="37" r="5" fill="#61DAFB"/>
     <text x="95" y="43" fill="#A1A1AA" font-size="14" letter-spacing="2">THE LAST TAB / PERSONAL INTERNET</text>
-    <text x="1161" y="43" fill="#CAFF4A" font-size="13" text-anchor="end" letter-spacing="1.5">STATUS: BEAUTIFULLY UNFINISHED</text>
+    <text class="status-live" x="1161" y="43" fill="#CAFF4A" font-size="13" text-anchor="end" letter-spacing="1.5">STATUS: BEAUTIFULLY UNFINISHED</text>
   </g>
   <path d="M28 60H1172" stroke="#FFFFFF" stroke-opacity=".13" stroke-dasharray="3 8"/>
 
   <!-- The route -->
-  <g aria-label="Six-step looping route">
+  <g class="route-flow" aria-label="Six-step looping route">
     <path d="M331 160C401 107 448 105 496 121" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
     <path d="M724 129C791 119 837 138 866 165" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
     <path d="M1031 281C1091 316 1100 359 1077 392" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
@@ -146,9 +190,9 @@
   <!-- Central portal -->
   <g aria-label="You are here portal">
     <circle cx="600" cy="430" r="157" fill="#080910" stroke="#FFFFFF" stroke-opacity=".11" stroke-width="2"/>
-    <circle cx="600" cy="430" r="137" stroke="url(#portal)" stroke-width="5" stroke-dasharray="16 10" filter="url(#glow)"/>
+    <circle class="portal-orbit" cx="600" cy="430" r="137" stroke="url(#portal)" stroke-width="5" stroke-dasharray="16 10" filter="url(#glow)"/>
     <circle cx="600" cy="430" r="112" fill="#0F0B18" stroke="#A855F7" stroke-width="2"/>
-    <circle cx="600" cy="430" r="88" fill="url(#portal)" fill-opacity=".12" stroke="#61DAFB" stroke-opacity=".55" stroke-dasharray="2 7" stroke-width="2"/>
+    <circle class="portal-core" cx="600" cy="430" r="88" fill="url(#portal)" fill-opacity=".12" stroke="#61DAFB" stroke-opacity=".55" stroke-dasharray="2 7" stroke-width="2"/>
     <path d="M600 309v37M600 514v37M479 430h37M684 430h37" stroke="#CAFF4A" stroke-opacity=".68" stroke-width="2"/>
     <path d="M533 363l22 22M645 475l22 22M667 363l-22 22M555 475l-22 22" stroke="#FF6B35" stroke-opacity=".65" stroke-width="2"/>
     <text x="600" y="398" fill="#61DAFB" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="4">CENTRAL PORTAL</text>
@@ -204,7 +248,7 @@
   </g>
 
   <!-- Detours from the portal -->
-  <g aria-hidden="true" stroke-linecap="round">
+  <g class="detour-flow" aria-hidden="true" stroke-linecap="round">
     <path d="M499 362C440 329 403 286 367 238" stroke="#A855F7" stroke-width="2" stroke-dasharray="2 8"/>
     <path d="M703 360C753 327 800 293 850 245" stroke="#FF6B35" stroke-width="2" stroke-dasharray="2 8"/>
     <path d="M717 471C773 480 811 483 858 474" stroke="#F8D866" stroke-width="2" stroke-dasharray="2 8"/>
