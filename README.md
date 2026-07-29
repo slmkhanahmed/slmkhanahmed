@@ -200,22 +200,6 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>somewhere between a clean build and a questionable idea</sub>
 </p>
 
-<div align="center">
-  <img src="./assets/after-hours/fire.gif" width="32" height="32" alt="" />
-  &nbsp;
-  <img src="./assets/after-hours/select-hand.gif" width="32" height="32" alt="" />
-  &nbsp;
-  <img src="./assets/after-hours/neon-city.gif" width="150" height="150" alt="Animated pixel-art neon city at night" />
-  &nbsp;
-  <img src="./assets/after-hours/thunder.gif" width="32" height="64" alt="" />
-  &nbsp;
-  <img src="./assets/after-hours/pixel-cat.gif" width="66" height="66" alt="Animated orange pixel cat running" />
-  &nbsp;
-  <img src="./assets/after-hours/life.gif" width="64" height="32" alt="" />
-  <br />
-  <sub>permanently unfinished</sub>
-</div>
-
 <p align="center">
   <img src="./assets/after-hours/badge-midnight.svg" width="88" height="31" alt="Best viewed after midnight" />
   <img src="./assets/after-hours/badge-human.svg" width="88" height="31" alt="One hundred percent human made" />
@@ -242,17 +226,7 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <sub>the badge drawer would not close</sub>
 </p>
 
-<p align="center"><code>incoming transmission from the last tab:</code></p>
-
-<div align="center">
-  <img
-    src="./assets/after-hours/3d-tv-static.gif"
-    width="240"
-    alt="Animated old television floating in a dark room while static flickers across its screen"
-  />
-  <br />
-  <sub>channel 47 is showing the inside of the internet again</sub>
-</div>
+<p align="center"><code>one impossible tab remains:</code></p>
 
 <p align="center">
   <picture>
@@ -265,6 +239,262 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   </picture>
   <br />
   <sub>you are not lost. the map is just honest.</sub>
+</p>
+
+<p align="center"><code>24 CHANNELS FOUND // ALL OF THEM MOVING</code></p>
+
+A 24-step transmission moves from boot errors through escaped pixel processes and finally into full-frame signal failure.
+
+<p align="center"><code>ACT I // BOOT SEQUENCE REFUSES TO FINISH</code></p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/04-blue-loader.gif"
+    width="280"
+    alt="A cyan loading ring continuously assembling and rotating"
+  />
+  <br />
+  <sub>01 // still loading the part that was supposed to be finished</sub>
+</p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/under-construction.gif"
+    width="200"
+    alt="Rainbow under-construction text flashing beside a road-worker sign"
+  />
+  <br />
+  <sub>02 // permanent construction is a feature</sub>
+</p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/gears.gif"
+    width="220"
+    alt="Three interlocking metal gears rotating together"
+  />
+  <br />
+  <sub>03 // backend thinking loudly</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/work-in-progress.gif"
+    width="100%"
+    alt="Work in progress lettering flashing across a wide pixel display"
+  />
+  <br />
+  <sub>04 // progress reached 100% and kept going</sub>
+</p>
+
+<p align="center"><code>ACT II // PROCESSES ESCAPE</code></p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/pixel-robot.gif"
+    width="160"
+    alt="A tiny pixel character in a large hat bobbing in place"
+  />
+  <br />
+  <sub>05 // process 404 found a hat and left</sub>
+</p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/pink-monster.gif"
+    width="170"
+    alt="A bright pink pixel monster marching through a ten-frame walk cycle"
+  />
+  <br />
+  <sub>06 // friendly malware entered the tab</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/11-goblin-run.gif"
+    width="170"
+    alt="A green pixel goblin running with a raised sword"
+  />
+  <br />
+  <sub>07 // the cache escaped on foot</sub>
+</p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/flying-bat.gif"
+    width="170"
+    alt="A yellow pixel bat repeatedly flapping its wings"
+  />
+  <br />
+  <sub>08 // background service learned to fly</sub>
+</p>
+
+<p align="center"><code>ACT III // INPUT HAZARDS</code></p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/05-coin-spin.gif"
+    width="140"
+    alt="A gold pixel coin rapidly spinning"
+  />
+  <br />
+  <sub>09 // one more refresh. heads wins either way.</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/06-level-up.gif"
+    width="240"
+    alt="A pixel arrow and level-up message flashing upward"
+  />
+  <br />
+  <sub>10 // achievement unlocked: made it stranger</sub>
+</p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/07-spike.gif"
+    width="160"
+    alt="A floor spike repeatedly rising from darkness and retracting"
+  />
+  <br />
+  <sub>11 // unexpected markup from below</sub>
+</p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/pirate-bomb.gif"
+    width="180"
+    alt="A pixel bomb burning through its fuse and detonating"
+  />
+  <br />
+  <sub>12 // this button was absolutely production-safe</sub>
+</p>
+
+<p align="center"><code>ACT IV // SIGNAL GAINS TEETH</code></p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/eye-monster.gif"
+    width="170"
+    alt="A floating one-eyed pixel creature pulsing above its shadow"
+  />
+  <br />
+  <sub>13 // the page is looking back</sub>
+</p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/star-enemy.gif"
+    width="170"
+    alt="A purple star-shaped pixel creature shifting and blinking"
+  />
+  <br />
+  <sub>14 // a harmless star, according to the star</sub>
+</p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/tomato-enemy.gif"
+    width="170"
+    alt="A round red pixel creature marching in place"
+  />
+  <br />
+  <sub>15 // local produce became hostile</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/n64-eyes-strip.gif"
+    width="420"
+    alt="Five pairs of low-resolution eyes looking around and blinking"
+  />
+  <br />
+  <sub>16 // the browser noticed you noticing it</sub>
+</p>
+
+<p align="center"><code>ACT V // GRAVITY UNINSTALLED</code></p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/bouncing-character-a.gif"
+    width="230"
+    alt="A pixel character repeatedly bouncing upward and down"
+  />
+  <br />
+  <sub>17 // top is temporarily down</sub>
+</p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/bouncing-character-b.gif"
+    width="230"
+    alt="A second pixel character rising and falling through a loop"
+  />
+  <br />
+  <sub>18 // down filed an appeal</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/blue-fire.gif"
+    width="160"
+    alt="An electric-blue pixel flame rapidly flickering"
+  />
+  <br />
+  <sub>19 // browser temperature: electric blue</sub>
+</p>
+
+<p align="left">
+  <img
+    src="./assets/after-hours/channels/09-small-explosion.gif"
+    width="180"
+    alt="A concealed pixel device repeatedly opening into an explosion"
+  />
+  <br />
+  <sub>20 // production-safe for almost a second</sub>
+</p>
+
+<p align="center"><code>ACT VI // NO CARRIER</code></p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/circular-explosion.gif"
+    width="220"
+    alt="A circular pixel blast expanding outward and collapsing"
+  />
+  <br />
+  <sub>21 // the loading state discovered violence</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/star-detonation.gif"
+    width="190"
+    alt="A purple star creature flashing through a detonation sequence"
+  />
+  <br />
+  <sub>22 // one final process ended itself</sub>
+</p>
+
+<p align="right">
+  <img
+    src="./assets/after-hours/channels/10-big-explosion.gif"
+    width="280"
+    alt="A large pixel explosion rapidly filling its entire frame"
+  />
+  <br />
+  <sub>23 // the exception became the whole screen</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/after-hours/channels/01-chaotic-reactor.gif"
+    width="520"
+    alt="A pale cyan abstract reactor field continuously churning and reshaping"
+  />
+  <br />
+  <sub>24 // NO CARRIER // the signal refused to die</sub>
 </p>
 
 <p align="center"><code>signal spill:</code></p>
