@@ -5,7 +5,7 @@
       <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
       <img
         src="./assets/profile-header.svg"
-        alt="Salman Ahmed Khan — front-end developer and browser-tool builder"
+        alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator"
         width="100%"
       />
     </picture>
@@ -15,8 +15,8 @@
 <div align="center">
   <h1>Hey, I'm Salman Ahmed Khan.</h1>
 
-  <p><strong>Front-end developer · Browser-tool builder · Detail enthusiast</strong></p>
-  <p>I build focused interfaces for real problems—then keep refining them until they feel obvious to use.</p>
+  <p><strong>Full-stack developer · AI automation builder · Head of IT &amp; Automation</strong></p>
+  <p>I build practical software, intelligent workflows, and reliable systems for real operational problems.</p>
 
   <p>
     <a href="https://slmkhanahmed.github.io/">
@@ -37,7 +37,7 @@
 
 ## ✦ What I build
 
-I like software with a clear reason to exist: a missing search feature, an interface that breaks on small screens, or a workflow that needs less friction. My strongest public work combines **React**, **TypeScript**, responsive design, and browser-native APIs.
+I work where software meets operations: full-stack applications, browser tools, AI-assisted automation, databases, infrastructure, and software-to-hardware integration. My public projects remain rooted in **React**, **TypeScript**, responsive design, and browser-native APIs, while my current professional work spans a much broader technical environment.
 
 ### ⭐ Git Galaxy Finder
 
@@ -94,39 +94,52 @@ I like software with a clear reason to exist: a missing search feature, an inter
 
 ---
 
-## 📻 Recent transmissions
+## 🧭 Current role
 
-<sub>Automation-ready examples · replace these with verified updates.</sub>
+### Head of IT &amp; Automation · LotiaSons
 
-<!-- TRANSMISSIONS:START -->
-- **EXAMPLE · Project release** — Replace with a verified release title, one concrete outcome, and its link.
-- **EXAMPLE · Portfolio update** — Replace with a substantial case-study or interface update and its link.
-- **EXAMPLE · Merged work** — Replace with a meaningful merged pull request or repository milestone and its link.
-<!-- TRANSMISSIONS:END -->
+I lead hands-on technology work across business and industrial environments, including:
+
+- IT infrastructure, Windows systems, networking, FortiGate security, NAS, and remote access
+- Microsoft SQL Server migration, configuration, backup, recovery, and reliability
+- Local LLMs, Ollama, Model Context Protocol (MCP), and autonomous workflows
+- PowerShell automation and systems integration across existing business applications
+- CNC and plasma systems, motion control, sensors, CAD/CAM, G-code, and software-to-hardware troubleshooting
+- Technical research, procurement, and coordination with local and international vendors
+
+The role combines software development, IT operations, AI integration, automation, and root-cause problem solving.
 
 ---
 
 ## 🛠️ Toolbox
 
-**Core:** `React` · `TypeScript` · `JavaScript` · `HTML` · `CSS` · `Tailwind CSS`
+**Software development:** `React` · `TypeScript` · `JavaScript` · `Node.js` · `HTML` · `CSS` · `Tailwind CSS`
 
-**Browser and build work:** `Firefox WebExtensions` · `Vite` · `Parcel` · `Primer React`
+**AI and automation:** `LLM Integration` · `MCP` · `Ollama` · `PowerShell` · `REST APIs`
 
-**Also use:** `Redux` · `Node.js` · `MySQL` · `MongoDB` · `Figma` · `Git` · `Bash`
+**Data and infrastructure:** `Microsoft SQL Server` · `MySQL` · `MongoDB` · `Windows` · `NAS` · `Fortinet`
+
+**Browser and build work:** `Firefox WebExtensions` · `Vite` · `Parcel` · `Primer React` · `Redux`
+
+**Industrial workflows:** `Rhino` · `DesignEdge` · `MachPro` · `PolyBoard` · `G-code` · `CNC / Plasma`
+
+**Everyday tools:** `Git` · `GitHub` · `Bash` · `Figma`
 
 ---
 
 ## ⚙️ How I work
 
-- **Start with the friction.** I define the confusing moment before choosing the component.
-- **Design the states.** Focus, loading, empty, error, success, and small-screen behavior are part of the feature.
-- **Ship, test, refine.** A polished interface is built through iteration, not decoration added at the end.
+- **Trace the full system.** I follow a problem across software, network, database, controller, and hardware boundaries before changing anything.
+- **Build for operation.** Reliability, recovery, maintainability, and clear documentation are part of the solution.
+- **Automate repetition.** I use scripts and AI where they reduce manual effort and prevent avoidable errors.
+- **Test, measure, refine.** I validate outcomes against real behavior, not assumptions.
 
 ## 🌱 Current focus
 
-- Making browser extensions feel native to the sites they improve
-- Building accessible React interfaces that remain clear under responsive pressure
-- Improving project documentation so the decisions are as inspectable as the code
+- Building AI and MCP integrations for real business workflows
+- Modernizing database, backup, network, and security operations
+- Connecting software with CAD/CAM and industrial equipment
+- Continuing full-stack, browser-extension, and open-source development
 
 <details>
   <summary><strong>🎮 Engineering side quest — Pekka Kana 2: Greta</strong></summary>
@@ -142,14 +155,9 @@ I like software with a clear reason to exist: a missing search feature, an inter
 
 ## 📡 Let's connect
 
-Have a useful product idea, a front end that needs more clarity, or a browser workflow worth improving?
+Have a useful software idea, an operation worth automating, or a complex system that needs a clearer path forward?
 
 **[Explore my portfolio](https://slmkhanahmed.github.io/)** · **[Email me](mailto:slmkhanahmed@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**
-
-### Signal guestbook
-
-**[SIGN THE SIGNAL LOG](GUESTBOOK_DISCUSSION_URL)**<br />
-<sub>Guestbook URL placeholder · replace it after creating the GitHub Discussion.</sub>
 
 ---
 
@@ -304,11 +312,6 @@ One additional tab remains open.
   <a href="mailto:slmkhanahmed@gmail.com">
     <img src="./assets/after-hours/exits/email.svg" width="88" height="31" alt="Email Salman" />
   </a>
-  <a href="GUESTBOOK_DISCUSSION_URL">
-    <img src="./assets/after-hours/exits/guestbook.svg" width="88" height="31" alt="Sign Salman's signal guestbook" />
-  </a>
-  <br />
-  <sub>guestbook exit activates after its Discussion URL is installed</sub>
 </p>
 
 <details>

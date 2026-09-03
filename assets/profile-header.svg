@@ -1,6 +1,6 @@
 <svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Salman Ahmed Khan — front-end developer and browser-tool builder</title>
-  <desc id="description">A colorful dark interface showing Salman's name beside a stylized repository search window.</desc>
+  <title id="title">Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator</title>
+  <desc id="description">A colorful interface introducing Salman as a full-stack developer and technology leader.</desc>
   <defs>
     <linearGradient id="accent" x1="82" y1="50" x2="770" y2="290" gradientUnits="userSpaceOnUse">
       <stop stop-color="#61DAFB"/>
@@ -27,13 +27,13 @@
   <circle cx="52" cy="55" r="6" fill="#FF6B35"/>
   <circle cx="72" cy="55" r="6" fill="#F8D866"/>
   <circle cx="92" cy="55" r="6" fill="#61DAFB"/>
-  <text x="120" y="61" fill="#A1A1AA" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">PROFILE / INTERFACE BUILDER</text>
+  <text x="120" y="61" fill="#A1A1AA" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">PROFILE / SYSTEMS BUILDER</text>
   <text x="1146" y="61" fill="#71717A" font-family="Consolas, monospace" font-size="13" text-anchor="end">SAK.DEV</text>
 
   <rect x="52" y="116" width="11" height="128" rx="5.5" fill="url(#accent)"/>
   <text x="88" y="158" fill="#FAFAFA" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-2">SALMAN AHMED KHAN</text>
-  <text x="91" y="195" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="1.2">FRONT-END DEVELOPER  •  BROWSER-TOOL BUILDER</text>
-  <text x="91" y="230" fill="#A1A1AA" font-family="Segoe UI, Arial, sans-serif" font-size="16">I turn missing features and awkward interfaces into focused, usable software.</text>
+  <text x="91" y="195" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="1.2">FULL-STACK DEVELOPER  •  AI &amp; AUTOMATION</text>
+  <text x="91" y="230" fill="#A1A1AA" font-family="Segoe UI, Arial, sans-serif" font-size="16">I build practical software, intelligent workflows, and reliable systems.</text>
 
   <g font-family="Consolas, monospace" font-size="12" font-weight="700">
     <rect x="91" y="254" width="76" height="28" rx="14" fill="#15242A" stroke="#61DAFB" stroke-opacity="0.55"/>
@@ -41,7 +41,7 @@
     <rect x="177" y="254" width="112" height="28" rx="14" fill="#1A2033" stroke="#7AA2F7" stroke-opacity="0.55"/>
     <text x="233" y="273" fill="#9AB5FF" text-anchor="middle">TYPESCRIPT</text>
     <rect x="299" y="254" width="140" height="28" rx="14" fill="#261C31" stroke="#C084FC" stroke-opacity="0.55"/>
-    <text x="369" y="273" fill="#D8B4FE" text-anchor="middle">WEBEXTENSIONS</text>
+    <text x="369" y="273" fill="#D8B4FE" text-anchor="middle">AI / AUTOMATION</text>
   </g>
 
   <g filter="url(#shadow)">
@@ -50,21 +50,21 @@
     <circle cx="812" cy="122" r="4" fill="#FF6B35"/>
     <circle cx="828" cy="122" r="4" fill="#F8D866"/>
     <circle cx="844" cy="122" r="4" fill="#61DAFB"/>
-    <text x="1114" y="126" fill="#71717A" font-family="Consolas, monospace" font-size="10" text-anchor="end">STARS / SEARCH</text>
+    <text x="1114" y="126" fill="#71717A" font-family="Consolas, monospace" font-size="10" text-anchor="end">WORK / SYSTEMS</text>
 
     <rect x="812" y="155" width="302" height="34" rx="8" fill="#09090B" stroke="#52525B"/>
     <circle cx="830" cy="172" r="6" stroke="#A1A1AA" stroke-width="1.6"/>
     <path d="M835 177L840 182" stroke="#A1A1AA" stroke-width="1.6" stroke-linecap="round"/>
-    <text x="850" y="177" fill="#71717A" font-family="Segoe UI, Arial, sans-serif" font-size="12">Search saved repositories...</text>
+    <text x="850" y="177" fill="#71717A" font-family="Segoe UI, Arial, sans-serif" font-size="12">Search projects and systems...</text>
 
     <rect x="812" y="202" width="302" height="27" rx="6" fill="#18181B"/>
     <circle cx="827" cy="215.5" r="4" fill="#61DAFB"/>
-    <text x="840" y="220" fill="#E4E4E7" font-family="Consolas, monospace" font-size="11">interface-systems</text>
+    <text x="840" y="220" fill="#E4E4E7" font-family="Consolas, monospace" font-size="11">ai-automation</text>
     <text x="1098" y="220" fill="#F8D866" font-family="Consolas, monospace" font-size="11" text-anchor="end">★</text>
 
     <rect x="812" y="237" width="302" height="27" rx="6" fill="#18181B"/>
     <circle cx="827" cy="250.5" r="4" fill="#A855F7"/>
-    <text x="840" y="255" fill="#E4E4E7" font-family="Consolas, monospace" font-size="11">browser-tools</text>
+    <text x="840" y="255" fill="#E4E4E7" font-family="Consolas, monospace" font-size="11">systems-integration</text>
     <text x="1098" y="255" fill="#F8D866" font-family="Consolas, monospace" font-size="11" text-anchor="end">★</text>
   </g>
 
