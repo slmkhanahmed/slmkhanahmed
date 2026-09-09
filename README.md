@@ -1,9 +1,12 @@
+<!-- Repository media is served through jsDelivr at commit 9a1812b to avoid raw-host failures.
+     After changing assets, publish them first, then update this pinned revision. Source files remain in ./assets/. -->
+
 <p align="center">
   <a href="https://slmkhanahmed.github.io/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
-      <img src="./assets/profile-header.svg" width="100%" alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/profile-header-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/profile-header-light.svg" />
+      <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/profile-header.svg" width="100%" alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator" />
     </picture>
   </a>
 </p>
@@ -53,7 +56,7 @@ Find a saved GitHub repository without digging through a long Stars list. My ext
 
 <p align="center">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
-    <img src="./assets/git-galaxy-static.webp" width="600" alt="Git Galaxy Finder searches a GitHub Stars list and highlights matching text in repository names and descriptions" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/git-galaxy-static.webp" width="600" alt="Git Galaxy Finder searches a GitHub Stars list and highlights matching text in repository names and descriptions" />
   </a>
 </p>
 
@@ -70,7 +73,7 @@ A responsive interface for browsing product requests, filtering categories, and 
 
   <p align="center">
     <a href="https://product-feedback-app-lovat.vercel.app/">
-      <img src="./assets/product-feedback-preview.webp" width="600" alt="Product Feedback demo with category filters, a sorting control, and a list of feedback cards" />
+      <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/product-feedback-preview.webp" width="600" alt="Product Feedback demo with category filters, a sorting control, and a list of feedback cards" />
     </a>
   </p>
 
@@ -121,7 +124,7 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <img
-    src="./assets/after-hours/neon-streets.jpg"
+    src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/neon-streets.jpg"
     width="640"
     alt="Aerial night photograph of neon-lit streets and intersecting roads"
   />
@@ -131,7 +134,7 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <img
-    src="./assets/after-hours/signal-board.svg?v=3"
+    src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/signal-board.svg"
     width="640"
     alt="After Hours radio panel with a moving signal trace and online indicator"
   />
@@ -146,9 +149,9 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
   <p align="center">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/after-hours/midnight-console-mobile.svg?v=2" />
+      <source media="(max-width: 600px)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/midnight-console-mobile.svg" />
       <img
-        src="./assets/after-hours/midnight-console.svg?v=2"
+        src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/midnight-console.svg"
         width="100%"
         alt="Animated midnight console showing a live after-hours development session"
       />
@@ -203,9 +206,9 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/after-hours/tesseract-static.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/tesseract-static.png" />
     <img
-      src="./assets/after-hours/channels/tesseract.gif"
+      src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/channels/tesseract.gif"
       width="180"
       alt="A rotating tesseract marks an unstable browser-tab anomaly"
     />
@@ -218,9 +221,9 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg?v=3" />
+    <source media="(max-width: 600px)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/last-tab-mobile.svg" />
     <img
-      src="./assets/after-hours/last-tab.svg?v=3"
+      src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/last-tab.svg"
       width="720"
       alt="Animated nonlinear map tracing one late-night idea through source code, dead links, distraction, and shipping anyway"
     />
@@ -246,19 +249,19 @@ One additional tab remains open.
 
 <p align="center">
   <a href="https://slmkhanahmed.github.io/">
-    <img src="./assets/after-hours/exits/portfolio.svg" width="88" height="31" alt="Open Salman's portfolio" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/portfolio.svg" width="88" height="31" alt="Open Salman's portfolio" />
   </a>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
-    <img src="./assets/after-hours/exits/firefox-addon.svg" width="88" height="31" alt="Install Git Galaxy Finder for Firefox" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/firefox-addon.svg" width="88" height="31" alt="Install Git Galaxy Finder for Firefox" />
   </a>
   <a href="https://github.com/slmkhanahmed/slmkhanahmed">
-    <img src="./assets/after-hours/exits/github-source.svg" width="88" height="31" alt="View the source for Salman's GitHub profile" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/github-source.svg" width="88" height="31" alt="View the source for Salman's GitHub profile" />
   </a>
   <a href="https://www.linkedin.com/in/slmkhanahmed/">
-    <img src="./assets/after-hours/exits/linkedin.svg" width="88" height="31" alt="Connect with Salman on LinkedIn" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/linkedin.svg" width="88" height="31" alt="Connect with Salman on LinkedIn" />
   </a>
   <a href="mailto:slmkhanahmed@gmail.com">
-    <img src="./assets/after-hours/exits/email.svg" width="88" height="31" alt="Email Salman" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/email.svg" width="88" height="31" alt="Email Salman" />
   </a>
 </p>
 
@@ -268,7 +271,7 @@ One additional tab remains open.
 ### Original artwork
 
 - The profile headers, signal board, midnight console, fifty-signal wall, impossible-tab map, and authorized-exit buttons are custom artwork created for this profile.
-- The desktop and mobile compositions use only repository-local SVG assets.
+- The desktop and mobile compositions are stored in this repository. Images are delivered from a pinned repository revision through [jsDelivr](https://www.jsdelivr.com/).
 - Project previews show Git Galaxy Finder and the Product Feedback front-end demo. Product Feedback is an implementation of the Frontend Mentor Product Feedback App challenge.
 
 ### Third-party artwork
