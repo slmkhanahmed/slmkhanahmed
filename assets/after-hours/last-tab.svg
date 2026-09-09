@@ -1,269 +1,134 @@
-<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="last-tab-title last-tab-desc">
-  <title id="last-tab-title">The last tab, an after-hours web maze</title>
-  <desc id="last-tab-desc">A dark cosmic desktop with six numbered browser windows forming a looping route around a glowing portal marked You Are Here.</desc>
-
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="last-tab-title last-tab-desc">
+  <title id="last-tab-title">The last tab does not close</title>
+  <desc id="last-tab-desc">A compact neon browser maze follows enter, get distracted, find something, a central you are here portal, forget why, keep it, ship anyway, and exit. The exit loops back to enter. Moving signals follow the route; reduced motion disables all animation.</desc>
   <defs>
-    <radialGradient id="space" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(598 410) rotate(90) scale(510 735)">
-      <stop stop-color="#171225"/>
-      <stop offset="0.48" stop-color="#090B13"/>
-      <stop offset="1" stop-color="#05060A"/>
+    <radialGradient id="space" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(614 282) scale(606 346)">
+      <stop stop-color="#181026"/><stop offset=".56" stop-color="#0A0C15"/><stop offset="1" stop-color="#07080D"/>
     </radialGradient>
-    <linearGradient id="portal" x1="505" y1="330" x2="700" y2="536" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB"/>
-      <stop offset="0.43" stop-color="#A855F7"/>
-      <stop offset="0.76" stop-color="#FF6B35"/>
-      <stop offset="1" stop-color="#CAFF4A"/>
+    <linearGradient id="edge" x1="24" y1="20" x2="1176" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/><stop offset=".34" stop-color="#A855F7"/><stop offset=".69" stop-color="#FF6B35"/><stop offset="1" stop-color="#CAFF4A"/>
     </linearGradient>
-    <linearGradient id="tape" x1="210" y1="0" x2="1010" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#CAFF4A"/>
-      <stop offset="0.5" stop-color="#F8D866"/>
-      <stop offset="1" stop-color="#FF6B35"/>
+    <linearGradient id="portal" x1="430" y1="224" x2="802" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#FF6B35"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#61DAFB" stroke-opacity=".045"/>
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".035"/>
     </pattern>
-    <pattern id="noise" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="3" r=".8" fill="#FFFFFF" fill-opacity=".11"/>
-      <circle cx="14" cy="10" r=".55" fill="#A855F7" fill-opacity=".22"/>
-      <circle cx="7" cy="16" r=".45" fill="#61DAFB" fill-opacity=".25"/>
-    </pattern>
-    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
-      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000000" flood-opacity=".72"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <marker id="arrow-cyan" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="strokeWidth">
-      <path d="M1 1L9 5.5L1 10Z" fill="#61DAFB"/>
-    </marker>
-    <marker id="arrow-lime" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="strokeWidth">
-      <path d="M1 1L9 5.5L1 10Z" fill="#CAFF4A"/>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1L6 4L1 7" stroke="#D7E2F1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
     <style>
-      .route-flow path {
-        animation: route-travel 2.4s linear infinite;
-      }
-      .detour-flow path {
-        animation: route-travel 3.2s linear infinite reverse;
-      }
-      .portal-orbit {
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: portal-turn 18s linear infinite;
-      }
-      .portal-core {
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: portal-breathe 2.8s ease-in-out infinite;
-      }
-      .status-live {
-        animation: status-blink 1.8s steps(2, end) infinite;
-      }
-      @keyframes route-travel {
-        to { stroke-dashoffset: -28; }
-      }
-      @keyframes portal-turn {
-        to { transform: rotate(360deg); }
-      }
-      @keyframes portal-breathe {
-        0%, 100% { opacity: .58; transform: scale(.97); }
-        50% { opacity: 1; transform: scale(1.03); }
-      }
-      @keyframes status-blink {
-        0%, 72% { opacity: 1; }
-        73%, 100% { opacity: .42; }
-      }
+      .route-flow { animation: route-travel 2.6s linear infinite; }
+      .route-return { animation: route-travel 3.4s linear infinite; }
+      .portal-ring { animation: route-travel 3s linear infinite reverse; }
+      .portal-pulse { animation: portal-breathe 3.2s ease-in-out infinite; }
+      .status-live { animation: status-breathe 2.4s ease-in-out infinite; }
+      @keyframes route-travel { to { stroke-dashoffset: -42; } }
+      @keyframes portal-breathe { 0%, 100% { stroke-opacity: .65; } 50% { stroke-opacity: 1; } }
+      @keyframes status-breathe { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
       @media (prefers-reduced-motion: reduce) {
-        .route-flow path,
-        .detour-flow path,
-        .portal-orbit,
-        .portal-core,
-        .status-live {
-          animation: none !important;
-        }
+        .route-flow, .route-return, .portal-ring, .portal-pulse, .status-live { animation: none !important; }
       }
     </style>
   </defs>
 
-  <rect width="1200" height="840" rx="20" fill="url(#space)"/>
-  <rect width="1200" height="840" rx="20" fill="url(#grid)"/>
-  <rect width="1200" height="840" rx="20" fill="url(#noise)"/>
-  <rect x="8" y="8" width="1184" height="824" rx="14" stroke="#A855F7" stroke-opacity=".62" stroke-width="2"/>
-
-  <g aria-hidden="true">
-    <circle cx="93" cy="82" r="2" fill="#61DAFB"/>
-    <circle cx="205" cy="60" r="1.5" fill="#CAFF4A"/>
-    <circle cx="399" cy="113" r="1.4" fill="#FFFFFF"/>
-    <circle cx="774" cy="74" r="2" fill="#A855F7"/>
-    <circle cx="1049" cy="76" r="1.5" fill="#FF6B35"/>
-    <circle cx="1138" cy="264" r="2" fill="#61DAFB"/>
-    <circle cx="1102" cy="594" r="1.5" fill="#CAFF4A"/>
-    <circle cx="1001" cy="761" r="2" fill="#A855F7"/>
-    <circle cx="604" cy="774" r="1.5" fill="#FFFFFF"/>
-    <circle cx="410" cy="730" r="2" fill="#FF6B35"/>
-    <circle cx="65" cy="530" r="1.5" fill="#61DAFB"/>
-    <path d="M393 63v16M385 71h16M790 198v18M781 207h18M1118 704v16M1110 712h16M56 301v18M47 310h18" stroke="#F8D866" stroke-width="1.5"/>
-    <path d="M109 447l8 8m0-8-8 8M744 718l9 9m0-9-9 9M1090 329l8 8m0-8-8 8" stroke="#A855F7" stroke-width="1.5"/>
-  </g>
+  <rect width="1200" height="520" rx="20" fill="url(#space)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#grid)"/>
+  <rect x="8" y="8" width="1184" height="504" rx="14" stroke="url(#edge)" stroke-width="2"/>
 
   <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
-    <circle cx="38" cy="37" r="5" fill="#FF6B35"/>
-    <circle cx="56" cy="37" r="5" fill="#F8D866"/>
-    <circle cx="74" cy="37" r="5" fill="#61DAFB"/>
-    <text x="95" y="43" fill="#A1A1AA" font-size="14" letter-spacing="2">THE LAST TAB / PERSONAL INTERNET</text>
-    <text class="status-live" x="1161" y="43" fill="#CAFF4A" font-size="13" text-anchor="end" letter-spacing="1.5">STATUS: BEAUTIFULLY UNFINISHED</text>
+    <circle cx="40" cy="43" r="6" fill="#FF6B35"/><circle cx="61" cy="43" r="6" fill="#F8D866"/><circle cx="82" cy="43" r="6" fill="#61DAFB"/>
+    <text x="112" y="53" fill="#E4E4E7" font-size="30" letter-spacing="1">THE LAST TAB</text>
+    <text x="390" y="52" fill="#A1A1AA" font-size="22">DOES NOT CLOSE.</text>
+    <circle class="status-live" cx="948" cy="43" r="5" fill="#CAFF4A"/>
+    <text x="1160" y="51" fill="#CAFF4A" font-size="22" text-anchor="end">CURIOSITY: LIVE</text>
   </g>
-  <path d="M28 60H1172" stroke="#FFFFFF" stroke-opacity=".13" stroke-dasharray="3 8"/>
+  <path d="M32 77H1168" stroke="#FFFFFF" stroke-opacity=".14"/>
 
-  <!-- The route -->
-  <g class="route-flow" aria-label="Six-step looping route">
-    <path d="M331 160C401 107 448 105 496 121" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
-    <path d="M724 129C791 119 837 138 866 165" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
-    <path d="M1031 281C1091 316 1100 359 1077 392" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
-    <path d="M1043 566C1013 625 964 650 917 659" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
-    <path d="M764 727C671 771 520 777 412 728" stroke="#61DAFB" stroke-opacity=".8" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-cyan)"/>
-    <path d="M202 633C128 584 102 502 121 407C135 334 167 291 205 269" stroke="#CAFF4A" stroke-opacity=".85" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow-lime)"/>
+  <!-- Follow the bright route inward, then leave through the bottom row. -->
+  <g stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)">
+    <path d="M294 148H395" stroke="#61DAFB" stroke-opacity=".4"/>
+    <path d="M744 148H829" stroke="#A855F7" stroke-opacity=".5"/>
+    <path d="M991 188V208H838V285H806" stroke="#FF6B35" stroke-opacity=".5"/>
+    <path d="M430 285H382" stroke="#A855F7" stroke-opacity=".6"/>
+    <path d="M218 326V374" stroke="#F8D866" stroke-opacity=".6"/>
+    <path d="M324 420H435" stroke="#F8D866" stroke-opacity=".5"/>
+    <path d="M772 420H911" stroke="#CAFF4A" stroke-opacity=".5"/>
   </g>
+  <g class="route-flow" stroke-width="3" stroke-dasharray="8 13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M294 148H386" stroke="#61DAFB"/>
+    <path d="M744 148H820" stroke="#C798FF"/>
+    <path d="M991 188V208H838V285H815" stroke="#FF9A72"/>
+    <path d="M430 285H391" stroke="#C798FF"/>
+    <path d="M218 326V365" stroke="#F8D866"/>
+    <path d="M324 420H426" stroke="#F8D866"/>
+    <path d="M772 420H902" stroke="#CAFF4A"/>
+  </g>
+  <path class="route-return" d="M1144 420H1166V484H34V148H51" stroke="#A855F7" stroke-opacity=".7" stroke-width="2" stroke-dasharray="11 10" stroke-linejoin="round" marker-end="url(#arrow)"/>
 
-  <!-- 01 view source -->
-  <g transform="rotate(-2 197 170)" filter="url(#shadow)">
-    <rect x="42" y="91" width="318" height="184" rx="5" fill="#0B0D14" stroke="#61DAFB" stroke-width="2"/>
-    <rect x="42" y="91" width="318" height="34" fill="#111827"/>
-    <path d="M42 125H360" stroke="#61DAFB" stroke-opacity=".48"/>
-    <rect x="51" y="100" width="12" height="12" fill="#FF6B35"/>
-    <rect x="69" y="100" width="12" height="12" fill="#F8D866"/>
-    <text x="91" y="112" fill="#D4D4D8" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">01_VIEW-SOURCE.HTML</text>
-    <g font-family="Consolas, 'Courier New', monospace" font-size="12">
-      <text x="61" y="151" fill="#71717A">01</text>
-      <text x="88" y="151" fill="#A855F7">&lt;body</text>
-      <text x="132" y="151" fill="#CAFF4A"> curiosity="on"</text>
-      <text x="239" y="151" fill="#A855F7">&gt;</text>
-      <text x="61" y="176" fill="#71717A">02</text>
-      <text x="88" y="176" fill="#61DAFB">  &lt;idea&gt;</text>
-      <text x="153" y="176" fill="#E4E4E7">open anyway</text>
-      <text x="239" y="176" fill="#61DAFB">&lt;/idea&gt;</text>
-      <text x="61" y="201" fill="#71717A">03</text>
-      <text x="88" y="201" fill="#FF6B35">  &lt;!-- no map --&gt;</text>
-      <text x="61" y="226" fill="#71717A">04</text>
-      <text x="88" y="226" fill="#A855F7">&lt;/body&gt;</text>
-      <rect x="60" y="242" width="272" height="18" fill="#101722" stroke="#334155"/>
-      <text x="70" y="255" fill="#CAFF4A" font-size="10" letter-spacing="1">SOURCE REVEALS ANOTHER SOURCE</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-weight="700" text-anchor="middle">
+    <!-- The top row reads like three open browser tabs. -->
+    <g>
+      <rect x="58" y="108" width="236" height="80" rx="7" fill="#0D151C" stroke="#61DAFB" stroke-width="2"/>
+      <path d="M59 132H293" stroke="#61DAFB" stroke-opacity=".3"/>
+      <circle cx="74" cy="120" r="3" fill="#61DAFB"/><circle cx="86" cy="120" r="3" fill="#61DAFB" fill-opacity=".35"/>
+      <path d="M270 117L276 123M276 117L270 123" stroke="#61DAFB" stroke-opacity=".5" stroke-width="2"/>
+      <text x="176" y="169" fill="#61DAFB" font-size="32">ENTER</text>
     </g>
-  </g>
+    <g>
+      <rect x="400" y="108" width="344" height="80" rx="7" fill="#140F20" stroke="#A855F7" stroke-width="2"/>
+      <path d="M401 132H743" stroke="#A855F7" stroke-opacity=".35"/>
+      <circle cx="416" cy="120" r="3" fill="#A855F7"/><circle cx="428" cy="120" r="3" fill="#A855F7" fill-opacity=".35"/>
+      <path d="M720 117L726 123M726 117L720 123" stroke="#A855F7" stroke-opacity=".6" stroke-width="2"/>
+      <text x="572" y="169" fill="#D8B4FE" font-size="32">GET DISTRACTED</text>
+    </g>
+    <g>
+      <rect x="836" y="108" width="310" height="80" rx="7" fill="#1A110E" stroke="#FF6B35" stroke-width="2"/>
+      <path d="M837 132H1145" stroke="#FF6B35" stroke-opacity=".35"/>
+      <circle cx="852" cy="120" r="3" fill="#FF6B35"/><circle cx="864" cy="120" r="3" fill="#FF6B35" fill-opacity=".35"/>
+      <path d="M1122 117L1128 123M1128 117L1122 123" stroke="#FF6B35" stroke-opacity=".6" stroke-width="2"/>
+      <text x="991" y="169" fill="#FF9A72" font-size="30">FIND SOMETHING</text>
+    </g>
 
-  <!-- 02 cache -->
-  <g transform="rotate(1.5 610 142)" filter="url(#shadow)">
-    <rect x="484" y="83" width="252" height="151" rx="10" fill="#100C18" stroke="#A855F7" stroke-width="2"/>
-    <rect x="484" y="83" width="252" height="35" rx="10" fill="#1C1328"/>
-    <path d="M484 111H736" stroke="#A855F7" stroke-opacity=".48"/>
-    <circle cx="501" cy="100" r="4" fill="#FF6B35"/>
-    <circle cx="516" cy="100" r="4" fill="#F8D866"/>
-    <circle cx="531" cy="100" r="4" fill="#61DAFB"/>
-    <text x="549" y="105" fill="#E4E4E7" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700">02_CACHE/</text>
-    <text x="505" y="142" fill="#D8B4FE" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">recently remembered:</text>
-    <rect x="505" y="157" width="208" height="17" fill="#171221" stroke="#A855F7" stroke-opacity=".55"/>
-    <rect x="505" y="157" width="143" height="17" fill="#A855F7" fill-opacity=".35"/>
-    <text x="510" y="170" fill="#E4E4E7" font-family="Consolas, 'Courier New', monospace" font-size="10">68% REAL / 32% MAGIC</text>
-    <text x="505" y="198" fill="#71717A" font-family="Consolas, 'Courier New', monospace" font-size="11">[x] keep the weird bits</text>
-    <text x="505" y="216" fill="#CAFF4A" font-family="Consolas, 'Courier New', monospace" font-size="11">CACHE NEVER EXPIRES</text>
-  </g>
+    <!-- The central portal is deliberately the only dominant object. -->
+    <g aria-label="You are here portal">
+      <rect class="portal-pulse" x="430" y="224" width="372" height="122" rx="12" fill="#0B0C13" stroke="url(#portal)" stroke-width="4"/>
+      <rect class="portal-ring" x="442" y="236" width="348" height="98" rx="6" stroke="#A855F7" stroke-opacity=".8" stroke-width="2" stroke-dasharray="11 10"/>
+      <path d="M457 258V250H477M775 258V250H755M457 312V320H477M775 312V320H755" stroke="#61DAFB" stroke-width="3"/>
+      <text x="616" y="283" fill="#F4F4F5" font-size="38" filter="url(#glow)">YOU ARE HERE</text>
+      <text x="616" y="313" fill="#CAFF4A" font-size="20">MEMORY: SELECTIVE</text>
+    </g>
+    <g>
+      <rect x="60" y="246" width="316" height="80" rx="7" fill="#171221" stroke="#A855F7" stroke-width="2"/>
+      <rect x="60" y="246" width="49" height="80" rx="7" fill="#A855F7"/>
+      <text x="85" y="299" fill="#07080D" font-size="36">!</text>
+      <text x="242" y="297" fill="#E4E4E7" font-size="30">FORGET WHY</text>
+    </g>
 
-  <!-- 03 dead link -->
-  <g transform="rotate(2.4 1005 188)" filter="url(#shadow)">
-    <rect x="850" y="102" width="310" height="187" rx="3" fill="#100D0C" stroke="#FF6B35" stroke-width="2"/>
-    <rect x="850" y="102" width="310" height="35" fill="#24130D"/>
-    <text x="865" y="125" fill="#FF9A72" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">03 // DEAD_LINK</text>
-    <rect x="1131" y="110" width="17" height="17" fill="#FF6B35"/>
-    <path d="M1135 114l9 9m0-9-9 9" stroke="#07080D" stroke-width="2"/>
-    <text x="1005" y="177" fill="#FF6B35" font-family="Consolas, 'Courier New', monospace" font-size="38" font-weight="700" text-anchor="middle">404</text>
-    <text x="1005" y="201" fill="#E4E4E7" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">DESTINATION GOT BORED</text>
-    <path d="M898 224H1112" stroke="#FF6B35" stroke-dasharray="3 6"/>
-    <text x="1005" y="246" fill="#A1A1AA" font-family="Consolas, 'Courier New', monospace" font-size="11" text-anchor="middle">try the impossible address?</text>
-    <rect x="940" y="257" width="130" height="21" fill="#FF6B35"/>
-    <text x="1005" y="272" fill="#08090D" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">YES, OBVIOUSLY</text>
-  </g>
+    <g>
+      <rect x="70" y="380" width="254" height="80" rx="7" fill="#18150C" stroke="#F8D866" stroke-width="2"/>
+      <path d="M86 395H113M86 403H103" stroke="#F8D866" stroke-opacity=".45" stroke-width="2"/>
+      <text x="197" y="432" fill="#F8D866" font-size="32">KEEP IT</text>
+    </g>
+    <g>
+      <rect x="442" y="380" width="330" height="80" rx="7" fill="#11180D" stroke="#CAFF4A" stroke-width="2"/>
+      <text x="589" y="432" fill="#CAFF4A" font-size="32">SHIP ANYWAY</text>
+      <path d="M723 416L731 424L746 406" stroke="#CAFF4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="918" y="380" width="226" height="80" rx="7" fill="#19100D" stroke="#FF6B35" stroke-width="2"/>
+      <text x="1012" y="432" fill="#FF9A72" font-size="32">EXIT</text>
+      <path d="M1072 420H1102M1092 410L1102 420L1092 430" stroke="#FF6B35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
 
-  <!-- Central portal -->
-  <g aria-label="You are here portal">
-    <circle cx="600" cy="430" r="157" fill="#080910" stroke="#FFFFFF" stroke-opacity=".11" stroke-width="2"/>
-    <circle class="portal-orbit" cx="600" cy="430" r="137" stroke="url(#portal)" stroke-width="5" stroke-dasharray="16 10" filter="url(#glow)"/>
-    <circle cx="600" cy="430" r="112" fill="#0F0B18" stroke="#A855F7" stroke-width="2"/>
-    <circle class="portal-core" cx="600" cy="430" r="88" fill="url(#portal)" fill-opacity=".12" stroke="#61DAFB" stroke-opacity=".55" stroke-dasharray="2 7" stroke-width="2"/>
-    <path d="M600 309v37M600 514v37M479 430h37M684 430h37" stroke="#CAFF4A" stroke-opacity=".68" stroke-width="2"/>
-    <path d="M533 363l22 22M645 475l22 22M667 363l-22 22M555 475l-22 22" stroke="#FF6B35" stroke-opacity=".65" stroke-width="2"/>
-    <text x="600" y="398" fill="#61DAFB" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="4">CENTRAL PORTAL</text>
-    <text x="600" y="438" fill="#FFFFFF" font-family="Consolas, 'Courier New', monospace" font-size="28" font-weight="700" text-anchor="middle">YOU ARE HERE</text>
-    <text x="600" y="466" fill="#D8B4FE" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">or a convincing cached copy</text>
-    <rect x="550" y="487" width="100" height="7" rx="3.5" fill="#171821"/>
-    <rect x="550" y="487" width="74" height="7" rx="3.5" fill="#CAFF4A"/>
-  </g>
-
-  <!-- 04 alert -->
-  <g transform="rotate(-1.7 1009 470)" filter="url(#shadow)">
-    <rect x="858" y="374" width="302" height="196" fill="#E7E2D4" stroke="#F8D866" stroke-width="3"/>
-    <rect x="865" y="381" width="288" height="31" fill="#171221"/>
-    <text x="880" y="402" fill="#F8D866" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">04_SYSTEM_ALERT.EXE</text>
-    <rect x="1123" y="388" width="20" height="17" fill="#E7E2D4"/>
-    <path d="M1128 392l10 9m0-9-10 9" stroke="#171221" stroke-width="2"/>
-    <polygon points="899,438 929,493 869,493" fill="#F8D866" stroke="#171221" stroke-width="2"/>
-    <text x="899" y="482" fill="#171221" font-family="Arial, sans-serif" font-size="30" font-weight="900" text-anchor="middle">!</text>
-    <text x="950" y="443" fill="#171221" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700">TOO MANY</text>
-    <text x="950" y="465" fill="#171221" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700">GOOD IDEAS.</text>
-    <text x="950" y="492" fill="#52525B" font-family="Consolas, 'Courier New', monospace" font-size="11">continue creating?</text>
-    <rect x="887" y="519" width="102" height="30" fill="#171221"/>
-    <text x="938" y="539" fill="#CAFF4A" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700" text-anchor="middle">YES</text>
-    <rect x="1007" y="519" width="126" height="30" fill="#D4D4D8" stroke="#171221"/>
-    <text x="1070" y="539" fill="#171221" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700" text-anchor="middle">ALSO YES</text>
-  </g>
-
-  <!-- 05 exit -->
-  <g transform="rotate(1.8 866 690)" filter="url(#shadow)">
-    <rect x="730" y="631" width="320" height="126" rx="4" fill="#0A1111" stroke="#CAFF4A" stroke-width="2"/>
-    <rect x="730" y="631" width="320" height="30" fill="#112016"/>
-    <text x="744" y="651" fill="#CAFF4A" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="700">05_EXIT.WIZARD</text>
-    <text x="750" y="686" fill="#E4E4E7" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">LEAVE THE INTERNET?</text>
-    <text x="750" y="707" fill="#71717A" font-family="Consolas, 'Courier New', monospace" font-size="11">unsaved tabs will become folklore.</text>
-    <rect x="750" y="722" width="100" height="23" fill="#CAFF4A"/>
-    <text x="800" y="738" fill="#071008" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">NOT YET</text>
-    <rect x="864" y="722" width="164" height="23" fill="#111827" stroke="#61DAFB"/>
-    <text x="946" y="738" fill="#61DAFB" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">OPEN ONE MORE TAB</text>
-  </g>
-
-  <!-- 06 guestbook -->
-  <g transform="rotate(-2.2 243 693)" filter="url(#shadow)">
-    <rect x="58" y="612" width="370" height="164" rx="2" fill="#0C0B13" stroke="#A855F7" stroke-width="2"/>
-    <rect x="58" y="612" width="370" height="33" fill="#241234"/>
-    <text x="74" y="634" fill="#D8B4FE" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">06_GUESTBOOK.CGI</text>
-    <text x="75" y="673" fill="#E4E4E7" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">YOU FOUND THE BOTTOM.</text>
-    <text x="75" y="695" fill="#A1A1AA" font-family="Consolas, 'Courier New', monospace" font-size="11">leave proof you were strange here:</text>
-    <rect x="75" y="711" width="239" height="35" fill="#F5F3FF" stroke="#61DAFB"/>
-    <text x="86" y="733" fill="#52525B" font-family="Consolas, 'Courier New', monospace" font-size="11">type something unforgettable_</text>
-    <rect x="326" y="711" width="84" height="35" fill="#A855F7"/>
-    <text x="368" y="733" fill="#FFFFFF" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">SIGN IT</text>
-    <text x="75" y="761" fill="#CAFF4A" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="700">ENTRY #000108 · LOOP BACK TO 01</text>
-  </g>
-
-  <!-- Detours from the portal -->
-  <g class="detour-flow" aria-hidden="true" stroke-linecap="round">
-    <path d="M499 362C440 329 403 286 367 238" stroke="#A855F7" stroke-width="2" stroke-dasharray="2 8"/>
-    <path d="M703 360C753 327 800 293 850 245" stroke="#FF6B35" stroke-width="2" stroke-dasharray="2 8"/>
-    <path d="M717 471C773 480 811 483 858 474" stroke="#F8D866" stroke-width="2" stroke-dasharray="2 8"/>
-    <path d="M506 512C456 554 424 591 392 627" stroke="#61DAFB" stroke-width="2" stroke-dasharray="2 8"/>
-  </g>
-
-  <!-- Diagonal old-web tape -->
-  <g transform="rotate(-6 600 753)" filter="url(#shadow)">
-    <rect x="185" y="728" width="830" height="51" fill="url(#tape)"/>
-    <path d="M185 734H1015M185 773H1015" stroke="#08090D" stroke-width="2" stroke-dasharray="18 8"/>
-    <text x="600" y="761" fill="#08090D" font-family="Consolas, 'Courier New', monospace" font-size="16" font-weight="900" text-anchor="middle" letter-spacing="2.2">OPTIMIZED FOR CURIOSITY // BEST VIEWED WITH TOO MANY TABS</text>
-  </g>
-
-  <g font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="700" aria-hidden="true">
-    <text x="23" y="818" fill="#52525B">route.loop = true;</text>
-    <text x="1177" y="818" fill="#52525B" text-anchor="end">NO COOKIES · ONLY CRUMBS</text>
+    <!-- One quiet glitch: the exit has never actually been an exit. -->
+    <path d="M900 278H924V258H948V292H974V270H999" stroke="#A855F7" stroke-opacity=".35" stroke-width="3"/>
+    <text x="1000" y="325" fill="#A1A1AA" font-size="21">STILL ONE TAB OPEN.</text>
+    <rect x="445" y="469" width="340" height="31" rx="4" fill="#0B0C13"/>
+    <text x="615" y="492" fill="#C798FF" font-size="20" letter-spacing="1">EXIT REDIRECTS TO ENTER ↗</text>
   </g>
 </svg>

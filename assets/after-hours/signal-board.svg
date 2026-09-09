@@ -1,116 +1,77 @@
-<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">After-hours signal board</title>
-  <desc id="description">A retro neon status panel reading CTRL+S, stay curious, ship weird, best viewed after midnight, human made, and still building.</desc>
-
+<svg width="960" height="180" viewBox="0 0 960 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">After Hours — signal online</title>
+  <desc id="description">A compact midnight radio panel. Large ivory lettering sits beside an oscilloscope where a violet packet travels along a cyan signal. Motion stops when reduced motion is preferred.</desc>
   <defs>
     <style>
-      .signal-sweep {
-        animation: signal-sweep 5.8s linear infinite;
+      .packet { animation: packet-travel 6s linear infinite; }
+      .carrier { animation: carrier-breathe 4s ease-in-out infinite; }
+      @keyframes packet-travel {
+        from { stroke-dashoffset: 540; }
+        to { stroke-dashoffset: 0; }
       }
-      .status-light {
-        animation: status-pulse 1.8s ease-in-out infinite;
-        transform-box: fill-box;
-        transform-origin: center;
-      }
-      .clock-pulse {
-        animation: clock-pulse 2.6s ease-in-out infinite;
-      }
-      @keyframes signal-sweep {
-        0% { opacity: 0; transform: translateY(-18px); }
-        12% { opacity: 0.28; }
-        82% { opacity: 0.14; }
-        100% { opacity: 0; transform: translateY(164px); }
-      }
-      @keyframes status-pulse {
-        0%, 100% { opacity: 0.45; transform: scale(0.82); }
-        50% { opacity: 1; transform: scale(1); }
-      }
-      @keyframes clock-pulse {
-        0%, 100% { opacity: 0.7; }
+      @keyframes carrier-breathe {
+        0%, 100% { opacity: .5; }
         50% { opacity: 1; }
       }
       @media (prefers-reduced-motion: reduce) {
-        .signal-sweep,
-        .status-light,
-        .clock-pulse {
-          animation: none;
-        }
+        .packet, .carrier { animation: none; }
+        .packet { stroke-dasharray: none; opacity: .6; }
       }
     </style>
-    <linearGradient id="edge" x1="24" y1="20" x2="1176" y2="200" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB"/>
-      <stop offset="0.42" stop-color="#A855F7"/>
-      <stop offset="0.72" stop-color="#FF6B35"/>
-      <stop offset="1" stop-color="#CAFF4A"/>
+    <linearGradient id="case" x1="0" y1="0" x2="960" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101018"/>
+      <stop offset="1" stop-color="#090C13"/>
     </linearGradient>
-    <linearGradient id="headline" x1="94" y1="81" x2="1097" y2="140" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB"/>
-      <stop offset="0.48" stop-color="#E4E4E7"/>
-      <stop offset="1" stop-color="#FF8A5B"/>
+    <linearGradient id="rail" x1="28" y1="164" x2="928" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D3F76B"/>
+      <stop offset=".3" stop-color="#65DEDD"/>
+      <stop offset=".74" stop-color="#A98BFF"/>
+      <stop offset="1" stop-color="#FF8C6F"/>
     </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    <pattern id="scope-grid" x="580" y="24" width="28" height="24" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V24" stroke="#77C9C9" stroke-opacity=".12"/>
     </pattern>
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <path d="M0 3.5H1200" stroke="#000000" stroke-opacity="0.22"/>
-    </pattern>
-    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <clipPath id="scope-clip">
+      <rect x="580" y="24" width="348" height="124" rx="4"/>
+    </clipPath>
+    <filter id="soft-glow" x="-10%" y="-25%" width="120%" height="150%">
+      <feGaussianBlur stdDeviation="2"/>
     </filter>
+    <path id="wave" d="M586 94H624L638 78L652 109L669 49L689 127L708 76L726 94H752L767 83L782 105L799 64L817 117L836 85L850 94H922"/>
   </defs>
 
-  <rect width="1200" height="220" rx="18" fill="#08080D"/>
-  <rect width="1200" height="220" rx="18" fill="url(#grid)"/>
-  <rect x="8" y="8" width="1184" height="204" rx="13" stroke="url(#edge)" stroke-width="2"/>
-  <rect x="20" y="20" width="1160" height="180" rx="9" stroke="#FFFFFF" stroke-opacity="0.12"/>
-  <rect class="signal-sweep" x="21" y="28" width="1158" height="2" rx="1" fill="#61DAFB" opacity="0"/>
+  <path d="M1 1H935L959 25V179H25L1 155V1Z" fill="url(#case)" stroke="#3B414E" stroke-width="2"/>
+  <path d="M1 48V1H75M885 179H959V132" stroke="#70DBD8" stroke-width="2"/>
+  <path d="M935 1V25H959" stroke="#A98BFF" stroke-width="2"/>
+  <path d="M1 155H25V179" stroke="#A98BFF" stroke-width="2"/>
 
-  <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
-    <circle cx="45" cy="43" r="5" fill="#FF6B35"/>
-    <circle cx="63" cy="43" r="5" fill="#F8D866"/>
-    <circle cx="81" cy="43" r="5" fill="#61DAFB"/>
-    <text x="101" y="49" fill="#A1A1AA" font-size="15" letter-spacing="2">AFTER HOURS / SIGNAL 06</text>
-    <text class="clock-pulse" x="600" y="49" fill="#CAFF4A" font-size="15" text-anchor="middle" letter-spacing="2" filter="url(#glow)">03:17 PKT</text>
-    <circle class="status-light" cx="1004" cy="43" r="4" fill="#CAFF4A" filter="url(#glow)"/>
-    <text x="1154" y="49" fill="#61DAFB" font-size="15" text-anchor="end" letter-spacing="2">STATUS: ONLINE</text>
+  <g fill="#746F84">
+    <rect x="31" y="21" width="34" height="4"/>
+    <rect x="70" y="21" width="13" height="4"/>
+    <rect x="88" y="21" width="5" height="4"/>
+  </g>
+  <text x="30" y="92" fill="#F0EEE6" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" letter-spacing="-2">AFTER HOURS</text>
+  <circle class="carrier" cx="42" cy="130" r="7" fill="#D3F76B"/>
+  <circle cx="42" cy="130" r="12" stroke="#D3F76B" stroke-opacity=".25"/>
+  <text x="66" y="139" fill="#D3F76B" font-family="Consolas, 'Courier New', monospace" font-size="27" font-weight="700" letter-spacing="2">SIGNAL ONLINE</text>
 
-    <path d="M35 65H1165" stroke="#FFFFFF" stroke-opacity="0.16" stroke-dasharray="4 7"/>
-
-    <text x="600" y="118" fill="url(#headline)" font-size="40" text-anchor="middle" letter-spacing="3" filter="url(#glow)">CTRL+S  //  STAY CURIOUS  //  SHIP WEIRD</text>
-
-    <g font-size="12" letter-spacing="1.2">
-      <rect x="43" y="151" width="228" height="35" rx="3" fill="#10151A" stroke="#61DAFB"/>
-      <text x="157" y="173" fill="#61DAFB" text-anchor="middle">BEST VIEWED AFTER MIDNIGHT</text>
-
-      <rect x="284" y="151" width="153" height="35" rx="3" fill="#171221" stroke="#A855F7"/>
-      <text x="360.5" y="173" fill="#D8B4FE" text-anchor="middle">NO SLEEP MODE</text>
-
-      <rect x="450" y="151" width="133" height="35" rx="3" fill="#21140F" stroke="#FF6B35"/>
-      <text x="516.5" y="173" fill="#FF9A72" text-anchor="middle">HUMAN MADE</text>
-
-      <rect x="596" y="151" width="153" height="35" rx="3" fill="#171A0F" stroke="#CAFF4A"/>
-      <text x="672.5" y="173" fill="#CAFF4A" text-anchor="middle">VIEW SOURCE</text>
-
-      <rect x="762" y="151" width="188" height="35" rx="3" fill="#10151A" stroke="#61DAFB"/>
-      <text x="856" y="173" fill="#61DAFB" text-anchor="middle">STILL BUILDING</text>
-
-      <rect x="963" y="151" width="194" height="35" rx="3" fill="#211A0E" stroke="#F8D866"/>
-      <text x="1060" y="173" fill="#F8D866" text-anchor="middle">IDEAS: UNSTABLE</text>
+  <path d="M546 25V149" stroke="#3B414E"/>
+  <path d="M542 25H550M542 149H550" stroke="#9492A4"/>
+  <rect x="580" y="24" width="348" height="124" rx="4" fill="#060D14" stroke="#3E535F"/>
+  <g clip-path="url(#scope-clip)">
+    <rect x="580" y="24" width="348" height="124" fill="url(#scope-grid)"/>
+    <path d="M580 86H928" stroke="#77C9C9" stroke-opacity=".18" stroke-dasharray="2 6"/>
+    <use href="#wave" stroke="#65DEDD" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity=".65"/>
+    <use href="#wave" class="packet" stroke="#C4A7FF" stroke-width="7" stroke-dasharray="80 460" stroke-dashoffset="270" stroke-linecap="round" filter="url(#soft-glow)" opacity=".7"/>
+    <use href="#wave" class="packet" stroke="#E6D7FF" stroke-width="3" stroke-dasharray="80 460" stroke-dashoffset="270" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M591 36H609M591 36V48M917 136H899M917 136V124" stroke="#95DBD4" stroke-opacity=".7"/>
+    <g fill="#D3F76B">
+      <rect x="874" y="35" width="4" height="6"/>
+      <rect x="882" y="32" width="4" height="9"/>
+      <rect x="890" y="29" width="4" height="12"/>
     </g>
   </g>
 
-  <g fill="#FFFFFF">
-    <rect x="31" y="93" width="3" height="3"/>
-    <rect x="50" y="112" width="2" height="2"/>
-    <rect x="1152" y="88" width="3" height="3"/>
-    <rect x="1134" y="121" width="2" height="2"/>
-    <rect x="1075" y="78" width="2" height="2"/>
-    <rect x="126" y="82" width="2" height="2"/>
-  </g>
-
-  <rect width="1200" height="220" rx="18" fill="url(#scanlines)"/>
+  <path d="M31 163H928" stroke="url(#rail)" stroke-width="2"/>
+  <path d="M509 160L503 167M519 160L513 167M529 160L523 167" stroke="#101018" stroke-width="3"/>
 </svg>

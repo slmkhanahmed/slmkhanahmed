@@ -3,167 +3,121 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
-      <img
-        src="./assets/profile-header.svg"
-        alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator"
-        width="100%"
-      />
+      <img src="./assets/profile-header.svg" width="100%" alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator" />
     </picture>
   </a>
 </p>
 
-<div align="center">
-  <h1>Hey, I'm Salman Ahmed Khan.</h1>
+<h1 align="center">Salman Ahmed Khan</h1>
 
-  <p><strong>Full-stack developer · AI automation builder · Head of IT &amp; Automation</strong></p>
-  <p>I build practical software, intelligent workflows, and reliable systems for real operational problems.</p>
+<p align="center">
+  <strong>Software development · AI &amp; automation · Systems integration</strong><br />
+  I build software that connects business systems, data, and industrial workflows.
+</p>
 
-  <p>
-    <a href="https://slmkhanahmed.github.io/">
-      <img src="https://img.shields.io/badge/Portfolio-Explore_my_work-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore Salman's portfolio" />
-    </a>
-    <a href="https://www.linkedin.com/in/slmkhanahmed/">
-      <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Salman on LinkedIn" />
-    </a>
-    <a href="mailto:slmkhanahmed@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Salman" />
-    </a>
-  </p>
-</div>
+<p align="center">
+  Head of IT &amp; Automation at <strong>LotiaSons</strong> · Islamabad, Pakistan
+</p>
+
+<p align="center">
+  <strong><a href="https://slmkhanahmed.github.io/">Portfolio ↗</a> &nbsp;·&nbsp;
+  <a href="mailto:slmkhanahmed@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/slmkhanahmed/">LinkedIn ↗</a></strong>
+</p>
+
+<p align="center">
+  <sub><a href="#featured-projects">Selected work</a> &nbsp;/&nbsp; <a href="#working-notes">Working notes</a> &nbsp;/&nbsp; <a href="#after-hours">After hours ↓</a></sub>
+</p>
 
 ---
 
 <a id="featured-projects"></a>
 
-## ✦ What I build
+## Selected work
 
-I work where software meets operations: full-stack applications, browser tools, AI-assisted automation, databases, infrastructure, and software-to-hardware integration. My public projects remain rooted in **React**, **TypeScript**, responsive design, and browser-native APIs, while my current professional work spans a much broader technical environment.
+### PolyBoard MCP — kitchen design & estimating
 
-### ⭐ Git Galaxy Finder
+<sub>At LotiaSons · MCP integration · MVP</sub>
 
-> A Firefox add-on that makes long GitHub Stars lists searchable by repository name and description.
+Quoting a kitchen involves repeated design and calculation work. I built an MCP integration for PolyBoard to automate reusable kitchen templates and material/pricing calculations.
 
-- **Why:** GitHub Stars become difficult to use once the saved list grows.
-- **Built with:** React · TypeScript · Primer React · Parcel · WebExtensions Manifest V3
-- **Shipped as:** A published Firefox add-on with public source and multiple releases
+**The workflow:** kitchen requirements → design template → materials & pricing → client estimate.
 
-<p>
+**Result:** our team can prepare kitchen designs and cost estimates faster when responding to clients.
+
+### Git Galaxy Finder
+
+<sub>Published Firefox add-on · React · TypeScript · WebExtensions</sub>
+
+Find a saved GitHub repository without digging through a long Stars list. My extension searches repository names and descriptions, highlights matches, and adapts to light and dark themes.
+
+<p align="center">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
-    <img src="https://img.shields.io/badge/Install_on_Firefox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Install Git Galaxy Finder on Firefox" />
-  </a>
-  <a href="https://github.com/slmkhanahmed/Git-Galaxy-Finder">
-    <img src="https://img.shields.io/badge/Inspect_the_source-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect the Git Galaxy Finder source" />
-  </a>
-  <a href="https://slmkhanahmed.github.io/#galaxy">
-    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square" alt="Read the Git Galaxy Finder case study" />
+    <img src="./assets/git-galaxy-static.webp" width="600" alt="Git Galaxy Finder searches a GitHub Stars list and highlights matching text in repository names and descriptions" />
   </a>
 </p>
 
-### 💡 Product Feedback
+**[Install on Firefox ↗](https://addons.mozilla.org/en-US/firefox/addon/git-star/)** · [Public source](https://github.com/slmkhanahmed/Git-Galaxy-Finder) · [Case study](https://slmkhanahmed.github.io/#galaxy)
 
-> A responsive product-feedback dashboard for scanning, filtering, and sorting requests across screen sizes.
+### Product Feedback
 
-- **Why:** Dense feedback data should stay understandable on desktop, tablet, and mobile.
-- **Built with:** React · TypeScript · Tailwind CSS · Context · Vite
-- **Includes:** Category filters · Four sorting modes · Responsive feedback cards
+<sub>Front-end demo · React · TypeScript · Tailwind CSS</sub>
 
-<p>
-  <a href="https://product-feedback-app-lovat.vercel.app/">
-    <img src="https://img.shields.io/badge/Open_live_app-000000?style=flat-square&logo=vercel&logoColor=white" alt="Open the Product Feedback application" />
-  </a>
-  <a href="https://github.com/slmkhanahmed/responsive">
-    <img src="https://img.shields.io/badge/Inspect_the_source-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect the Product Feedback source" />
-  </a>
-  <a href="https://slmkhanahmed.github.io/#feedback">
-    <img src="https://img.shields.io/badge/Read_the_case_study-7C3AED?style=flat-square" alt="Read the Product Feedback case study" />
-  </a>
-</p>
-
-### 🎛 Interface Field Notes
-
-> My portfolio is also a working interface project: detailed case files, responsive layouts, keyboard navigation, and small interactive labs.
-
-<p>
-  <a href="https://slmkhanahmed.github.io/">
-    <img src="https://img.shields.io/badge/Visit_the_portfolio-3154FF?style=flat-square&logo=googlechrome&logoColor=white" alt="Visit Salman's portfolio" />
-  </a>
-  <a href="https://github.com/slmkhanahmed/slmkhanahmed.github.io">
-    <img src="https://img.shields.io/badge/View_the_repository-181717?style=flat-square&logo=github&logoColor=white" alt="View the portfolio repository" />
-  </a>
-</p>
-
----
-
-## 🧭 Current role
-
-### Head of IT &amp; Automation · LotiaSons
-
-I lead hands-on technology work across business and industrial environments, including:
-
-- IT infrastructure, Windows systems, networking, FortiGate security, NAS, and remote access
-- Microsoft SQL Server migration, configuration, backup, recovery, and reliability
-- Local LLMs, Ollama, Model Context Protocol (MCP), and autonomous workflows
-- PowerShell automation and systems integration across existing business applications
-- CNC and plasma systems, motion control, sensors, CAD/CAM, G-code, and software-to-hardware troubleshooting
-- Technical research, procurement, and coordination with local and international vendors
-
-The role combines software development, IT operations, AI integration, automation, and root-cause problem solving.
-
----
-
-## 🛠️ Toolbox
-
-**Software development:** `React` · `TypeScript` · `JavaScript` · `Node.js` · `HTML` · `CSS` · `Tailwind CSS`
-
-**AI and automation:** `LLM Integration` · `MCP` · `Ollama` · `PowerShell` · `REST APIs`
-
-**Data and infrastructure:** `Microsoft SQL Server` · `MySQL` · `MongoDB` · `Windows` · `NAS` · `Fortinet`
-
-**Browser and build work:** `Firefox WebExtensions` · `Vite` · `Parcel` · `Primer React` · `Redux`
-
-**Industrial workflows:** `Rhino` · `DesignEdge` · `MachPro` · `PolyBoard` · `G-code` · `CNC / Plasma`
-
-**Everyday tools:** `Git` · `GitHub` · `Bash` · `Figma`
-
----
-
-## ⚙️ How I work
-
-- **Trace the full system.** I follow a problem across software, network, database, controller, and hardware boundaries before changing anything.
-- **Build for operation.** Reliability, recovery, maintainability, and clear documentation are part of the solution.
-- **Automate repetition.** I use scripts and AI where they reduce manual effort and prevent avoidable errors.
-- **Test, measure, refine.** I validate outcomes against real behavior, not assumptions.
-
-## 🌱 Current focus
-
-- Building AI and MCP integrations for real business workflows
-- Modernizing database, backup, network, and security operations
-- Connecting software with CAD/CAM and industrial equipment
-- Continuing full-stack, browser-extension, and open-source development
+A responsive interface for browsing product requests, filtering categories, and sorting by votes or comments. The focus is on readable cards, four sorting modes, and layouts that adapt to desktop, tablet, and mobile.
 
 <details>
-  <summary><strong>🎮 Engineering side quest — Pekka Kana 2: Greta</strong></summary>
-  <br />
-  I also contributed focused C++ and SDL2 work to an existing platformer fork, including quick-save/load controls, rendering improvements, and Windows release packaging. The original project and upstream work are fully credited.
-  <br /><br />
-  <a href="https://github.com/slmkhanahmed/pk2_greta">
-    <img src="https://img.shields.io/badge/Inspect_the_contribution-181717?style=flat-square&logo=github&logoColor=white" alt="Inspect Salman's Pekka Kana 2 contribution" />
-  </a>
+  <summary>See the feedback interface</summary>
+
+  <p align="center">
+    <a href="https://product-feedback-app-lovat.vercel.app/">
+      <img src="./assets/product-feedback-preview.webp" width="600" alt="Product Feedback demo with category filters, a sorting control, and a list of feedback cards" />
+    </a>
+  </p>
+
 </details>
 
+**[Open demo ↗](https://product-feedback-app-lovat.vercel.app/)** · [Public source](https://github.com/slmkhanahmed/responsive) · [Case study](https://slmkhanahmed.github.io/#feedback)
+
+### More to inspect
+
+- **[Pekka Kana 2: Greta](https://github.com/slmkhanahmed/pk2_greta)** — contributions to an existing C++/SDL2 platformer fork: F5 quick-save, F9 quick-load, rendering and scaling improvements, and a [Windows x64 release](https://github.com/slmkhanahmed/pk2_greta/releases/tag/v0.341). Original game and upstream authors are credited in the repository.
+- **[Interface Field Notes](https://slmkhanahmed.github.io/)** — my portfolio, with case studies, keyboard navigation, responsive layouts, and interactive interface experiments. [View source](https://github.com/slmkhanahmed/slmkhanahmed.github.io).
+
 ---
 
-## 📡 Let's connect
+<a id="working-notes"></a>
 
-Have a useful software idea, an operation worth automating, or a complex system that needs a clearer path forward?
+## Working notes
 
-**[Explore my portfolio](https://slmkhanahmed.github.io/)** · **[Email me](mailto:slmkhanahmed@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/)**
+At LotiaSons, my work spans software, IT operations, and industrial systems: SQL Server, Windows networks, PowerShell and local LLM workflows, and CAD/CAM integration.
+
+- **Trace the whole problem.** Follow it across the application, database, network, controller, and hardware.
+- **Make it repeatable.** Use templates and automation for recurring work; include recovery and documentation.
+- **Check the result.** Validate against the actual workflow, then refine what still gets in the way.
+
+**Working stack:** React · TypeScript · PowerShell · SQL Server · MCP · PolyBoard
+
+<details>
+  <summary>Full toolkit & work context</summary>
+
+- **Software:** JavaScript, Node.js, HTML, CSS, Tailwind CSS, React, TypeScript, Redux.
+- **AI & automation:** LLM integration, MCP, Ollama, PowerShell, REST APIs.
+- **Data & infrastructure:** Microsoft SQL Server migration, backup and recovery; MySQL, MongoDB, Windows, NAS, networking, FortiGate security, and remote access.
+- **Browser & build:** Firefox WebExtensions, Vite, Parcel, Primer React.
+- **Industrial workflows:** PolyBoard, Rhino, DesignEdge, MachPro, G-code, CNC/plasma systems, motion control, sensors, and software-to-hardware troubleshooting.
+- **Supporting work:** Git, GitHub, Bash, Figma, technical research, procurement, and vendor coordination.
+
+</details>
+
+Have a workflow worth automating or a system that needs a clearer path forward? **[Email me](mailto:slmkhanahmed@gmail.com)** or [connect on LinkedIn](https://www.linkedin.com/in/slmkhanahmed/).
 
 ---
+
+<a id="after-hours"></a>
 
 ## `// after hours`
 
-The tidy part ends above. Down here: **neon streets, old-web relics, too many tabs, and ideas that have not learned to behave.**
+Neon streets, strange geometry, and one tab too many. A small corner of the web for things I keep because I like them.
 
 <p align="center">
   <img
@@ -177,9 +131,9 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <img
-    src="./assets/after-hours/signal-board.svg?v=2"
+    src="./assets/after-hours/signal-board.svg?v=3"
     width="640"
-    alt="Animated retro status board marking the after-hours signal as active"
+    alt="After Hours radio panel with a moving signal trace and online indicator"
   />
   <br />
   <sub>frequency locked · curiosity online</sub>
@@ -243,9 +197,7 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <strong><code>ANOMALY 04</code></strong>
   <br />
   <sub>
-    TAB GEOMETRY EXCEEDS DISPLAY CAPABILITIES
-    <br />
-    ATTEMPTING FOUR-DIMENSIONAL RECOVERY…
+    One tab has more dimensions than the screen.
   </sub>
 </p>
 
@@ -258,8 +210,6 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
       alt="A rotating tesseract marks an unstable browser-tab anomaly"
     />
   </picture>
-  <br />
-  <sub>one unstable tab · zero user action required</sub>
 </p>
 
 <p align="center">
@@ -270,7 +220,7 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg?v=3" />
     <img
-      src="./assets/after-hours/last-tab.svg?v=2"
+      src="./assets/after-hours/last-tab.svg?v=3"
       width="720"
       alt="Animated nonlinear map tracing one late-night idea through source code, dead links, distraction, and shipping anyway"
     />
@@ -281,8 +231,6 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <code>CARRIER LOST · CURIOSITY REMAINS</code>
-  <br />
-  <sub>03:31 PKT ░▒▓</sub>
 </p>
 
 <!--
@@ -321,6 +269,7 @@ One additional tab remains open.
 
 - The profile headers, signal board, midnight console, fifty-signal wall, impossible-tab map, and authorized-exit buttons are custom artwork created for this profile.
 - The desktop and mobile compositions use only repository-local SVG assets.
+- Project previews show Git Galaxy Finder and the Product Feedback front-end demo. Product Feedback is an implementation of the Frontend Mentor Product Feedback App challenge.
 
 ### Third-party artwork
 
