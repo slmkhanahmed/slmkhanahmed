@@ -1,12 +1,12 @@
-<!-- Repository media is served through jsDelivr at commit 9a1812b to avoid raw-host failures.
+<!-- Repository media is served through jsDelivr at commit d4c8b27ec736687ab6ea8981009249771a3ce2f0 to avoid raw-host failures.
      After changing assets, publish them first, then update this pinned revision. Source files remain in ./assets/. -->
 
 <p align="center">
   <a href="https://slmkhanahmed.github.io/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/profile-header-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/profile-header-light.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/profile-header.svg" width="100%" alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/profile-header-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/profile-header-light.svg" />
+      <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/profile-header.svg" width="100%" alt="Salman Ahmed Khan — full-stack developer, AI automation builder, and systems integrator" />
     </picture>
   </a>
 </p>
@@ -56,7 +56,7 @@ Find a saved GitHub repository without digging through a long Stars list. My ext
 
 <p align="center">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
-    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/git-galaxy-static.webp" width="600" alt="Git Galaxy Finder searches a GitHub Stars list and highlights matching text in repository names and descriptions" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/git-galaxy-static.webp" width="600" alt="Git Galaxy Finder searches a GitHub Stars list and highlights matching text in repository names and descriptions" />
   </a>
 </p>
 
@@ -73,7 +73,7 @@ A responsive interface for browsing product requests, filtering categories, and 
 
   <p align="center">
     <a href="https://product-feedback-app-lovat.vercel.app/">
-      <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/product-feedback-preview.webp" width="600" alt="Product Feedback demo with category filters, a sorting control, and a list of feedback cards" />
+      <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/product-feedback-preview.webp" width="600" alt="Product Feedback demo with category filters, a sorting control, and a list of feedback cards" />
     </a>
   </p>
 
@@ -124,7 +124,7 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <img
-    src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/neon-streets.jpg"
+    src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/neon-streets.jpg"
     width="640"
     alt="Aerial night photograph of neon-lit streets and intersecting roads"
   />
@@ -134,7 +134,7 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <img
-    src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/signal-board.svg"
+    src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/signal-board.svg"
     width="640"
     alt="After Hours radio panel with a moving signal trace and online indicator"
   />
@@ -149,9 +149,9 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
   <p align="center">
     <picture>
-      <source media="(max-width: 600px)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/midnight-console-mobile.svg" />
+      <source media="(max-width: 600px)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/midnight-console-mobile.svg" />
       <img
-        src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/midnight-console.svg"
+        src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/midnight-console.svg"
         width="100%"
         alt="Animated midnight console showing a live after-hours development session"
       />
@@ -159,6 +159,41 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
     <br />
     <sub>clean build on one screen · questionable idea on the other</sub>
   </p>
+
+<p><code>UNSORTED GEOMETRY</code></p>
+
+<details>
+  <summary><strong>01 / A circle draws a star</strong></summary>
+
+  <p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/curiosities/hypocycloid.gif" width="240" alt="A circle rolls inside a larger circle while a moving point traces a red star-shaped curve" />
+    <br />
+    <sub>round and round, with increasingly suspicious results</sub>
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>02 / Two waves disagree beautifully</strong></summary>
+
+  <p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/curiosities/lissajous.gif" width="240" alt="An animated Lissajous curve changes shape as two oscillations combine" />
+    <br />
+    <sub>same rules · different loop</sub>
+  </p>
+
+</details>
+
+<details>
+  <summary><strong>03 / A surface loses its other side</strong></summary>
+
+  <p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/curiosities/mobius-strip.gif" width="300" alt="A three-dimensional Möbius strip animates its one-sided twisted surface" />
+    <br />
+    <sub>one surface · no sensible way to pick a side</sub>
+  </p>
+
+</details>
 
 <p align="center"><code>signal spill:</code></p>
 
@@ -206,9 +241,9 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/tesseract-static.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/tesseract-static.png" />
     <img
-      src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/channels/tesseract.gif"
+      src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/channels/tesseract.gif"
       width="180"
       alt="A rotating tesseract marks an unstable browser-tab anomaly"
     />
@@ -221,9 +256,9 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/last-tab-mobile.svg" />
+    <source media="(max-width: 600px)" srcset="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/last-tab-mobile.svg" />
     <img
-      src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/last-tab.svg"
+      src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/last-tab.svg"
       width="720"
       alt="Animated nonlinear map tracing one late-night idea through source code, dead links, distraction, and shipping anyway"
     />
@@ -231,6 +266,32 @@ Neon streets, strange geometry, and one tab too many. A small corner of the web 
   <br />
   <sub>you are not lost · the map is just honest</sub>
 </p>
+
+<p align="center">
+  <strong><code>SIX WRONG TURNS</code></strong><br />
+  <sub>the internet still has side streets</sub>
+</p>
+
+<p align="center">
+  <a href="https://www.windows93.net/"><img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/rabbit-holes/windows93.svg" width="132" height="48" alt="WINDOWS93 — explore a strange retro desktop in your browser" /></a>
+  <a href="https://zoomquilt.org/"><img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/rabbit-holes/zoomquilt.svg" width="132" height="48" alt="Zoomquilt — fall through an endlessly zooming painting" /></a>
+  <a href="https://cat-bounce.com/"><img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/rabbit-holes/cat-bounce.svg" width="132" height="48" alt="Cat Bounce — drag and bounce cats with questionable physics" /></a>
+  <a href="https://noclip.website/"><img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/rabbit-holes/noclip.svg" width="132" height="48" alt="Noclip — explore three-dimensional video-game worlds" /></a>
+  <a href="https://longdogechallenge.com/"><img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/rabbit-holes/long-doge.svg" width="132" height="48" alt="Long Doge Challenge — scroll through an unreasonable amount of doge" /></a>
+  <a href="https://neal.fun/perfect-circle/"><img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/rabbit-holes/perfect-circle.svg" width="132" height="48" alt="Perfect Circle — test how close your hand can get to a perfect circle" /></a>
+</p>
+
+<details>
+  <summary>What is behind each door?</summary>
+
+- **[WINDOWS93](https://www.windows93.net/)** — a desktop from an alternate timeline. Best explored on a computer.
+- **[Zoomquilt](https://zoomquilt.org/)** — an endlessly zooming surreal painting.
+- **[Cat Bounce](https://cat-bounce.com/)** — drag cats and test very questionable physics.
+- **[Noclip](https://noclip.website/)** — explore game maps with a free camera. Desktop recommended.
+- **[Long Doge Challenge](https://longdogechallenge.com/)** — scroll for an unreasonable number of wows.
+- **[Perfect Circle](https://neal.fun/perfect-circle/)** — try to draw a perfect circle with your mouse or finger.
+
+</details>
 
 <p align="center">
   <code>CARRIER LOST · CURIOSITY REMAINS</code>
@@ -249,54 +310,22 @@ One additional tab remains open.
 
 <p align="center">
   <a href="https://slmkhanahmed.github.io/">
-    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/portfolio.svg" width="88" height="31" alt="Open Salman's portfolio" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/exits/portfolio.svg" width="88" height="31" alt="Open Salman's portfolio" />
   </a>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/git-star/">
-    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/firefox-addon.svg" width="88" height="31" alt="Install Git Galaxy Finder for Firefox" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/exits/firefox-addon.svg" width="88" height="31" alt="Install Git Galaxy Finder for Firefox" />
   </a>
   <a href="https://github.com/slmkhanahmed/slmkhanahmed">
-    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/github-source.svg" width="88" height="31" alt="View the source for Salman's GitHub profile" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/exits/github-source.svg" width="88" height="31" alt="View the source for Salman's GitHub profile" />
   </a>
   <a href="https://www.linkedin.com/in/slmkhanahmed/">
-    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/linkedin.svg" width="88" height="31" alt="Connect with Salman on LinkedIn" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/exits/linkedin.svg" width="88" height="31" alt="Connect with Salman on LinkedIn" />
   </a>
   <a href="mailto:slmkhanahmed@gmail.com">
-    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@9a1812b/assets/after-hours/exits/email.svg" width="88" height="31" alt="Email Salman" />
+    <img src="https://cdn.jsdelivr.net/gh/slmkhanahmed/slmkhanahmed@d4c8b27ec736687ab6ea8981009249771a3ce2f0/assets/after-hours/exits/email.svg" width="88" height="31" alt="Email Salman" />
   </a>
 </p>
 
-<details>
-  <summary><strong><code>SOURCE OF SIGNALS // ASSET CREDITS</code></strong></summary>
-
-### Original artwork
-
-- The profile headers, signal board, midnight console, fifty-signal wall, impossible-tab map, and authorized-exit buttons are custom artwork created for this profile.
-- The desktop and mobile compositions are stored in this repository. Images are delivered from a pinned repository revision through [jsDelivr](https://www.jsdelivr.com/).
-- Project previews show Git Galaxy Finder and the Product Feedback front-end demo. Product Feedback is an implementation of the Frontend Mentor Product Feedback App challenge.
-
-### Third-party artwork
-
-- [“Neon streets” by JINDONG H](https://commons.wikimedia.org/wiki/File:Neon_streets_(Unsplash).jpg) — CC0 1.0.
-- [“Tesseract.gif” by Jason Hise](https://commons.wikimedia.org/wiki/File:Tesseract.gif) — public domain.
-
-### Project-derived game assets
-
-- [“fish” by kotnaszynce](https://opengameart.org/content/fish-0) — CC0; stored as `spectral-fish.gif`.
-- [“potion” by kotnaszynce](https://opengameart.org/content/potion-1) — CC0; stored as `moon-potion.gif`.
-- [“Fire Slime” by Spring Spring](https://opengameart.org/content/fire-slime) — CC0; stored as `fire-slime.gif`.
-- [“Little Servant Devil Animation” by ArtsyAngelee](https://opengameart.org/content/little-servant-devil-animation) — the source page offers CC0 among several licenses; stored as `little-devil.gif`.
-- Remaining legacy sprites and effects in `assets/after-hours/channels/`: **Source or license requires verification.**
-
-### Modified assets
-
-- `tesseract-static.png` is a still-frame reduced-motion fallback derived from the public-domain tesseract animation.
-- The `*-mobile.svg` files are narrow-layout adaptations of their matching custom desktop artwork.
-
-### External animation collections
-
-- The collapsed signal spill uses animations from [Cult of the Party Parrot](https://github.com/jmhobbs/cultofthepartyparrot.com). See the project's [license and provenance notes](https://github.com/jmhobbs/cultofthepartyparrot.com/blob/main/LICENSE).
-
-</details>
 
 ### RETURN TO DAYLIGHT
 
