@@ -168,7 +168,7 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 <p align="center">
   <img
     src="./assets/after-hours/neon-streets.jpg"
-    width="100%"
+    width="640"
     alt="Aerial night photograph of neon-lit streets and intersecting roads"
   />
   <br />
@@ -178,7 +178,7 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 <p align="center">
   <img
     src="./assets/after-hours/signal-board.svg?v=2"
-    width="92%"
+    width="640"
     alt="Animated retro status board marking the after-hours signal as active"
   />
   <br />
@@ -268,10 +268,10 @@ The tidy part ends above. Down here: **neon streets, old-web relics, too many ta
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg?v=2" />
+    <source media="(max-width: 600px)" srcset="./assets/after-hours/last-tab-mobile.svg?v=3" />
     <img
       src="./assets/after-hours/last-tab.svg?v=2"
-      width="100%"
+      width="720"
       alt="Animated nonlinear map tracing one late-night idea through source code, dead links, distraction, and shipping anyway"
     />
   </picture>

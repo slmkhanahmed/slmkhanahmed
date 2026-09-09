@@ -1,166 +1,100 @@
-<svg width="720" height="1460" viewBox="0 0 720 1460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+<svg width="720" height="920" viewBox="0 0 720 920" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
   <title id="title">The last tab mobile route</title>
-  <desc id="description">A vertical neon browser maze that wanders from enter through distraction, discovery, forgetting, keeping, and shipping before exit loops back to start.</desc>
-
+  <desc id="description">A compact neon browser maze that wanders from enter through distraction, discovery, forgetting, keeping, and shipping before exit loops back to start.</desc>
   <defs>
-    <linearGradient id="edge" x1="24" y1="20" x2="696" y2="1440" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB"/>
-      <stop offset="0.34" stop-color="#A855F7"/>
-      <stop offset="0.69" stop-color="#FF6B35"/>
-      <stop offset="1" stop-color="#CAFF4A"/>
+    <linearGradient id="edge" x1="24" y1="20" x2="696" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/><stop offset=".34" stop-color="#A855F7"/><stop offset=".69" stop-color="#FF6B35"/><stop offset="1" stop-color="#CAFF4A"/>
     </linearGradient>
-    <linearGradient id="portal" x1="100" y1="585" x2="620" y2="790" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB"/>
-      <stop offset="0.48" stop-color="#A855F7"/>
-      <stop offset="1" stop-color="#FF6B35"/>
+    <linearGradient id="portal" x1="48" y1="410" x2="648" y2="542" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#FF6B35"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.045"/>
-    </pattern>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".04"/></pattern>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .route-flow {
-        animation: route-travel 2.6s linear infinite;
-      }
-      .route-reverse {
-        animation-direction: reverse;
-        animation-duration: 3.4s;
-      }
-      .portal-ring {
-        animation: route-travel 2.2s linear infinite reverse;
-      }
-      .portal-pulse {
-        animation: portal-breathe 2.8s ease-in-out infinite;
-      }
-      .status-live {
-        animation: status-blink 1.8s steps(2, end) infinite;
-      }
-      @keyframes route-travel {
-        to { stroke-dashoffset: -42; }
-      }
-      @keyframes portal-breathe {
-        0%, 100% { stroke-opacity: .68; }
-        50% { stroke-opacity: 1; }
-      }
-      @keyframes status-blink {
-        0%, 72% { opacity: 1; }
-        73%, 100% { opacity: .38; }
-      }
+      .route-flow { animation: route-travel 2.6s linear infinite; }
+      .route-return { animation: route-travel 3.4s linear infinite reverse; }
+      .portal-ring { animation: route-travel 3s linear infinite reverse; }
+      .portal-pulse { animation: portal-breathe 3.2s ease-in-out infinite; }
+      .status-live { animation: status-breathe 2.4s ease-in-out infinite; }
+      @keyframes route-travel { to { stroke-dashoffset: -42; } }
+      @keyframes portal-breathe { 0%, 100% { stroke-opacity: .65; } 50% { stroke-opacity: 1; } }
+      @keyframes status-breathe { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
       @media (prefers-reduced-motion: reduce) {
-        .route-flow,
-        .portal-ring,
-        .portal-pulse,
-        .status-live {
-          animation: none !important;
-        }
+        .route-flow, .route-return, .portal-ring, .portal-pulse, .status-live { animation: none !important; }
       }
     </style>
   </defs>
-
-  <rect width="720" height="1460" rx="20" fill="#07080D"/>
-  <rect width="720" height="1460" rx="20" fill="url(#grid)"/>
-  <rect x="8" y="8" width="704" height="1444" rx="14" stroke="url(#edge)" stroke-width="3"/>
-  <path d="M31 183V57H689V304H652V225H612V286H572V208H531V270H490V226H449"
-        stroke="#61DAFB" stroke-opacity="0.25" stroke-width="3"/>
-  <path d="M31 1287V1403H689V1137H656V1208H620V1147H584V1242H548V1174H510"
-        stroke="#CAFF4A" stroke-opacity="0.25" stroke-width="3"/>
-  <path d="M47 320H82V287H119V319H154" stroke="#A855F7" stroke-opacity="0.45" stroke-width="3"/>
-  <path d="M562 1012H602V968H641V1008H674" stroke="#FF6B35" stroke-opacity="0.45" stroke-width="3"/>
-
+  <rect width="720" height="920" rx="20" fill="#07080D"/>
+  <rect width="720" height="920" rx="20" fill="url(#grid)"/>
+  <rect x="8" y="8" width="704" height="904" rx="14" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M28 118V30H692V118M28 844V892H148" stroke="#61DAFB" stroke-opacity=".2" stroke-width="2"/>
+  <path d="M442 133H474V105H518V133H550V109H588V133H636" stroke="#A855F7" stroke-opacity=".35" stroke-width="3"/>
   <g font-family="Consolas, 'Courier New', monospace" font-weight="700">
-    <circle cx="70" cy="61" r="8" fill="#FF6B35"/>
-    <circle cx="96" cy="61" r="8" fill="#F8D866"/>
-    <circle cx="122" cy="61" r="8" fill="#61DAFB"/>
-    <text x="151" y="71" fill="#A1A1AA" font-size="28">LAST_TAB.HTML</text>
-    <text class="status-live" x="672" y="71" fill="#CAFF4A" font-size="28" text-anchor="end">LIVE</text>
-    <path d="M48 100H672" stroke="#FFFFFF" stroke-opacity="0.16" stroke-dasharray="7 10"/>
-
-    <text x="48" y="151" fill="#E4E4E7" font-size="42" letter-spacing="2">THE LAST TAB</text>
-    <text x="48" y="198" fill="#D8B4FE" font-size="36">DOES NOT CLOSE.</text>
-
-    <path d="M120 236V1268" stroke="url(#edge)" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
-    <path class="route-flow" d="M120 236V1268" stroke="#07080D" stroke-width="2" stroke-dasharray="3 18"/>
-
+    <circle cx="54" cy="49" r="7" fill="#FF6B35"/><circle cx="78" cy="49" r="7" fill="#F8D866"/><circle cx="102" cy="49" r="7" fill="#61DAFB"/>
+    <text x="130" y="58" fill="#A1A1AA" font-size="26">LAST_TAB.HTML</text>
+    <circle class="status-live" cx="586" cy="49" r="6" fill="#CAFF4A"/>
+    <text x="666" y="58" fill="#CAFF4A" font-size="26" text-anchor="end">LIVE</text>
+    <path d="M40 78H680" stroke="#FFFFFF" stroke-opacity=".14"/>
+    <text x="48" y="119" fill="#E4E4E7" font-size="36" letter-spacing="1">THE LAST TAB</text>
+    <text x="48" y="151" fill="#D8B4FE" font-size="28">DOES NOT CLOSE.</text>
+    <path d="M82 202V410M82 542V826" stroke="url(#edge)" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+    <path class="route-flow" d="M82 202V410M82 542V826" stroke="#07080D" stroke-width="3" stroke-dasharray="4 17"/>
+    <path class="route-return" d="M82 826V877H678V202H414" stroke="#A855F7" stroke-opacity=".8" stroke-width="3" stroke-dasharray="11 10"/>
+    <path d="M423 192L408 202L423 212" stroke="#D8B4FE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <g>
-      <circle cx="120" cy="255" r="20" fill="#07080D" stroke="#61DAFB" stroke-width="6"/>
-      <path d="M113 246L130 255L113 264Z" fill="#61DAFB"/>
-      <rect x="164" y="225" width="280" height="60" rx="5" fill="#10151A" stroke="#61DAFB" stroke-width="3"/>
-      <text x="185" y="265" fill="#61DAFB" font-size="30">ENTER</text>
+      <circle cx="82" cy="202" r="18" fill="#07080D" stroke="#61DAFB" stroke-width="4"/>
+      <path d="M77 194L89 202L77 210Z" fill="#61DAFB"/><path d="M100 202H130" stroke="#61DAFB" stroke-width="4"/>
+      <rect x="130" y="174" width="266" height="56" rx="6" fill="#10151A" stroke="#61DAFB" stroke-width="2"/>
+      <text x="150" y="214" fill="#61DAFB" font-size="36">ENTER</text>
+      <text x="374" y="212" fill="#61DAFB" font-size="26" text-anchor="end">01</text>
     </g>
-
     <g>
-      <circle cx="120" cy="365" r="16" fill="#A855F7"/>
-      <path d="M151 365H182" stroke="#A855F7" stroke-width="5"/>
-      <rect x="182" y="326" width="470" height="78" rx="5" fill="#110D19" stroke="#A855F7" stroke-width="3"/>
-      <text x="203" y="376" fill="#D8B4FE" font-size="30">GET DISTRACTED</text>
+      <circle cx="82" cy="276" r="12" fill="#A855F7"/><path d="M96 276H142" stroke="#A855F7" stroke-width="4"/>
+      <rect x="142" y="246" width="494" height="60" rx="6" fill="#110D19" stroke="#A855F7" stroke-width="2"/>
+      <rect x="142" y="256" width="4" height="40" fill="#A855F7"/>
+      <text x="164" y="288" fill="#D8B4FE" font-size="36">GET DISTRACTED</text>
     </g>
-
     <g>
-      <circle cx="120" cy="477" r="16" fill="#FF6B35"/>
-      <path d="M151 477H182" stroke="#FF6B35" stroke-width="5"/>
-      <rect x="182" y="438" width="416" height="78" rx="5" fill="#19100D" stroke="#FF6B35" stroke-width="3"/>
-      <text x="203" y="488" fill="#FF9A72" font-size="30">FIND SOMETHING</text>
+      <circle cx="82" cy="353" r="12" fill="#FF6B35"/><path d="M96 353H118" stroke="#FF6B35" stroke-width="4"/>
+      <rect x="118" y="323" width="468" height="60" rx="6" fill="#19100D" stroke="#FF6B35" stroke-width="2"/>
+      <text x="140" y="365" fill="#FF9A72" font-size="36">FIND SOMETHING</text>
+      <path d="M606 344L617 355L606 366M629 344L640 355L629 366" stroke="#FF6B35" stroke-opacity=".65" stroke-width="3"/>
     </g>
-
-    <rect class="portal-pulse" x="48" y="548" width="624" height="284" rx="8" fill="#0B0C13" stroke="url(#portal)" stroke-width="5"/>
-    <rect x="62" y="562" width="596" height="256" rx="4" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="3"/>
-    <rect x="62" y="562" width="596" height="54" fill="#111722"/>
-    <circle cx="88" cy="589" r="7" fill="#FF6B35"/>
-    <circle cx="112" cy="589" r="7" fill="#F8D866"/>
-    <circle cx="136" cy="589" r="7" fill="#61DAFB"/>
-    <text x="164" y="599" fill="#A1A1AA" font-size="28">VIEW-SOURCE://SELF</text>
-    <path d="M62 616H658" stroke="#61DAFB" stroke-opacity="0.45" stroke-width="3"/>
-
-    <path class="portal-ring" d="M94 660H626V782H94Z" stroke="#A855F7" stroke-width="3" stroke-dasharray="10 8"/>
-    <path d="M120 684H600V758H120Z" stroke="#61DAFB" stroke-opacity="0.5" stroke-width="3"/>
-    <path d="M146 708H574V734H146Z" stroke="#FF6B35" stroke-opacity="0.55" stroke-width="3"/>
-    <text x="360" y="716" fill="#E4E4E7" font-size="46" text-anchor="middle" letter-spacing="2" filter="url(#glow)">YOU ARE HERE</text>
-    <text x="360" y="766" fill="#CAFF4A" font-size="28" text-anchor="middle">CACHE: 99% / MEMORY: SELECTIVE</text>
-
-    <g transform="rotate(-2 360 872)">
-      <rect x="172" y="842" width="456" height="76" rx="5" fill="#171221" stroke="#A855F7" stroke-width="3"/>
-      <rect x="172" y="842" width="456" height="34" fill="#A855F7"/>
-      <text x="190" y="869" fill="#07080D" font-size="28">ALERT!</text>
-      <text x="190" y="906" fill="#E4E4E7" font-size="28">FORGET WHY</text>
-    </g>
-    <circle cx="120" cy="880" r="16" fill="#A855F7"/>
-    <path d="M136 880H171" stroke="#A855F7" stroke-width="5"/>
-
+    <rect class="portal-pulse" x="48" y="410" width="600" height="132" rx="10" fill="#0B0C13" stroke="url(#portal)" stroke-width="4"/>
+    <rect class="portal-ring" x="60" y="422" width="576" height="108" rx="5" stroke="#A855F7" stroke-opacity=".75" stroke-width="2" stroke-dasharray="11 10"/>
+    <path d="M77 449V437H102M619 449V437H594M77 503V515H102M619 503V515H594" stroke="#61DAFB" stroke-width="3"/>
+    <text x="348" y="476" fill="#F4F4F5" font-size="44" text-anchor="middle" letter-spacing="1" filter="url(#glow)">YOU ARE HERE</text>
+    <text x="348" y="511" fill="#CAFF4A" font-size="24" text-anchor="middle">MEMORY: SELECTIVE / CACHE: 99%</text>
     <g>
-      <circle cx="120" cy="991" r="16" fill="#F8D866"/>
-      <path d="M151 991H182" stroke="#F8D866" stroke-width="5"/>
-      <rect x="182" y="952" width="326" height="78" rx="5" fill="#17150C" stroke="#F8D866" stroke-width="3"/>
-      <text x="203" y="1002" fill="#F8D866" font-size="30">KEEP IT</text>
+      <circle cx="82" cy="601" r="12" fill="#A855F7"/><path d="M96 601H154" stroke="#A855F7" stroke-width="4"/>
+      <rect x="154" y="573" width="438" height="56" rx="6" fill="#171221" stroke="#A855F7" stroke-width="2"/>
+      <rect x="154" y="573" width="54" height="56" rx="6" fill="#A855F7"/>
+      <text x="181" y="613" fill="#07080D" font-size="36" text-anchor="middle">!</text>
+      <text x="228" y="613" fill="#E4E4E7" font-size="36">FORGET WHY</text>
     </g>
-
     <g>
-      <circle cx="120" cy="1102" r="16" fill="#CAFF4A"/>
-      <path d="M151 1102H182" stroke="#CAFF4A" stroke-width="5"/>
-      <rect x="182" y="1063" width="438" height="78" rx="5" fill="#11170D" stroke="#CAFF4A" stroke-width="3"/>
-      <text x="203" y="1113" fill="#CAFF4A" font-size="30">SHIP ANYWAY</text>
+      <circle cx="82" cy="677" r="12" fill="#F8D866"/><path d="M96 677H130" stroke="#F8D866" stroke-width="4"/>
+      <rect x="130" y="649" width="272" height="56" rx="6" fill="#17150C" stroke="#F8D866" stroke-width="2"/>
+      <text x="152" y="689" fill="#F8D866" font-size="36">KEEP IT</text>
+      <path d="M434 663H451V680H468V697M488 663V680H505V697H522" stroke="#F8D866" stroke-opacity=".3" stroke-width="3"/>
     </g>
-
     <g>
-      <circle cx="120" cy="1213" r="20" fill="#07080D" stroke="#FF6B35" stroke-width="6"/>
-      <path d="M111 1203L128 1213L111 1223Z" fill="#FF6B35"/>
-      <rect x="164" y="1183" width="250" height="60" rx="5" fill="#19100D" stroke="#FF6B35" stroke-width="3"/>
-      <text x="185" y="1223" fill="#FF9A72" font-size="30">EXIT</text>
+      <circle cx="82" cy="753" r="12" fill="#CAFF4A"/><path d="M96 753H142" stroke="#CAFF4A" stroke-width="4"/>
+      <rect x="142" y="725" width="460" height="56" rx="6" fill="#11170D" stroke="#CAFF4A" stroke-width="2"/>
+      <text x="164" y="765" fill="#CAFF4A" font-size="36">SHIP ANYWAY</text>
+      <path d="M558 747L564 754L578 740" stroke="#CAFF4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-
-    <path class="route-flow route-reverse" d="M120 1268V1322H654V255H462" stroke="#A855F7" stroke-width="4" stroke-dasharray="11 10"/>
-    <path d="M468 244L446 255L468 266" stroke="#A855F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="306" y="1274" width="306" height="70" rx="5" fill="#0E1018" stroke="#61DAFB" stroke-width="3"/>
-    <text x="459" y="1319" fill="#61DAFB" font-size="30" text-anchor="middle">LOOP TO START ↗</text>
-
-    <rect x="48" y="1367" width="624" height="50" rx="4" fill="#101018" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
-    <text x="70" y="1402" fill="#D8B4FE" font-size="28">GUESTBOOK:</text>
-    <text x="287" y="1402" fill="#E4E4E7" font-size="28">YOU WERE HERE.</text>
-    <rect x="620" y="1381" width="18" height="26" fill="#CAFF4A" filter="url(#glow)"/>
+    <g>
+      <circle cx="82" cy="826" r="18" fill="#07080D" stroke="#FF6B35" stroke-width="4"/>
+      <path d="M77 818L89 826L77 834Z" fill="#FF6B35"/><path d="M100 826H130" stroke="#FF6B35" stroke-width="4"/>
+      <rect x="130" y="801" width="188" height="50" rx="6" fill="#19100D" stroke="#FF6B35" stroke-width="2"/>
+      <text x="152" y="838" fill="#FF9A72" font-size="36">EXIT</text>
+      <text x="346" y="835" fill="#A1A1AA" font-size="24">STILL ONE TAB OPEN.</text>
+    </g>
+    <rect x="262" y="857" width="366" height="40" rx="5" fill="#0E1018" stroke="#61DAFB" stroke-opacity=".65" stroke-width="2"/>
+    <text x="445" y="886" fill="#61DAFB" font-size="30" text-anchor="middle">LOOP TO START ↗</text>
   </g>
 </svg>
