@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="48" viewBox="0 0 176 64" role="img" aria-labelledby="windows93-title windows93-desc">
+  <title id="windows93-title">WINDOWS93</title>
+  <desc id="windows93-desc">Cyan retro browser badge with two overlapping abstract windows and a slowly travelling status dot.</desc>
+  <style>
+    .signal{animation:drift 6.4s ease-in-out -1.3s infinite alternate}
+    @keyframes drift{from{transform:translateX(0)}to{transform:translateX(19px)}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  </style>
+  <rect width="176" height="64" rx="3" fill="#05060A"/>
+  <rect x="1" y="1" width="174" height="62" rx="2" fill="#090D14" stroke="#61DAFB" stroke-width="2"/>
+  <path d="M3 61V3H173" fill="none" stroke="#DEF8FF" stroke-opacity=".55"/>
+  <path d="M3 61H173V3" fill="none" stroke="#17465A" stroke-width="2"/>
+  <path d="M4 16H172" stroke="#61DAFB" stroke-opacity=".42"/>
+  <rect x="4" y="4" width="168" height="11" fill="#61DAFB" fill-opacity=".08"/>
+  <path d="M9 8H28M9 11H20" stroke="#61DAFB" stroke-opacity=".6"/>
+  <path d="M141 9H165" stroke="#61DAFB" stroke-opacity=".2"/>
+  <rect class="signal" x="142" y="7" width="4" height="4" fill="#61DAFB"/>
+  <rect x="10" y="26" width="21" height="20" rx="1" fill="#102733" stroke="#61DAFB"/>
+  <path d="M10 31H31" stroke="#61DAFB"/>
+  <rect x="17" y="33" width="21" height="20" rx="1" fill="#090D14" stroke="#D8F6FF"/>
+  <path d="M17 38H38M21 43H30M21 47H27" stroke="#61DAFB"/>
+  <path d="M44 23V55" stroke="#61DAFB" stroke-opacity=".22"/>
+  <text x="52" y="38" fill="#F3FCFF" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="700" letter-spacing=".15">WINDOWS93</text>
+  <text x="52" y="51" fill="#61DAFB" font-family="ui-monospace,Consolas,monospace" font-size="8" letter-spacing=".7">BOOT THE WRONG OS</text>
+</svg>

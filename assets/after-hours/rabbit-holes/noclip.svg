@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="48" viewBox="0 0 176 64" role="img" aria-labelledby="noclip-title noclip-desc">
+  <title id="noclip-title">NOCLIP</title>
+  <desc id="noclip-desc">Green retro browser badge with an arrow passing through a wireframe cube and a slowly travelling status dot.</desc>
+  <style>
+    .signal{animation:drift 7.6s ease-in-out -5.4s infinite alternate}
+    @keyframes drift{from{transform:translateX(0)}to{transform:translateX(19px)}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  </style>
+  <rect width="176" height="64" rx="3" fill="#05060A"/>
+  <rect x="1" y="1" width="174" height="62" rx="2" fill="#0B140F" stroke="#80F2AB" stroke-width="2"/>
+  <path d="M3 61V3H173" fill="none" stroke="#DBFFE7" stroke-opacity=".55"/>
+  <path d="M3 61H173V3" fill="none" stroke="#25563A" stroke-width="2"/>
+  <path d="M4 16H172" stroke="#80F2AB" stroke-opacity=".42"/>
+  <rect x="4" y="4" width="168" height="11" fill="#80F2AB" fill-opacity=".08"/>
+  <path d="M9 8H28M9 11H20" stroke="#80F2AB" stroke-opacity=".6"/>
+  <path d="M141 9H165" stroke="#80F2AB" stroke-opacity=".2"/>
+  <rect class="signal" x="142" y="7" width="4" height="4" fill="#80F2AB"/>
+  <path d="M12 33L24 26L36 33V47L24 54L12 47ZM12 33L24 40L36 33M24 40V54" fill="#80F2AB" fill-opacity=".05" stroke="#80F2AB" stroke-opacity=".8" stroke-linejoin="round"/>
+  <path d="M8 45L39 36M33 33L39 36L35 42" fill="none" stroke="#E2FFEB" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M44 23V55" stroke="#80F2AB" stroke-opacity=".22"/>
+  <text x="52" y="38" fill="#F3FFF7" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="700" letter-spacing=".3">NOCLIP</text>
+  <text x="52" y="51" fill="#80F2AB" font-family="ui-monospace,Consolas,monospace" font-size="8" letter-spacing=".7">WALLS ARE OPTIONAL</text>
+</svg>
